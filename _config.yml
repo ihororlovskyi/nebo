@@ -1,0 +1,2 @@
+baseurl: /nebo
+exluce: ['.gitignore', 'README.md']

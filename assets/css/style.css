@@ -7,7 +7,7 @@
 }
 .m2 {
 	width: 1200px;
-	height: 1000px;
+	height: 1200px;
 	border: 2px solid #000;
 	margin: 0px;
 
@@ -15,7 +15,6 @@
 	background-image: url(../img/sky.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
-
 }
 .navigation {
 	margin: 10px;
@@ -26,9 +25,25 @@
 	float: left;
 	transition: all .5s ease-in-out;
 	color: orange;
-	padding: 20px 30px; 
+	padding: 20px 30px;
+	font-family: Book Antiqua; 
 }
 .navigation a:hover {
 	color: grey;
 	background: orange;
+}
+
+.facebook {
+	background: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: Tahoma;
+	text-align: right;
+	color: #0DC814;
+	float: right;
+	cursor: pointer;
+	background: #bbb;
+	transition: all .2s ease-in-out 0.5s;
+	color: blue;
+	padding: 15px 30px;
 }
