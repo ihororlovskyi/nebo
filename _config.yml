@@ -1,2 +1,2 @@
 baseurl: /nebo
-exluce: ['.gitignore', 'README.md']
+exclude: ['README.md']
