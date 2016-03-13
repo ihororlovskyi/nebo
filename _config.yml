@@ -1,2 +1,3 @@
-baseurl: /nebo
-exclude: ['README.md']
+# baseurl: ''
+baseurl: '/nebo'
+exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json', 'CNAME']

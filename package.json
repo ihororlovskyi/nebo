@@ -1,0 +1,27 @@
+{
+  "name": "coriolan-ui",
+  "version": "0.0.0",
+  "description": "Frontend framework including setup for Jekyll, GulpJS, SCSS & BrowserSync",
+  "main": "gulpfile.js",
+  "author": "Lucky Labs",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-sass": "^2.1.0",
+    "browser-sync": "^1.3.7",
+    "gulp-autoprefixer": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coriolanix/coriolan-ui.github.io"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/coriolanix/coriolanix.github.io/issues"
+  },
+  "homepage": "http://coriolan-ui.github.io"
+}
