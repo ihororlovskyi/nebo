@@ -1,14 +1,16 @@
 // Body
-$bodyBg: #fff;
+$bodyBg: #1446a3;
 $bodyFont: 400 18px/1.1 'Helvetica Neue', Helvetica, Arial, sans-serif;
-// $bodyColor: #999;
-$bodyColor: #000;
+$bodyColor: #ccc;
 
 // Grid
 $gridIndent: 20px;
 
-@import 'vendor/coriolan-ui/coriolan-ui';
+// Vendor
 @import 'vendor/slick/slick';
 @import 'vendor/slick/slick-theme';
+@import '../node_modules/coriolan-ui/coriolan-ui';
 
+// UI
+@import 'base';
 @import 'totop';
