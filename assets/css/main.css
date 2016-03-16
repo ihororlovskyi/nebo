@@ -668,7 +668,7 @@ th {
 }
 
 body {
-  font: 400 15px/1.25 "AvenirNextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 15px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff;
   color: #ccc;
 }
@@ -807,13 +807,6 @@ img {
   width: 100%;
 }
 
-@font-face {
-  font-family: 'AvenirNextBold';
-  src: url("../fonts/AvenirNext.ttc");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   min-height: 100%;
 }
@@ -823,6 +816,10 @@ body {
           box-sizing: border-box;
   padding: 70px;
   text-align: center;
+  font-weight: 700;
+  font-weight: 600;
+  font-weight: 500;
+  font-weight: 400;
 }
 
 main {
