@@ -1,6 +1,6 @@
 // Body
 $bodyBg: #1446a3;
-$bodyFont: 400 18px/1.1 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$bodyFont: 400 15px/1.25 'AvenirNextBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $bodyColor: #ccc;
 
 // Grid
@@ -13,4 +13,5 @@ $gridIndent: 20px;
 
 // UI
 @import 'base';
+@import 'navs';
 @import 'totop';

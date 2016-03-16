@@ -668,7 +668,7 @@ th {
 }
 
 body {
-  font: 400 18px/1.1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 15px/1.25 "AvenirNextBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #1446a3;
   color: #ccc;
 }
@@ -807,11 +807,44 @@ img {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'AvenirNextBold';
+  src: url("../fonts/AvenirNextLTPro-Bold.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  min-height: 100%;
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 70px solid #fff;
   padding: 70px;
+}
+
+.mainmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.submenu {
+  position: fixed;
+  top: 30px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.langmenu {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 .totop {

@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'AvenirNextBold';
+    src: url('../fonts/AvenirNextLTPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    min-height: 100%;
+}
+
 body {
     box-sizing: border-box;
     border: 70px solid #fff;
