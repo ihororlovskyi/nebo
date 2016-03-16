@@ -3,19 +3,21 @@
     top: 0;
     left: 0;
     width: 100%;
-    text-align: center;
+    // text-align: center;
+    background: #fff;
 
     a {
-
+        line-height: 70px;
+        color: #b3b3b3;
     }
 }
 
 .submenu {
     position: fixed;
-    top: 30px;
+    top: 47px;
     right: 0;
     width: 100%;
-    text-align: center;
+    // text-align: center;
 
     a {
 
