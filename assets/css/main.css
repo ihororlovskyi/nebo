@@ -809,7 +809,7 @@ img {
 
 @font-face {
   font-family: 'AvenirNextBold';
-  src: url("../fonts/AvenirNextLTPro-Bold.otf");
+  src: url("../fonts/AvenirNext.ttc");
   font-weight: normal;
   font-style: normal;
 }
@@ -842,6 +842,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .mainmenu {
   position: fixed;
+  z-index: 600;
   top: 0;
   left: 0;
   width: 100%;
@@ -862,8 +863,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 .langmenu {
   position: fixed;
+  z-index: 800;
   top: 0;
   right: 0;
+}
+
+.langmenu a {
+  line-height: 70px;
+  color: #b3b3b3;
 }
 
 .totop {

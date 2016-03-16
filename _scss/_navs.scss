@@ -1,5 +1,6 @@
 .mainmenu {
     position: fixed;
+    z-index: 600;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,10 +27,12 @@
 
 .langmenu {
     position: fixed;
+    z-index: 800;
     top: 0;
     right: 0;
 
     a {
-
+        line-height: 70px;
+        color: #b3b3b3;
     }
 }
