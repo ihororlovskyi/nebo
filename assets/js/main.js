@@ -1,9 +1,15 @@
 /**
-* slick
-* https://github.com/kenwheeler/slick
+* jQuery-One-Page-Nav
+* https://github.com/davist11/jQuery-One-Page-Nav
 */
 $(document).ready(function() {
-    $('#fullpage').fullpage();
+    $('.js-page-nav').onePageNav({
+        currentClass: 'mainmenu__li--selected',
+        changeHash: true,
+        scrollSpeed: 1100,
+        scrollThreshold: 0.011,
+        easing: 'easeInOutExpo',
+    });
 });
 
 /**
@@ -18,8 +24,16 @@ $(function() {
         }
     });
     $('.totop').click(function() {
-        $('body,html').animate({scrollTop:0},400);
+        $('body,html').animate({scrollTop:0},1100,'easeInOutExpo');
     });
+});
+
+/**
+* slick
+* https://github.com/kenwheeler/slick
+*/
+$(document).ready(function() {
+    $('#fullpage').fullpage();
 });
 
 /**

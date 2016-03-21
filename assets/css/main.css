@@ -673,22 +673,6 @@ body {
   color: #ccc;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .text-left {
   text-align: left;
 }
@@ -821,6 +805,7 @@ body {
 
 main {
   background: #1446a3;
+  padding: 0 30px 30px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -841,11 +826,34 @@ h1, h2, h3, h4, h5, h6, p {
   left: 0;
   width: 100%;
   background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
 }
 
-.mainmenu a {
+.mainmenu__li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.mainmenu__a {
+  text-decoration: none;
+  padding: 0 23px;
   line-height: 70px;
   color: #b3b3b3;
+  display: block;
+  -webkit-transition: color .3s ease;
+  transition: color .3s ease;
+}
+
+.mainmenu__li--selected .mainmenu__a, .mainmenu__a:hover {
+  color: #1446a3;
+}
+
+.mainmenu__section {
+  margin-top: -70px;
+  padding-top: 70px;
 }
 
 .submenu {
@@ -870,7 +878,7 @@ h1, h2, h3, h4, h5, h6, p {
 .totop {
   width: 50px;
   height: 50px;
-  background: #e6322f;
+  background: #1446a3;
   position: fixed;
   z-index: 6;
   bottom: 10px;
@@ -903,10 +911,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .totop:hover {
-  border-color: #e6322f;
+  border-color: #1446a3;
   background: transparent;
 }
 
 .totop:hover svg polygon {
-  fill: #e6322f;
+  fill: #1446a3;
 }

@@ -6,10 +6,33 @@
     width: 100%;
     // text-align: center;
     background: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
 
-    a {
+    &__li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    &__a {
+        text-decoration: none;
+        padding: 0 23px;
         line-height: 70px;
         color: #b3b3b3;
+        display: block;
+        transition: color .3s ease;
+
+        .mainmenu__li--selected &,
+        &:hover {
+            color: #1446a3;
+        }
+    }
+
+    &__section {
+        margin-top: -70px;
+        padding-top: 70px;
     }
 }
 

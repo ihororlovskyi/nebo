@@ -1,7 +1,7 @@
 .totop {
     width: 50px;
     height: 50px;
-    background: #e6322f;
+    background: #1446a3;
     position: fixed;
     z-index: 6;
     bottom: 10px;
@@ -29,11 +29,11 @@
     }
 
     &:hover {
-        border-color: #e6322f;
+        border-color: #1446a3;
         background: transparent;
 
         svg polygon {
-            fill: #e6322f;
+            fill: #1446a3;
         }
     }
 }
