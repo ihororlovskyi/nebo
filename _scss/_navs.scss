@@ -1,3 +1,12 @@
+.logo {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 70px;
+    line-height: 70px;
+    color: #b3b3b3;
+}
+
 .mainmenu {
     position: fixed;
     z-index: 600;
@@ -17,7 +26,6 @@
     }
 
     &__a {
-        text-decoration: none;
         padding: 0 23px;
         line-height: 70px;
         color: #b3b3b3;
@@ -37,14 +45,29 @@
 }
 
 .submenu {
-    position: fixed;
-    top: 47px;
-    right: 0;
-    width: 100%;
+    position: relative;
+    // top: 47px;
+    // right: 0;
+    // width: 100%;
     // text-align: center;
+    border: 1px solid rgba(#fff,.1);
+    border-width: 1px 0;
+    margin: 0 -30px;
+    font-size: 0;
 
     a {
+        font-size: 10px;
+        color: #fff;
+        line-height: 58px;
+        padding: 0 24px;
+        border: 1px solid #2b58ac;
+        border-width: 0 1px;
+        display: inline-block;
+        margin: 1px 0;
 
+        & + a {
+            margin-left: -1px;
+        }
     }
 }
 
@@ -52,7 +75,7 @@
     position: fixed;
     z-index: 800;
     top: 0;
-    right: 0;
+    right: 70px;
 
     a {
         line-height: 70px;
