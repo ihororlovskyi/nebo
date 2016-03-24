@@ -1,34 +1,37 @@
 {
   "name": "nebo",
-  "version": "0.1.1",
+  "version": "0.0.0",
   "description": "Web developing of Nebo Events Menedgment site",
+  "homepage": "http://nebo.ua",
   "author": "Rooster Studio",
-  "license": "ISC",
+  "contributors": [
+    "Ihor Orlovskyi <ihororlovskyi@gmail.com>",
+    "A Pivniuk <xxx@xxx.xxx>"
+  ],
+  "license": "MIT",
   "main": "gulpfile.js",
+  "keywords": [
+    "coriolan-ui",
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
   "scripts": {
-    "start": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "browser-sync": "^1.3.7",
-    "coriolan-ui": "^0.1.5",
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-sass": "^2.1.0"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/rooooster/nebo"
   },
-  "keywords": [
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync",
-    "coriolan-ui"
-  ],
   "bugs": {
     "url": "https://github.com/rooooster/nebo/issues"
   },
-  "homepage": "http://nebo.ua"
+  "devDependencies": {
+    "browser-sync": "^1.3.7",
+    "coriolan-ui": "^0.1.10",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.1.0"
+  }
 }
