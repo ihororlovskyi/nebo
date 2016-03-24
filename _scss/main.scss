@@ -1,15 +1,12 @@
-// Body
-$bodyBg: #fff;
-$bodyFont: 600 15px/1.25 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$bodyColor: #ccc;
-
-// Grid
-$gridIndent: 20px;
+// Variables
+@import '-vars';
 
 // Vendor
+@import '../node_modules/coriolan-ui/coriolan-ui';
+@import 'vendor/remodal/remodal';
+@import 'vendor/remodal/remodal-default-theme';
 @import 'vendor/slick/slick';
 @import 'vendor/slick/slick-theme';
-@import '../node_modules/coriolan-ui/coriolan-ui';
 
 // UI
 @import 'base';
