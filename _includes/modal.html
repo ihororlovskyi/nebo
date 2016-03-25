@@ -1,4 +1,4 @@
-<div data-remodal-id="modal" class="modal js-remodal">
+<div data-remodal-id="{{ i.id }}" class="modal js-remodal">
     <button data-remodal-action="close" class="modal__close">Modal close</button>
 
     <div class="modal__header">
@@ -6,8 +6,16 @@
     </div>
 
     <div class="modal__body">
-        Modal body
+        {{ i.title }}
+
+        <div class="your-class">
+            <div>your content</div>
+            <div>your content</div>
+            <div>your content</div>
+        </div>
     </div>
+
+    <div>Похожие проекты</div>
 
     <div class="modal__footer">
         Modal footer

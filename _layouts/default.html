@@ -32,7 +32,10 @@ layout: compress
 
     </div>
 
+    {% assign events = site.data.events | sort: 'title' %}
+    {% for i in events %}
     {% include modal.html %}
+    {% endfor %}
 
     <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fullPage.min.js"></script>
