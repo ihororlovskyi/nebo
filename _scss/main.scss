@@ -5,10 +5,13 @@
 @import '../node_modules/coriolan-ui/coriolan-ui';
 @import 'vendor/remodal/remodal';
 @import 'vendor/remodal/remodal-default-theme';
+@import 'remodal';
 @import 'vendor/slick/slick';
 @import 'vendor/slick/slick-theme';
+@import 'slick';
 
 // UI
 @import 'base';
 @import 'navs';
 @import 'totop';
+@import 'event-item';

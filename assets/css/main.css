@@ -689,6 +689,45 @@ html.remodal-is-locked {
   vertical-align: middle;
 }
 
+/* Close button */
+.remodal-close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: visible;
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none;
+  color: #95979c;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.remodal-close:hover,
+.remodal-close:focus {
+  color: #2b2e38;
+}
+
+.remodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 25px;
+  line-height: 35px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 35px;
+  content: "\00d7";
+  text-align: center;
+}
+
 /* Keyframes
    ========================================================================== */
 @-webkit-keyframes remodal-opening-keyframes {
@@ -795,6 +834,33 @@ html.remodal-is-locked {
 
 .lt-ie9 .remodal {
   width: 700px;
+}
+
+.remodal-wrapper {
+  padding: 0;
+  border-top: 9px solid #fdc0b9;
+  min-height: 100%;
+  margin: 0;
+}
+
+.remodal {
+  margin: 0;
+  padding: 0 70px;
+  border: 70px solid #fff;
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 100%;
+}
+
+.remodal, .remodal-wrapper:after {
+  vertical-align: top;
+}
+
+/* Media queries
+   ========================================================================== */
+@media only screen and (min-width: 641px) {
+  .remodal {
+    max-width: 100%;
+  }
 }
 
 /* Slider */
@@ -957,7 +1023,7 @@ html.remodal-is-locked {
   font-family: "slick";
   font-size: 20px;
   line-height: 1;
-  color: white;
+  color: #666;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1053,18 +1119,70 @@ html.remodal-is-locked {
   width: 20px;
   height: 20px;
   font-family: "slick";
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
   text-align: center;
-  color: white;
+  color: #666;
   opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
-  color: white;
+  color: #666;
   opacity: 0.75;
+}
+
+.slick-container {
+  margin: 0 -140px 30px;
+}
+
+.slick-container__item {
+  width: 100%;
+  padding-bottom: 75%;
+  position: relative;
+  -webkit-transition: -webkit-transform .3s ease .3s;
+  transition: -webkit-transform .3s ease .3s;
+  transition: transform .3s ease .3s;
+  transition: transform .3s ease .3s, -webkit-transform .3s ease .3s;
+  -webkit-transform: scale(0.8) translate3d(0, 0, 0);
+          transform: scale(0.8) translate3d(0, 0, 0);
+}
+
+.slick-current .slick-container__item {
+  -webkit-transform: scale(1) translate3d(0, 0, 0);
+          transform: scale(1) translate3d(0, 0, 0);
+}
+
+.slick-container__img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next,
+.slick-prev {
+  height: 100%;
+  width: 17.5%;
+  z-index: 100;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  content: none;
 }
 
 html {
@@ -1090,13 +1208,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 a {
   text-decoration: none;
-}
-
-.your-class {
-  width: 50%;
-  margin: 0 auto 30px;
-  height: 300px;
-  background: #666;
 }
 
 .logo {
@@ -1219,4 +1330,14 @@ a {
 
 .totop:hover svg polygon {
   fill: #1446a3;
+}
+
+.event-item__title {
+  font-size: 5vw;
+}
+
+.event-item__img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

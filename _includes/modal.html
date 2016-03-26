@@ -1,23 +1,35 @@
-<div data-remodal-id="{{ i.id }}" class="modal js-remodal">
-    <button data-remodal-action="close" class="modal__close">Modal close</button>
+<div data-remodal-id="{{ i.id }}" class="js-remodal">
+    <button data-remodal-action="close" class="remodal-close"></button>
 
-    <div class="modal__header">
-        Modal header
-    </div>
+        <div class="event-item__title">{{ i.title }}</div>
 
-    <div class="modal__body">
-        {{ i.title }}
-
-        <div class="your-class">
-            <div>your content</div>
-            <div>your content</div>
-            <div>your content</div>
+        <div class="slick-container js-slick-container">
+        {% for image in site.static_files %}
+            {% if image.path contains i.id  %}
+            {% unless image.path contains '00' %}
+                <div>
+                    <div class="slick-container__item">
+                        <div class="slick-container__img" style="background-image:url({{ site.baseurl }}{{image.path}});">
+                        </div>
+                    </div>
+                </div>
+            {% endunless %}
+            {% endif %}
+        {% endfor %}
         </div>
-    </div>
 
-    <div>Похожие проекты</div>
+        <div class="event-item__subtitle">{{ i.subtitle }}</div>
 
-    <div class="modal__footer">
-        Modal footer
+        <div class="event-item__description">{{ i.description }}</div>
+
+        {% for cover in site.static_files %}
+            {% if cover.path contains i.id and cover.path contains '00' %}
+                <img class="event-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+            {% endif %}
+        {% endfor %}
+
+        <div class="event-item__third-title">Про проект</div>
+
+        <div>Похожие проекты</div>
     </div>
 </div>

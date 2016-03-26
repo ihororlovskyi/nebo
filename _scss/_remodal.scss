@@ -1,0 +1,28 @@
+.remodal-wrapper {
+    padding: 0;
+    border-top: 9px solid #fdc0b9;
+    min-height: 100%;
+    margin: 0;
+}
+
+.remodal {
+    margin: 0;
+    padding: 0 70px;
+    border: 70px solid #fff;
+    background: rgba(#fff,.5);
+    min-height: 100%;
+}
+
+.remodal, .remodal-wrapper:after {
+    vertical-align: top;
+}
+
+/* Media queries
+   ========================================================================== */
+
+@media only screen and (min-width: 641px) {
+  .remodal {
+    // max-width: 700px;
+    max-width: 100%;
+  }
+}

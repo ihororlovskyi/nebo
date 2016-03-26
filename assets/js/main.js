@@ -37,8 +37,29 @@ $(document).ready(function() {
     * slick
     * https://github.com/kenwheeler/slick
     */
-    $('.your-class').slick({
-        dots: true
+    $('.js-slick-container').slick({
+        dots: false,
+        arrows: false,
+        infinite: true,
+        speed: 300,
+        // fade: true,
+        cssEase: 'ease',
+        centerMode: true,
+        centerPadding: '20%',
+        slidesToShow: 1,
+        lazyLoad: 'ondemand',
+        // swipeToSlide: true,
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    swipeToSlide: false,
+                    // fade: true,
+                }
+            }
+        ]
     });
 
     /**

@@ -1,10 +1,14 @@
 [
     {
         "id": "xs-power-drink",
-        "title": "XS Power Drink"
+        "title": "XS Power Drink",
+        "subtitle": "Выступление легендарного ди джея Joachim Garraud",
+        "description": "на запуске в Украине нового энергетического напитка XS power drink компании Amway",
     },
     {
         "id": "atmasfera-360",
-        "title": "Atmasfera 360"
+        "title": "Atmasfera 360",
+        "subtitle": "Выступление легендарного ди джея Joachim Garraud",
+        "description": "на запуске в Украине нового энергетического напитка XS power drink компании Amway",
     }
 ]
