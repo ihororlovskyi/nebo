@@ -47,7 +47,7 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '20%',
         slidesToShow: 1,
-        // lazyLoad: 'ondemand',
+        lazyLoad: 'ondemand',
         // swipeToSlide: true,
         mobileFirst: true,
         responsive: [
@@ -69,5 +69,47 @@ $(document).ready(function() {
     $('.js-remodal').remodal({
         // closeOnEscape: false
     });
+
+    /**
+    * isotope with imagesloaded
+    * https://github.com/metafizzy/isotope
+    * https://github.com/desandro/imagesloaded
+    */
+    var $container = $('.isotope-container');
+    var $win = $(window);
+    $container.imagesLoaded( function() {
+        $container.isotope({
+            itemSelector: '.isotope-item',
+            layoutMode: 'fitRows',
+        });
+        $container.on('layoutComplete', function(){
+        $win.trigger("scroll");
+        });
+        var filterFns = {
+        };
+        $('.isotope-filter').on( 'click', 'a', function() {
+            var filterValue = $( this ).attr('data-filter');
+            filterValue = filterFns[ filterValue ] || filterValue;
+            $container.isotope({ filter: filterValue });
+        });
+        $('.isotope-filter').each( function( i, buttonGroup ) {
+            var $buttonGroup = $( buttonGroup );
+            $buttonGroup.on( 'click', 'a', function() {
+            $buttonGroup.find('.selected').removeClass('selected');
+            $( this ).addClass('selected');
+            });
+        });
+    });
 });
 
+/**
+* lazyload.js
+* https://github.com/tuupola/jquery_lazyload
+*/
+$(function() {
+    $("img.lazy").lazyload({
+      // threshold : 0,
+      effect : "fadeIn",
+      // placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+    });
+});

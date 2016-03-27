@@ -3,21 +3,26 @@ layout: default
 ---
 
 <article class="events-item">
+
     <a href="{{ site.baseurl }}/#projects" class="events-item__close">{% include svg/close.svg %}</a>
 
-    <div class="events-item__tag
-
-    {% if page.tag == 'mass' %}
-        events-item__tag--mass">{% include svg/close.svg %} {{ page.tag }}</div>
-    {% else %}
-        events-item__tag--mass2">{% include svg/close.svg %} {{ page.tag }}</div>
-    {% else %}
-        events-item__tag--mass3">{% include svg/close.svg %} {{ page.tag }}</div>
-    {% else %}
-        events-item__tag--mass4">{% include svg/close.svg %} {{ page.tag }}</div>
-    {% else %}
-        events-item__tag--mass5">{% include svg/close.svg %} {{ page.tag }}</div>
-    {% endif %}
+    <div class="events-item__tag">
+        {% if page.tag == 'brand' %}
+            {% include svg/tag-brand.svg %} {{ site.data.t.tag-brand[page.lang] }}
+        {% endif %}
+        {% if page.tag == 'btl' %}
+            {% include svg/tag-btl.svg %} {{ site.data.t.tag-btl[page.lang] }}
+        {% endif %}
+        {% if page.tag == 'corp' %}
+            {% include svg/tag-corp.svg %} {{ site.data.t.tag-corp[page.lang] }}
+        {% endif %}
+        {% if page.tag == 'mass' %}
+            {% include svg/tag-mass.svg %} {{ site.data.t.tag-mass[page.lang] }}
+        {% endif %}
+        {% if page.tag == 'mice' %}
+            {% include svg/tag-mice.svg %} {{ site.data.t.tag-mice[page.lang] }}
+        {% endif %}
+    </div>
 
     <div class="events-item__title">{{ page.title }}</div>
 
@@ -26,24 +31,23 @@ layout: default
             {% if image.path contains page.id  %}
                 {% unless image.path contains '00' %}
                     <div>
-                        <img src="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }} Cover">
+                        <img data-lazy="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }} Cover">
                     </div>
                 {% endunless %}
             {% endif %}
         {% endfor %}
     </div>
 
-    <div class="events-item__subtitle">{{ page.subtitle }}</div>
-
-    <div class="events-item__description">{{ page.description }}</div>
-
     {% for cover in site.static_files %}
         {% if cover.path contains page.id and cover.path contains '00' %}
-            <img class="events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
         {% endif %}
     {% endfor %}
 
     <div class="events-item__third-title">Про проект</div>
 
+    {{ content }}
+
     <div>Похожие проекты</div>
+
 </article>

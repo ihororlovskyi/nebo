@@ -1,0 +1,27 @@
+{
+    "tag-all": {
+        "ru": "Все",
+        "en": "All",
+    },
+    "tag-mass": {
+        "ru": "Массовые<br>Мероприятия",
+        "en": "Public Events",
+    },
+    "tag-brand": {
+        "ru": "Brand Events",
+        "en": "Brand Events",
+    },
+    "tag-corp": {
+        "ru": "Corporate<br>Events",
+        "en": "Corporate<br>Events",
+    },
+    "tag-btl": {
+        "ru": "BTL",
+        "en": "BTL",
+    },
+    "tag-mice": {
+        "ru": "MICE",
+        "en": "MICE",
+    },
+},
+

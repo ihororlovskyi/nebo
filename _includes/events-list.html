@@ -1,5 +1,7 @@
 <section id="projects" class="mainmenu__section">
-    <h1>projects</h1>
+
+    {% include events-filter.html %}
+
     <!-- <div class="events-list">
         {% assign events = site.data.events %}
         {% for i in events %}
@@ -14,13 +16,14 @@
         </a>
         {% endfor %}
     </div> -->
-    <div class="events-list">
-        {% assign events = site.categories.events %}
+
+    <div class="events-list isotope-container">
+        {% assign events = site.categories.events | where: "lang", page.lang %}
         {% for i in events %}
-        <a class="events-list__item" href="{{ site.baseurl }}{{ i.url }}">
+        <a href="{{ i.url }}" class="events-list__item isotope-item {{ i.tag }}">
             {% for cover in site.static_files %}
                 {% if cover.path contains i.id and cover.path contains '00' %}
-                    <img class="events-list__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                    <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                 {% endif %}
             {% endfor %}
             <div class="events-list__title">{{ i.title }}</div>
@@ -28,4 +31,5 @@
         </a>
         {% endfor %}
     </div>
+
 </section>

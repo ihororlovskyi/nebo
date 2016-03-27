@@ -1,12 +1,13 @@
 ---
 layout: events-item
 permalink: :title/
-lang: ru
-name: atmasfera-360
+lang: en
+name: xs-power-drink
 category: events
-location: Планетарий, Киев
+tag: mass
+location: МВЦ, Киев
 
-title: 'Atmasfera 360'
+title: 'XS Power Drink'
 subtitle: 'Выступление легендарного ди джея Joachim Garraud'
 description: 'на запуске в Украине нового энергетического напитка XS power drink компании Amway'
 

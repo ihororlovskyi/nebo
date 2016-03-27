@@ -1,0 +1,28 @@
+<div class="events-filter isotope-filter">
+    <nav>
+        <a data-filter="*" class="selected">
+            {% include svg/tag-mass.svg %}
+            <span>{{ site.data.t.tag-all[page.lang] }}</span>
+        </a>
+        <a data-filter=".mass">
+            {% include svg/tag-mass.svg %}
+            <span>{{ site.data.t.tag-mass[page.lang] }}</span>
+        </a>
+        <a data-filter=".brand">
+            {% include svg/tag-brand.svg %}
+            <span>{{ site.data.t.tag-brand[page.lang] }}</span>
+        </a>
+        <a data-filter=".corp">
+            {% include svg/tag-corp.svg %}
+            <span>{{ site.data.t.tag-corp[page.lang] }}</span>
+        </a>
+        <a data-filter=".btl">
+            {% include svg/tag-btl.svg %}
+            <span>{{ site.data.t.tag-btl[page.lang] }}</span>
+        </a>
+        <a data-filter=".mice">
+            {% include svg/tag-mice.svg %}
+            <span>{{ site.data.t.tag-mice[page.lang] }}</span>
+        </a>
+    </nav>
+</div>

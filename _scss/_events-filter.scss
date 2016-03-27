@@ -1,0 +1,56 @@
+.events-filter {
+    position: relative;
+    border: 1px solid rgba(#fff,.1);
+    border-width: 1px 0;
+    font-size: 0;
+
+    nav {
+        font-size: 14px;
+        display: inline-block;
+        @include clearfix;
+    }
+
+    a {
+        color: #fff;
+        line-height: 20px;
+        padding: 12px 24px 12px 50px;
+        border: 1px solid #2b58ac;
+        border-width: 0 1px;
+        cursor: pointer;
+        position: relative;
+        height: 64px;
+        box-sizing: border-box;
+        float: left;
+        display: table;
+
+        & + a {
+            margin-left: -1px;
+        }
+    }
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 8px;
+        width: 30px;
+        height: auto;
+        // float: left;
+        // margin-right: 10px;
+        transform: translate3d(0,-50%,0);
+    }
+
+    // div {
+    //     float: left;
+    //     display: table;
+    // }
+
+    span {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: left;
+    }
+}
+
+.isotope-container {
+    transition: height .4s ease-in-out;
+}
