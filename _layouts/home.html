@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- <div class="remodal-bg"> -->
+
+{% include navigation.html %}
+
+<main>
+    {{ content }}
+</main>
+
+{% include totop.html %}
+
+<!-- </div> -->
+
+{% assign events = site.data.events | sort: 'title' %}
+{% for i in events %}
+    {% include modal.html %}
+{% endfor %}

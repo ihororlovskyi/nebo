@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="events-item">
+    <a href="{{ site.baseurl }}/#projects" class="events-item__close">{% include svg/close.svg %}</a>
+
+    <div class="events-item__tag
+
+    {% if page.tag == 'mass' %}
+        events-item__tag--mass">{% include svg/close.svg %} {{ page.tag }}</div>
+    {% else %}
+        events-item__tag--mass2">{% include svg/close.svg %} {{ page.tag }}</div>
+    {% else %}
+        events-item__tag--mass3">{% include svg/close.svg %} {{ page.tag }}</div>
+    {% else %}
+        events-item__tag--mass4">{% include svg/close.svg %} {{ page.tag }}</div>
+    {% else %}
+        events-item__tag--mass5">{% include svg/close.svg %} {{ page.tag }}</div>
+    {% endif %}
+
+    <div class="events-item__title">{{ page.title }}</div>
+
+    <div class="slick-container js-slick-container">
+        {% for image in site.static_files %}
+            {% if image.path contains page.id  %}
+                {% unless image.path contains '00' %}
+                    <div>
+                        <img src="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }} Cover">
+                    </div>
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="events-item__subtitle">{{ page.subtitle }}</div>
+
+    <div class="events-item__description">{{ page.description }}</div>
+
+    {% for cover in site.static_files %}
+        {% if cover.path contains page.id and cover.path contains '00' %}
+            <img class="events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+        {% endif %}
+    {% endfor %}
+
+    <div class="events-item__third-title">Про проект</div>
+
+    <div>Похожие проекты</div>
+</article>

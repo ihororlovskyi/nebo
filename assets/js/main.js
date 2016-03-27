@@ -47,7 +47,7 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '20%',
         slidesToShow: 1,
-        lazyLoad: 'ondemand',
+        // lazyLoad: 'ondemand',
         // swipeToSlide: true,
         mobileFirst: true,
         responsive: [

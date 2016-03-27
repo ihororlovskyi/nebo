@@ -1,0 +1,22 @@
+.events-list {
+    @include clearfix;
+
+    &__item {
+        float: left;
+        width: 25%;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &__title {
+        font-size: 1vw;
+    }
+
+    &__location {
+        font-size: .5vw;
+    }
+}

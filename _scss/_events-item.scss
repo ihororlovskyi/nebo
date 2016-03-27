@@ -1,0 +1,51 @@
+.events-item {
+    border-top: 9px solid #fdc0b9;
+    padding: 41px 70px 70px;
+    min-height: 100%;
+
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70px;
+        height: 70px;
+
+        svg {
+            fill: $bodyColor;
+        }
+    }
+
+    &__tag {
+        font-size: 2vw;
+
+        &--show {
+            
+        }
+
+        &--show {
+            
+        }
+
+        &--show {
+            
+        }
+
+        &--show {
+            
+        }
+
+        &--show {
+            
+        }
+    }
+
+    &__title {
+        font-size: 5vw;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}

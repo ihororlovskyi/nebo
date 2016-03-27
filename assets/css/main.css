@@ -408,7 +408,7 @@ textarea {
 body {
   font: 600 15px/1.25 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: #fff;
-  color: #ccc;
+  color: #222;
 }
 
 .text-left {
@@ -855,8 +855,22 @@ html.remodal-is-locked {
   vertical-align: top;
 }
 
-/* Media queries
-   ========================================================================== */
+.remodal-close {
+  top: -70px;
+  left: auto;
+  right: -70px;
+  width: 70px;
+  height: 70px;
+  color: #000;
+}
+
+.remodal-close:before {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
+  font-size: 50px;
+  line-height: 70px;
+  width: 70px;
+}
+
 @media only screen and (min-width: 641px) {
   .remodal {
     max-width: 100%;
@@ -1192,7 +1206,6 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 70px;
   text-align: center;
   font-weight: 600;
 }
@@ -1308,7 +1321,7 @@ a {
 }
 
 .totop svg {
-  width: 18px;
+  width: 40px;
   margin: auto;
   display: block;
   position: relative;
@@ -1317,7 +1330,7 @@ a {
           transform: translate3d(0, -50%, 0);
 }
 
-.totop svg polygon {
+.totop svg path {
   fill: #fff;
   -webkit-transition: fill .2s ease-in-out;
   transition: fill .2s ease-in-out;
@@ -1328,15 +1341,62 @@ a {
   background: transparent;
 }
 
-.totop:hover svg polygon {
+.totop:hover svg path {
   fill: #1446a3;
 }
 
-.event-item__title {
+.events-list::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.events-list__item {
+  float: left;
+  width: 25%;
+}
+
+.events-list__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.events-list__title {
+  font-size: 1vw;
+}
+
+.events-list__location {
+  font-size: .5vw;
+}
+
+.events-item {
+  border-top: 9px solid #fdc0b9;
+  padding: 41px 70px 70px;
+  min-height: 100%;
+}
+
+.events-item__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.events-item__close svg {
+  fill: #222;
+}
+
+.events-item__tag {
+  font-size: 2vw;
+}
+
+.events-item__title {
   font-size: 5vw;
 }
 
-.event-item__img {
+.events-item__img {
   width: 100%;
   height: auto;
   display: block;

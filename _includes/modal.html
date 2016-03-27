@@ -1,21 +1,18 @@
-<div data-remodal-id="{{ i.id }}" class="js-remodal">
-    <button data-remodal-action="close" class="remodal-close"></button>
+<article data-remodal-id="{{ i.id }}" class="events-item js-remodal">
+    <button data-remodal-action="close" class="events-item__close"></button>
 
         <div class="event-item__title">{{ i.title }}</div>
 
         <div class="slick-container js-slick-container">
-        {% for image in site.static_files %}
-            {% if image.path contains i.id  %}
-            {% unless image.path contains '00' %}
-                <div>
-                    <div class="slick-container__item">
-                        <div class="slick-container__img" style="background-image:url({{ site.baseurl }}{{image.path}});">
+            {% for image in site.static_files %}
+                {% if image.path contains i.id  %}
+                    {% unless image.path contains '00' %}
+                        <div>
+                            <img src="{{ site.baseurl }}{{image.path}}" alt="{{ i.title }} Cover">
                         </div>
-                    </div>
-                </div>
-            {% endunless %}
-            {% endif %}
-        {% endfor %}
+                    {% endunless %}
+                {% endif %}
+            {% endfor %}
         </div>
 
         <div class="event-item__subtitle">{{ i.subtitle }}</div>
@@ -32,4 +29,4 @@
 
         <div>Похожие проекты</div>
     </div>
-</div>
+</article>

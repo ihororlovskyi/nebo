@@ -1,0 +1,31 @@
+<section id="projects" class="mainmenu__section">
+    <h1>projects</h1>
+    <!-- <div class="events-list">
+        {% assign events = site.data.events %}
+        {% for i in events %}
+        <a class="events-list__item" href="{{ site.baseurl }}/#{{ i.id }}">
+            {% for cover in site.static_files %}
+                {% if cover.path contains i.id and cover.path contains '00' %}
+                    <img class="events-list__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                {% endif %}
+            {% endfor %}
+            <div class="events-list__title">{{ i.title }}</div>
+            <div class="events-list__location">{{ i.location }}</div>
+        </a>
+        {% endfor %}
+    </div> -->
+    <div class="events-list">
+        {% assign events = site.categories.events %}
+        {% for i in events %}
+        <a class="events-list__item" href="{{ site.baseurl }}{{ i.url }}">
+            {% for cover in site.static_files %}
+                {% if cover.path contains i.id and cover.path contains '00' %}
+                    <img class="events-list__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                {% endif %}
+            {% endfor %}
+            <div class="events-list__title">{{ i.title }}</div>
+            <div class="events-list__location">{{ i.location }}</div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
