@@ -1,0 +1,38 @@
+.footer {
+    background: #3b3b3b;
+    padding: 62px 20px;
+
+    &__wrap {
+        margin: 0 auto;
+        max-width: 740px;
+        @include clearfix;
+    }
+
+    img {
+        max-width: 80px;
+        height: auto;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        text-align: left;
+    }
+
+    svg {
+        max-width: 70px;
+        fill: #686868;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    &__nebo {
+        color: #585858;
+        margin-bottom: 4px;
+    }
+
+    &__copyright {
+        color: #686868;
+    }
+}

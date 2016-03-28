@@ -1511,3 +1511,47 @@ a {
 .events-related__caption {
   font-size: 30px;
 }
+
+.footer {
+  background: #3b3b3b;
+  padding: 62px 20px;
+}
+
+.footer__wrap {
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+.footer__wrap::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.footer img {
+  max-width: 80px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 12px;
+}
+
+.footer__text {
+  text-align: left;
+}
+
+.footer svg {
+  max-width: 70px;
+  fill: #686868;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer__nebo {
+  color: #585858;
+  margin-bottom: 4px;
+}
+
+.footer__copyright {
+  color: #686868;
+}
