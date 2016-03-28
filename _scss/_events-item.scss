@@ -16,21 +16,51 @@
     }
 
     &__tag {
-        font-size: 2vw;
+        font-size: 0;
+        margin-bottom: 30px;
+
+        nav {
+            font-size: 20px;
+            @include clearfix;
+            display: inline-block;
+        }
 
         svg {
             display: inline-block;
             width: 30px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        span {
+            text-align: left;
+            display: inline-block;
+            float: left;
         }
     }
 
     &__title {
-        font-size: 5vw;
+        // font-size: 5vw;
+        font-size: 50px;
+        margin-bottom: 30px;
     }
 
     &__img {
         width: 100%;
+        max-width: 800px;
         height: auto;
         display: block;
+        margin: 0 auto 30px;
+    }
+
+    &__about {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__content {
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 90px;
     }
 }

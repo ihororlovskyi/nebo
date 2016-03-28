@@ -14,7 +14,7 @@ $slick-opacity-not-active: 0.25;
 
 .slick-container {
     // width: 50%;
-    margin: 0 -140px 30px;
+    margin: 0 0 60px;
     // padding: 30px 30px;
     // height: 300px;
     // background: #666;
@@ -52,7 +52,7 @@ $slick-opacity-not-active: 0.25;
 .slick-next,
 .slick-prev {
     height: 100%;
-    width: 17.5%;
+    width: 20%;
     z-index: 100;
 
     &:before {

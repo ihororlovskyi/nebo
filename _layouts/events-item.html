@@ -7,22 +7,35 @@ layout: default
     <a href="{{ site.baseurl }}/#projects" class="events-item__close">{% include svg/close.svg %}</a>
 
     <div class="events-item__tag">
-        {% if page.tag == 'brand' %}
-            {% include svg/tag-brand.svg %} {{ site.data.t.tag-brand[page.lang] }}
-        {% endif %}
-        {% if page.tag == 'btl' %}
-            {% include svg/tag-btl.svg %} {{ site.data.t.tag-btl[page.lang] }}
-        {% endif %}
-        {% if page.tag == 'corp' %}
-            {% include svg/tag-corp.svg %} {{ site.data.t.tag-corp[page.lang] }}
-        {% endif %}
-        {% if page.tag == 'mass' %}
-            {% include svg/tag-mass.svg %} {{ site.data.t.tag-mass[page.lang] }}
-        {% endif %}
-        {% if page.tag == 'mice' %}
-            {% include svg/tag-mice.svg %} {{ site.data.t.tag-mice[page.lang] }}
-        {% endif %}
+        <nav>
+            {% if page.tag == 'brand' %}
+                {% include svg/tag-brand.svg %}
+                <span>{{ site.data.t.tag-brand[page.lang] }}</span>
+            {% endif %}
+            {% if page.tag == 'btl' %}
+                {% include svg/tag-btl.svg %}
+                <span>{{ site.data.t.tag-btl[page.lang] }}</span>
+            {% endif %}
+            {% if page.tag == 'corp' %}
+                {% include svg/tag-corp.svg %}
+                <span>{{ site.data.t.tag-corp[page.lang] }}</span>
+            {% endif %}
+            {% if page.tag == 'mass' %}
+                {% include svg/tag-mass.svg %}
+                <span>{{ site.data.t.tag-mass[page.lang] }}</span>
+            {% endif %}
+            {% if page.tag == 'mice' %}
+                {% include svg/tag-mice.svg %}
+                <span>{{ site.data.t.tag-mice[page.lang] }}</span>
+            {% endif %}
+        </nav>
     </div>
+
+    {% for cover in site.static_files %}
+        {% if cover.path contains page.id and cover.path contains '00' %}
+            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+        {% endif %}
+    {% endfor %}
 
     <div class="events-item__title">{{ page.title }}</div>
 
@@ -38,16 +51,12 @@ layout: default
         {% endfor %}
     </div>
 
-    {% for cover in site.static_files %}
-        {% if cover.path contains page.id and cover.path contains '00' %}
-            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
-        {% endif %}
-    {% endfor %}
+    <div class="events-item__about">{{ site.data.t.aboutEvent[page.lang] }}</div>
 
-    <div class="events-item__third-title">Про проект</div>
+    <div class="events-item__content">
+        {{ content }}
+    </div>
 
-    {{ content }}
-
-    <div>Похожие проекты</div>
+    {% include events-related.html %}
 
 </article>

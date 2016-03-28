@@ -23,5 +23,9 @@
         "ru": "MICE",
         "en": "MICE",
     },
+    "aboutEvent": {
+        "ru": "Про проект",
+        "en": "About project",
+    },
 },
 
