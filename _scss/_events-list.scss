@@ -1,22 +1,55 @@
 .events-list {
+    text-align: center;
     @include clearfix;
 
     &__item {
         float: left;
-        width: 25%;
+        position: relative;
+        overflow: hidden;
+        @include ratio(25%,3,2);
+
+        // &:first-child {
+        //     @include ratio(50%,6,2);
+        // }
     }
 
     &__img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        transform: translate3d(-50%,-50%,0);
+    }
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 25%;
+        transform: translate3d(-50%,-50%,0);
+    }
+
+    &__text {
+        position: absolute;
         width: 100%;
-        height: auto;
-        display: block;
+        top: 50%;
+        left: 0;
+        transform: translate3d(0,-50%,0);
     }
 
     &__title {
-        font-size: 1vw;
+        // position: absolute;
+        // width: 100%;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 8px;
     }
 
-    &__location {
-        font-size: .5vw;
+    &__tag {
+        // position: absolute;
+        // width: 100%;
+        font-size: 12px;
+        color: #fff;
     }
 }

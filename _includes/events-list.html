@@ -26,8 +26,45 @@
                     <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                 {% endif %}
             {% endfor %}
-            <div class="events-list__title">{{ i.title }}</div>
-            <div class="events-list__location">{{ i.location }}</div>
+
+            {% if i.tag == 'brand' %}
+                {% include svg/tag-brand.svg %}
+            {% endif %}
+            {% if i.tag == 'btl' %}
+                {% include svg/tag-btl.svg %}
+            {% endif %}
+            {% if i.tag == 'corp' %}
+                {% include svg/tag-corp.svg %}
+            {% endif %}
+            {% if i.tag == 'mass' %}
+                {% include svg/tag-mass.svg %}
+            {% endif %}
+            {% if i.tag == 'mice' %}
+                {% include svg/tag-mice.svg %}
+            {% endif %}
+
+            <div class="events-list__text">
+                <div class="events-list__title">{{ i.title }}</div>
+
+                <div class="events-list__tag">
+                    {% if i.tag == 'brand' %}
+                        {{ site.data.t.tag-brand[page.lang] }}
+                    {% endif %}
+                    {% if i.tag == 'btl' %}
+                        {{ site.data.t.tag-btl[page.lang] }}
+                    {% endif %}
+                    {% if i.tag == 'corp' %}
+                        {{ site.data.t.tag-corp[page.lang] }}
+                    {% endif %}
+                    {% if i.tag == 'mass' %}
+                        {{ site.data.t.tag-mass[page.lang] }}
+                    {% endif %}
+                    {% if i.tag == 'mice' %}
+                        {{ site.data.t.tag-mice[page.lang] }}
+                    {% endif %}
+                </div>
+            </div>
+
         </a>
         {% endfor %}
     </div>

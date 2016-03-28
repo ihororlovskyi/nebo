@@ -79,8 +79,11 @@ $(document).ready(function() {
     var $win = $(window);
     $container.imagesLoaded( function() {
         $container.isotope({
-            itemSelector: '.isotope-item',
-            layoutMode: 'fitRows',
+            // itemSelector: '.isotope-item',
+            // layoutMode: 'fitRows',
+            masonry: {
+                columnWidth: 0
+            }
         });
         $container.on('layoutComplete', function(){
         $win.trigger("scroll");
