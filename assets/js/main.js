@@ -98,8 +98,8 @@ $(document).ready(function() {
         $('.isotope-filter').each( function( i, buttonGroup ) {
             var $buttonGroup = $( buttonGroup );
             $buttonGroup.on( 'click', 'a', function() {
-            $buttonGroup.find('.selected').removeClass('selected');
-            $( this ).addClass('selected');
+            $buttonGroup.find('.events-filter__link--selected').removeClass('events-filter__link--selected');
+            $( this ).addClass('events-filter__link--selected');
             });
         });
     });

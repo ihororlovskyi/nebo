@@ -10,10 +10,10 @@
         @include clearfix;
     }
 
-    a {
+    &__link {
         color: #fff;
         line-height: 20px;
-        padding: 12px 24px 12px 50px;
+        padding: 12px 16px 12px 56px;
         border: 1px solid #2b58ac;
         border-width: 0 1px;
         cursor: pointer;
@@ -22,21 +22,39 @@
         box-sizing: border-box;
         float: left;
         display: table;
+        transition: background .2s ease;
 
-        & + a {
+        &:first-child {
+            padding-left: 16px;
+        }
+
+        .events-filter__link + & {
             margin-left: -1px;
+        }
+
+        &:hover {
+            background: rgba(#fff,.1);
+        }
+
+        &.events-filter__link--selected {
+            background: rgba(#000,.25);
         }
     }
 
     svg {
         position: absolute;
         top: 50%;
-        left: 8px;
-        width: 30px;
+        left: 14px;
+        width: 24px;
         height: auto;
         // float: left;
         // margin-right: 10px;
-        transform: translate3d(0,-50%,0);
+        transform: translate3d(0,-50%,0) scale(.9);
+        transition: transform .2s ease;
+    }
+    .events-filter__link:hover svg,
+    .events-filter__link.events-filter__link--selected svg {
+        transform: translate3d(0,-50%,0) scale(1.2);
     }
 
     // div {

@@ -1340,10 +1340,10 @@ a {
   display: table;
 }
 
-.events-filter a {
+.events-filter__link {
   color: #fff;
   line-height: 20px;
-  padding: 12px 24px 12px 50px;
+  padding: 12px 16px 12px 56px;
   border: 1px solid #2b58ac;
   border-width: 0 1px;
   cursor: pointer;
@@ -1353,20 +1353,44 @@ a {
           box-sizing: border-box;
   float: left;
   display: table;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
 }
 
-.events-filter a + a {
+.events-filter__link:first-child {
+  padding-left: 16px;
+}
+
+.events-filter__link + .events-filter__link {
   margin-left: -1px;
+}
+
+.events-filter__link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.events-filter__link.events-filter__link--selected {
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .events-filter svg {
   position: absolute;
   top: 50%;
-  left: 8px;
-  width: 30px;
+  left: 14px;
+  width: 24px;
   height: auto;
-  -webkit-transform: translate3d(0, -50%, 0);
-          transform: translate3d(0, -50%, 0);
+  -webkit-transform: translate3d(0, -50%, 0) scale(0.9);
+          transform: translate3d(0, -50%, 0) scale(0.9);
+  -webkit-transition: -webkit-transform .2s ease;
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
+.events-filter .events-filter__link:hover svg,
+.events-filter .events-filter__link.events-filter__link--selected svg {
+  -webkit-transform: translate3d(0, -50%, 0) scale(1.2);
+          transform: translate3d(0, -50%, 0) scale(1.2);
 }
 
 .events-filter span {
@@ -1404,17 +1428,39 @@ a {
   left: 50%;
   width: auto;
   height: 100%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
+  -webkit-filter: blur(0) grayscale(0%);
+          filter: blur(0) grayscale(0%);
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(1.2);
+          transform: translate3d(-50%, -50%, 0) scale(1.2);
+  -webkit-transition: -webkit-transform .4s ease, -webkit-filter .4s ease;
+  transition: -webkit-transform .4s ease, -webkit-filter .4s ease;
+  transition: transform .4s ease, filter .4s ease;
+  transition: transform .4s ease, filter .4s ease, -webkit-transform .4s ease, -webkit-filter .4s ease;
+}
+
+.events-list__item:hover .events-list__img {
+  -webkit-filter: blur(4px) grayscale(75%);
+          filter: blur(4px) grayscale(75%);
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+          transform: translate3d(-50%, -50%, 0) scale(1);
 }
 
 .events-list svg {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 25%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
+  width: 40%;
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(0);
+          transform: translate3d(-50%, -50%, 0) scale(0);
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+}
+
+.events-list .events-list__item:hover svg {
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+          transform: translate3d(-50%, -50%, 0) scale(1);
 }
 
 .events-list__text {
@@ -1422,6 +1468,10 @@ a {
   width: 100%;
   top: 50%;
   left: 0;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-shadow: 0 0 10px #000;
   -webkit-transform: translate3d(0, -50%, 0);
           transform: translate3d(0, -50%, 0);
 }
@@ -1429,7 +1479,7 @@ a {
 .events-list__title {
   font-size: 20px;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .events-list__tag {
@@ -1510,6 +1560,14 @@ a {
 
 .events-related__caption {
   font-size: 30px;
+}
+
+.agency {
+  background: #f5a39a;
+}
+
+.contacts {
+  background: #f5a39a;
 }
 
 .footer {

@@ -1,26 +1,25 @@
 <div class="events-filter isotope-filter">
     <nav>
-        <a data-filter="*" class="selected">
-            {% include svg/tag-mass.svg %}
+        <a data-filter="*" class="events-filter__link selected">
             <span>{{ site.data.t.tag-all[page.lang] }}</span>
         </a>
-        <a data-filter=".mass">
+        <a data-filter=".mass" class="events-filter__link">
             {% include svg/tag-mass.svg %}
             <span>{{ site.data.t.tag-mass[page.lang] }}</span>
         </a>
-        <a data-filter=".brand">
+        <a data-filter=".brand" class="events-filter__link">
             {% include svg/tag-brand.svg %}
             <span>{{ site.data.t.tag-brand[page.lang] }}</span>
         </a>
-        <a data-filter=".corp">
+        <a data-filter=".corp" class="events-filter__link">
             {% include svg/tag-corp.svg %}
             <span>{{ site.data.t.tag-corp[page.lang] }}</span>
         </a>
-        <a data-filter=".btl">
+        <a data-filter=".btl" class="events-filter__link">
             {% include svg/tag-btl.svg %}
             <span>{{ site.data.t.tag-btl[page.lang] }}</span>
         </a>
-        <a data-filter=".mice">
+        <a data-filter=".mice" class="events-filter__link">
             {% include svg/tag-mice.svg %}
             <span>{{ site.data.t.tag-mice[page.lang] }}</span>
         </a>
