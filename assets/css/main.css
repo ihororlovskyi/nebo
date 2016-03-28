@@ -1293,8 +1293,8 @@ a {
   border: 3px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: border .2s ease-in-out, background .2s ease-in-out;
-  transition: border .2s ease-in-out, background .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out, background .2s ease-in-out;
+  transition: border .2s ease-in-out, background .2s ease-in-out;
 }
 
 .totop svg {
