@@ -1,11 +1,31 @@
 {
+    "projects": {
+        "ru": "Проекты",
+        "en": "Projects",
+    },
+    "awards": {
+        "ru": "Награды",
+        "en": "Awards",
+    },
+    "clients": {
+        "ru": "Клиенты",
+        "en": "Clients",
+    },
+    "agency": {
+        "ru": "Агенство",
+        "en": "Agency",
+    },
+    "contacts": {
+        "ru": "Контакты",
+        "en": "Contacts",
+    },
     "tag-all": {
         "ru": "Все",
         "en": "All",
     },
     "tag-mass": {
         "ru": "Массовые<br>Мероприятия",
-        "en": "Public Events",
+        "en": "Public<br>Events",
     },
     "tag-brand": {
         "ru": "Brand Events",

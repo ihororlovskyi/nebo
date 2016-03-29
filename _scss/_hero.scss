@@ -1,0 +1,7 @@
+.hero {
+    background: #1446a3;
+    @include clearfix;
+    text-align: left;
+    color: #fff;
+    padding: 70px;
+}

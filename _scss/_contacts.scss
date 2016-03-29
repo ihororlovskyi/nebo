@@ -1,3 +1,13 @@
 .contacts {
-    background: #f5a39a;
+    background: #1446a3;
+    @include clearfix;
+    text-align: left;
+    color: #fff;
+    padding: 70px;
+
+    &__title {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
 }

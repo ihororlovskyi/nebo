@@ -1,0 +1,149 @@
+[
+    {
+        "id": "philip-morris",
+        "title": {
+            "ru": "Philip Morris",
+            "en": "Philip Morris",
+        },
+    },
+    {
+        "id": "olymp",
+        "title": {
+            "ru": "Олимп",
+            "en": "Olymp",
+        },
+    },
+    {
+        "id": "maristela",
+        "title": {
+            "ru": "Maristela",
+            "en": "Maristela",
+        },
+    },
+    {
+        "id": "top",
+        "title": {
+            "ru": "TOP",
+            "en": "TOP",
+        },
+    },
+    {
+        "id": "zefir",
+        "title": {
+            "ru": "Zeфир",
+            "en": "Zefir",
+        },
+    },
+    {
+        "id": "unicef",
+        "title": {
+            "ru": "Unicef",
+            "en": "Unicef",
+        },
+    },
+    {
+        "id": "wog",
+        "title": {
+            "ru": "WOG",
+            "en": "WOG",
+        },
+    },
+    {
+        "id": "seb-bank",
+        "title": {
+            "ru": "SEB Банк",
+            "en": "SEB Банк",
+        },
+    },
+    {
+        "id": "niko",
+        "title": {
+            "ru": "Niko",
+            "en": "Niko",
+        },
+    },
+    {
+        "id": "nemiroff",
+        "title": {
+            "ru": "Nemiroff",
+            "en": "Nemiroff",
+        },
+    },
+    {
+        "id": "maxim",
+        "title": {
+            "ru": "Maxim",
+            "en": "Maxim",
+        },
+    },
+    {
+        "id": "velyka-kyshenia",
+        "title": {
+            "ru": "Велика кишеня",
+            "en": "Velyka Kyshenia",
+        },
+    },
+    {
+        "id": "marie-claire",
+        "title": {
+            "ru": "Marie Claire",
+            "en": "Marie Claire",
+        },
+    },
+    {
+        "id": "chervonenko-racing",
+        "title": {
+            "ru": "Chervonenko Racing",
+            "en": "Chervonenko Racing",
+        },
+    },
+    {
+        "id": "burn",
+        "title": {
+            "ru": "Burn",
+            "en": "Burn",
+        },
+    },
+    {
+        "id": "altis",
+        "title": {
+            "ru": "Альтис",
+            "en": "Altis",
+        },
+    },
+    {
+        "id": "mts",
+        "title": {
+            "ru": "МТС",
+            "en": "MTS",
+        },
+    },
+    {
+        "id": "prime",
+        "title": {
+            "ru": "prime",
+            "en": "prime",
+        },
+    },
+    {
+        "id": "seppala",
+        "title": {
+            "ru": "seppala",
+            "en": "seppala",
+        },
+    },
+    {
+        "id": "life",
+        "title": {
+            "ru": "life:) GSM",
+            "en": "life:) GSM",
+        },
+    },
+    {
+        "id": "peking-duck",
+        "title": {
+            "ru": "Peking Duck",
+            "en": "Peking Duck",
+        },
+    },
+]

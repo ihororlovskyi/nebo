@@ -1,0 +1,19 @@
+<div class="clients">
+    <div class="clients__title">{{ site.data.t.clients[page.lang] }}</div>
+
+    <div class="clients__slick js-clients-slick">
+        {% assign clients = site.data.clients %}
+        {% for i in clients %}
+            <div>
+                <div class="clients__item-img-wrap">
+                    {% for cover in site.static_files %}
+                        {% if cover.path contains i.id and cover.path contains '.png' %}
+                            <img class="clients__item-img" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title[page.lang] }} Logo">
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="clients__item-title">{{ i.title[page.lang] }}</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

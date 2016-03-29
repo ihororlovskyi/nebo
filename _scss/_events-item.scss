@@ -9,6 +9,8 @@
         right: 0;
         width: 70px;
         height: 70px;
+        padding: 10px;
+        box-sizing: border-box;
 
         svg {
             fill: $bodyColor;

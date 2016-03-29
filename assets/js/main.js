@@ -10,7 +10,7 @@ $(function() {
         }
     });
     $('.totop').click(function() {
-        $('body,html').animate({scrollTop:0},1100,'easeInOutExpo');
+        $('body,html').animate({scrollTop:0},800,'easeInOutExpo');
     });
 });
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
     $('.js-page-nav').onePageNav({
         currentClass: 'mainmenu__li--selected',
         changeHash: true,
-        scrollSpeed: 1100,
+        scrollSpeed: 800,
         scrollThreshold: 0.011,
         easing: 'easeInOutExpo',
     });
@@ -31,7 +31,7 @@ $(document).ready(function() {
     * slick
     * https://github.com/kenwheeler/slick
     */
-    $('#fullpage').fullpage();
+    // $('#fullpage').fullpage();
 
     /**
     * slick
@@ -60,6 +60,31 @@ $(document).ready(function() {
                 }
             }
         ]
+    });
+    $('.js-clients-slick').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 300,
+        // fade: true,
+        cssEase: 'ease',
+        // centerMode: true,
+        // centerPadding: '20%',
+        slidesToShow: 8,
+        slidesToScroll: 3,
+        lazyLoad: 'ondemand',
+        // swipeToSlide: true,
+        // mobileFirst: true,
+        // responsive: [
+        //     {
+        //         breakpoint: 768,
+        //         settings: {
+        //             arrows: true,
+        //             swipeToSlide: false,
+        //             // fade: true,
+        //         }
+        //     }
+        // ]
     });
 
     /**

@@ -1211,8 +1211,8 @@ body {
 }
 
 main {
-  background: #1446a3;
-  padding: 0 30px 30px;
+  background: #fff;
+  padding: 70px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -1228,8 +1228,14 @@ a {
   z-index: 900;
   top: 0;
   left: 70px;
-  line-height: 70px;
-  color: #b3b3b3;
+}
+
+.logo__img {
+  width: auto;
+  height: 75px;
+  display: block;
+  -webkit-transform: translate3d(0, -18px, 0);
+          transform: translate3d(0, -18px, 0);
 }
 
 .mainmenu {
@@ -1247,20 +1253,28 @@ a {
 
 .mainmenu__li {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .mainmenu__a {
-  padding: 0 23px;
-  line-height: 70px;
+  padding: 23px 15px 26px;
+  text-transform: uppercase;
+  line-height: 20px;
   color: #b3b3b3;
   display: block;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
+  border-top: 4px solid transparent;
+  -webkit-transition: border-color .2s ease, color .2s ease;
+  transition: border-color .2s ease, color .2s ease;
 }
 
 .mainmenu__li--selected .mainmenu__a, .mainmenu__a:hover {
   color: #1446a3;
+}
+
+.mainmenu__li--selected .mainmenu__a {
+  border-color: #1446a3;
 }
 
 .mainmenu__section {
@@ -1273,11 +1287,28 @@ a {
   z-index: 800;
   top: 0;
   right: 70px;
+  font-size: 0;
+  margin-right: -15px;
 }
 
-.langmenu a {
-  line-height: 70px;
+.langmenu__link {
+  font-size: 16px;
+  padding: 25px 15px 26px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-top: 4px solid transparent;
   color: #b3b3b3;
+  -webkit-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.langmenu__link:hover {
+  color: #1446a3;
+}
+
+.langmenu__link--ru:lang(ru), .langmenu__link--en:lang(en) {
+  color: #1446a3;
 }
 
 .totop {
@@ -1320,6 +1351,88 @@ a {
 
 .totop:hover svg path {
   fill: #1446a3;
+}
+
+.hero {
+  background: #1446a3;
+  text-align: left;
+  color: #fff;
+  padding: 70px;
+}
+
+.hero::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.awards {
+  background: #f5a39a;
+  text-align: left;
+  color: #fff;
+  padding: 70px;
+}
+
+.awards::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.awards__title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.clients {
+  background: #fff;
+  padding: 48px 70px;
+  margin: 0 -70px;
+}
+
+.clients::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.clients__title {
+  color: #5c5c5c;
+  font-size: 28px;
+  margin-bottom: 90px;
+}
+
+.clients__item-img-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.clients__item-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100px;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+}
+
+.clients__item-title {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.projects {
+  background: #1446a3;
+}
+
+.projects::after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
 .events-filter {
@@ -1381,13 +1494,12 @@ a {
   height: auto;
   -webkit-transform: translate3d(0, -50%, 0) scale(0.9);
           transform: translate3d(0, -50%, 0) scale(0.9);
-  -webkit-transition: -webkit-transform .2s ease;
-  transition: -webkit-transform .2s ease;
-  transition: transform .2s ease;
-  transition: transform .2s ease, -webkit-transform .2s ease;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
 }
 
-.events-filter .events-filter__link:hover svg,
 .events-filter .events-filter__link.events-filter__link--selected svg {
   -webkit-transform: translate3d(0, -50%, 0) scale(1.2);
           transform: translate3d(0, -50%, 0) scale(1.2);
@@ -1499,6 +1611,9 @@ a {
   right: 0;
   width: 70px;
   height: 70px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .events-item__close svg {
@@ -1560,14 +1675,45 @@ a {
 
 .events-related__caption {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 .agency {
   background: #f5a39a;
+  text-align: left;
+  color: #fff;
+  padding: 70px;
+}
+
+.agency::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.agency__title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
 .contacts {
-  background: #f5a39a;
+  background: #1446a3;
+  text-align: left;
+  color: #fff;
+  padding: 70px;
+}
+
+.contacts::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.contacts__title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
 .footer {

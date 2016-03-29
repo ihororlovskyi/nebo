@@ -31,12 +31,6 @@ layout: default
         </nav>
     </div>
 
-    {% for cover in site.static_files %}
-        {% if cover.path contains page.id and cover.path contains '00' %}
-            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
-        {% endif %}
-    {% endfor %}
-
     <div class="events-item__title">{{ page.title }}</div>
 
     <div class="slick-container js-slick-container">
@@ -50,6 +44,12 @@ layout: default
             {% endif %}
         {% endfor %}
     </div>
+
+    {% for cover in site.static_files %}
+        {% if cover.path contains page.id and cover.path contains '00' %}
+            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+        {% endif %}
+    {% endfor %}
 
     <div class="events-item__about">{{ site.data.t.aboutEvent[page.lang] }}</div>
 

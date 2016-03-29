@@ -1,0 +1,37 @@
+.clients {
+    background: #fff;
+    padding: 48px 70px;
+    margin: 0 -70px;
+    @include clearfix;
+
+    &__title {
+        color: #5c5c5c;
+        font-size: 28px;
+        margin-bottom: 90px;
+    }
+
+    &__slick {
+
+    }
+
+    &__item-img-wrap {
+        position: relative;
+        // margin-bottom: 12px;
+        @include ratio(100%,1,1)
+    }
+
+    &__item-img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 100px;
+        height: auto;
+        width: 100%;
+        transform: translate3d(-50%,-50%,0);
+    }
+
+    &__item-title {
+        font-size: 14px;
+        color: #9b9b9b;
+    }
+}
