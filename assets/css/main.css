@@ -1324,8 +1324,8 @@ a {
   border: 3px solid transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-transition: border .2s ease-in-out, background .2s ease-in-out;
-  transition: border .2s ease-in-out, background .2s ease-in-out;
+  -webkit-transition: border .2s ease-in-out, background .2s ease-in-out;
+  transition: border .2s ease-in-out, background .2s ease-in-out;
 }
 
 .totop svg {
@@ -1413,9 +1413,8 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 100px;
   height: auto;
-  width: 100%;
+  width: 80%;
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
 }

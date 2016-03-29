@@ -7,7 +7,7 @@
         {% for i in events %}
         <a class="events-list__item" href="{{ site.baseurl }}/#{{ i.id }}">
             {% for cover in site.static_files %}
-                {% if cover.path contains i.id and cover.path contains '00' %}
+                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
                     <img class="events-list__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                 {% endif %}
             {% endfor %}
@@ -22,7 +22,7 @@
         {% for i in events %}
         <a href="{{ site.baseurl }}{{ i.url }}" class="events-list__item isotope-item {{ i.tag }}">
             {% for cover in site.static_files %}
-                {% if cover.path contains i.id and cover.path contains '00' %}
+                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
                     <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                 {% endif %}
             {% endfor %}

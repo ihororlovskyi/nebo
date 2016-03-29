@@ -36,7 +36,7 @@ layout: default
     <div class="slick-container js-slick-container">
         {% for image in site.static_files %}
             {% if image.path contains page.id  %}
-                {% unless image.path contains '00' %}
+                {% unless image.path contains 'cover.jpg' %}
                     <div>
                         <img data-lazy="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }} Cover">
                     </div>
@@ -46,7 +46,7 @@ layout: default
     </div>
 
     {% for cover in site.static_files %}
-        {% if cover.path contains page.id and cover.path contains '00' %}
+        {% if cover.path contains page.id and cover.path contains 'cover.jpg' %}
             <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
         {% endif %}
     {% endfor %}
