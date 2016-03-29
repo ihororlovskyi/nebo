@@ -12,6 +12,6 @@ title: 'XS Power Drink'
 og-image: ''
 ---
 
-Запуск в Украине нового энергетического напитка XS power drink компании Amway
+Запуск в Украине нового энергетического напитка XS power drink компании Amway.
 
-Выступление легендарного ди джея Joachim Garraud
+Выступление легендарного ди джея Joachim Garraud.
