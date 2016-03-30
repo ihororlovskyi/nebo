@@ -7,9 +7,14 @@ category: events
 tag: btl # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
-title: 'BTL LG G3'
+title: 'TOYO Tires 24h Dubai'
 
 og-image: ''
 ---
 
-Промоакции в ресторанах Киева и Одессы в поддержку телефона LG G3
+Заказчик: Chervonenko Racing, Prime.
+
+Партнеры: Prime, Wog, Coca-Cola.
+
+Пресс-тур для  ведущих украинских сми на знаменитую кольцевую гонку TOYO TIRES 24h, в Дубаи, ОАЭ
+Промо-тур для  победителей новогодней акции ТМ PRIME.

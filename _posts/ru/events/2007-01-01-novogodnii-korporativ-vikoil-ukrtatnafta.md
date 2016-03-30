@@ -7,9 +7,7 @@ category: events
 tag: btl # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
-title: 'BTL LG G3'
+title: 'Новогодний корпоратив компании ВикОил (Укртатнафта)'
 
 og-image: ''
 ---
-
-Промоакции в ресторанах Киева и Одессы в поддержку телефона LG G3

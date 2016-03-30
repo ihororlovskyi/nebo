@@ -7,9 +7,7 @@ category: events
 tag: btl # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
-title: 'BTL LG G3'
+title: 'Prime Yalta Rally 2008'
 
 og-image: ''
 ---
-
-Промоакции в ресторанах Киева и Одессы в поддержку телефона LG G3

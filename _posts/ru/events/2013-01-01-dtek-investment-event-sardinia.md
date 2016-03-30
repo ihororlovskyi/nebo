@@ -7,7 +7,7 @@ category: events
 tag: mice # mass, brand, corp, btl, mice
 location: Киев
 
-title: 'DTEK investment event @ Sardinia'
+title: 'DTEK Investment Event @ Sardinia'
 
 og-image: ''
 ---
