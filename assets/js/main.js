@@ -37,7 +37,7 @@ $(document).ready(function() {
     * slick
     * https://github.com/kenwheeler/slick
     */
-    $('.js-slick-container').slick({
+    $('.js-events-item-slick').slick({
         dots: false,
         arrows: false,
         infinite: true,
@@ -70,18 +70,45 @@ $(document).ready(function() {
         cssEase: 'ease',
         // centerMode: true,
         // centerPadding: '20%',
-        slidesToShow: 8,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         lazyLoad: 'ondemand',
+        autoplay: true,
+        autoplaySpeed: 4000,
+        // swipeToSlide: true,
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 8,
+                    slidesToScroll: 2,
+                }
+            }
+        ]
+    });
+    $('.js-agency-slick').slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 300,
+        // fade: true,
+        cssEase: 'ease',
+        centerMode: true,
+        centerPadding: '20%',
+        slidesToShow: 1,
+        // slidesToScroll: 1,
+        lazyLoad: 'ondemand',
+        // autoplay: true,
+        // autoplaySpeed: 4000,
         // swipeToSlide: true,
         // mobileFirst: true,
         // responsive: [
         //     {
         //         breakpoint: 768,
         //         settings: {
-        //             arrows: true,
-        //             swipeToSlide: false,
-        //             // fade: true,
+        //             slidesToShow: 8,
+        //             slidesToScroll: 2,
         //         }
         //     }
         // ]

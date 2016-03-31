@@ -33,12 +33,14 @@ layout: default
 
     <div class="events-item__title">{{ page.title }}</div>
 
-    <div class="slick-container js-slick-container">
+    <div class="events-item__slick js-events-item-slick">
         {% for image in site.static_files %}
             {% if image.path contains page.id  %}
                 {% unless image.path contains 'cover.jpg' %}
                     <div>
-                        <img data-lazy="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }} Cover">
+                        <div class="events-item__media">
+                            <img class="events-item__img" data-lazy="{{ site.baseurl }}{{image.path}}" alt="{{ page.title }}">
+                    </div>
                     </div>
                 {% endunless %}
             {% endif %}
@@ -47,7 +49,7 @@ layout: default
 
     {% for cover in site.static_files %}
         {% if cover.path contains page.id and cover.path contains 'cover.jpg' %}
-            <img class="lazy events-item__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+            <img class="lazy events-item__cover" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
         {% endif %}
     {% endfor %}
 

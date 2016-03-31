@@ -13,9 +13,75 @@
 
     &__subtitle {
         font-size: 22px;
+        margin-bottom: 34px;
     }
 
     p {
         font-size: 18px;
+        margin-bottom: 18px;
+    }
+
+    &__slick {
+        margin: 40px -70px;
+
+        .slick-prev,
+        .slick-next {
+            height: 70px;
+            width: 70px;
+            opacity: 1;
+            transition: opacity .2s ease;
+            z-index: 1;
+
+            &:before {
+                color: #fff;
+                font-family: "icomoon";
+                font-size: 70px;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .slick-prev {
+            left: 8%;
+
+            &:before {
+                content: '\e902';
+            }
+        }
+
+        .slick-next {
+            right: 8%;
+
+            &:before {
+                content: '\e903';
+            }
+        }
+    }
+
+    &__media {
+        @include ratio(100%,4,3);
+        text-align: center;
+    }
+
+    &__img {
+        position: absolute;
+        top: 50%;
+        // top: 0;
+        left: 50%;
+        // width: 100%;
+        // height: auto;
+        width: auto;
+        height: 70%;
+        margin: 0 auto;
+        display: block;
+        transition: height .3s ease .3s;
+        transform: translate3d(-50%,-50%,0);
+
+        .slick-current & {
+            // width: 100%;
+            height: 90%;
+        }
     }
 }

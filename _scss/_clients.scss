@@ -12,6 +12,39 @@
 
     &__slick {
 
+        .slick-prev,
+        .slick-next {
+            height: 40px;
+            width: 40px;
+            color: #9b9b9b;
+            opacity: .2;
+            transition: opacity .2s ease;
+
+            &:before {
+                font-family: "icomoon";
+                font-size: 40px;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        .slick-prev {
+            left: -55px;
+
+            &:before {
+                content: '\e900';
+            }
+        }
+
+        .slick-next {
+            right: -55px;
+
+            &:before {
+                content: '\e901';
+            }
+        }
     }
 
     &__item-img-wrap {
