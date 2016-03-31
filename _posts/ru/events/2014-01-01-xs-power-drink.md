@@ -10,6 +10,7 @@ location: МВЦ, Киев
 title: 'XS Power Drink'
 
 og-image: ''
+size-large: true
 ---
 
 Запуск в Украине нового энергетического напитка XS power drink компании Amway.

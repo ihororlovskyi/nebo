@@ -1,16 +1,22 @@
 .events-list {
     text-align: center;
+    // background: #fff;
+    transition: height .4s ease;
     @include clearfix;
+
+    &__sizer {
+        width: 25%;
+    }
 
     &__item {
         float: left;
-        position: relative;
+        // position: relative;
         overflow: hidden;
-        @include ratio(25%,3,2);
+        @include ratio(25%,2,1.1);
 
-        // &:first-child {
-        //     @include ratio(50%,6,2);
-        // }
+        &--lg {
+            @include ratio(50%,2,1.1);
+        }
     }
 
     &__img {
@@ -19,13 +25,15 @@
         left: 50%;
         width: auto;
         height: 100%;
-        filter: blur(0) grayscale(0%);
+        // width: 100%;
+        // height: auto;
+        filter: blur(0) grayscale(45%);
         transform: translate3d(-50%,-50%,0) scale(1.2);
         transition: transform .4s ease, filter .4s ease;
 
         .events-list__item:hover & {
-            filter: blur(4px) grayscale(75%);
-            transform: translate3d(-50%,-50%,0) scale(1);
+            filter: blur(0px) grayscale(0%);
+            transform: translate3d(-50%,-50%,0) scale(1.3);
         }
     }
 
@@ -33,7 +41,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 40%;
+        width: 30%;
         transform: translate3d(-50%,-50%,0) scale(0);
         transition: transform .4s ease;
     }

@@ -118,23 +118,27 @@ $(document).ready(function() {
     * Remodal
     * https://github.com/VodkaBears/Remodal
     */
-    $('.js-remodal').remodal({
-        // closeOnEscape: false
-    });
+    // $('.js-remodal').remodal({
+    //     closeOnEscape: false
+    // });
 
     /**
     * isotope with imagesloaded
     * https://github.com/metafizzy/isotope
     * https://github.com/desandro/imagesloaded
     */
-    var $container = $('.isotope-container');
+    var $container = $('.js-events-list');
     var $win = $(window);
     $container.imagesLoaded( function() {
         $container.isotope({
-            // itemSelector: '.isotope-item',
+            itemSelector: '.events-list__item',
             // layoutMode: 'fitRows',
+            // masonry: {
+            //     columnWidth: 4
+            // }
+            percentPosition: true,
             masonry: {
-                columnWidth: 0
+                columnWidth: '.events-list__sizer'
             }
         });
         $container.on('layoutComplete', function(){
