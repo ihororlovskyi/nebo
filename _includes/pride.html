@@ -1,0 +1,9 @@
+<div class="pride">
+    {% assign pride = site.data.pride %}
+    {% for i in pride %}
+        <div class="pride__item">
+            <div class="pride__number">{{ i.number }}</div>
+            <div class="pride__title">{{ i.title[page.lang] }}</div>
+        </div>
+    {% endfor %}
+</div>

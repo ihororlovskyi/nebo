@@ -1,5 +1,40 @@
 <div class="hero">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni vitae necessitatibus, aliquid, facilis amet cum odit quasi doloremque obcaecati excepturi labore quia vero, aliquam cumque quidem? Nulla fugit doloribus magni possimus error, dignissimos expedita ipsam excepturi quam eum! Quibusdam commodi facere deserunt eius doloremque numquam nihil dolor, assumenda cum tempore quisquam atque eligendi hic neque nostrum maiores esse officiis aut cumque nulla voluptate, enim, laudantium iste! Sed rem, impedit, magni voluptas quos unde, omnis adipisci sit atque expedita laboriosam, officiis? Cumque consectetur dolor minus animi pariatur reprehenderit esse quas sunt tenetur, explicabo modi quod odit nesciunt, officia, eaque iste eos perspiciatis autem beatae tempora molestias impedit, neque dolorem. Cumque nulla omnis ea fuga! Dolorem ipsam alias neque tempore minima, odit fugiat excepturi aspernatur corrupti, nesciunt possimus eius blanditiis qui quidem voluptates sit velit consequuntur suscipit maiores animi accusantium hic! Ipsa repellat officiis possimus libero hic vitae assumenda ut in dolorum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni vitae necessitatibus, aliquid, facilis amet cum odit quasi doloremque obcaecati excepturi labore quia vero, aliquam cumque quidem? Nulla fugit doloribus magni possimus error, dignissimos expedita ipsam excepturi quam eum! Quibusdam commodi facere deserunt eius doloremque numquam nihil dolor, assumenda cum tempore quisquam atque eligendi hic neque nostrum maiores esse officiis aut cumque nulla voluptate, enim, laudantium iste! Sed rem, impedit, magni voluptas quos unde, omnis adipisci sit atque expedita laboriosam, officiis? Cumque consectetur dolor minus animi pariatur reprehenderit esse quas sunt tenetur, explicabo modi quod odit nesciunt, officia, eaque iste eos perspiciatis autem beatae tempora molestias impedit, neque dolorem. Cumque nulla omnis ea fuga! Dolorem ipsam alias neque tempore minima, odit fugiat excepturi aspernatur corrupti, nesciunt possimus eius blanditiis qui quidem voluptates sit velit consequuntur suscipit maiores animi accusantium hic! Ipsa repellat officiis possimus libero hic vitae assumenda ut in dolorum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni vitae necessitatibus, aliquid, facilis amet cum odit quasi doloremque obcaecati excepturi labore quia vero, aliquam cumque quidem? Nulla fugit doloribus magni possimus error, dignissimos expedita ipsam excepturi quam eum! Quibusdam commodi facere deserunt eius doloremque numquam nihil dolor, assumenda cum tempore quisquam atque eligendi hic neque nostrum maiores esse officiis aut cumque nulla voluptate, enim, laudantium iste! Sed rem, impedit, magni voluptas quos unde, omnis adipisci sit atque expedita laboriosam, officiis? Cumque consectetur dolor minus animi pariatur reprehenderit esse quas sunt tenetur, explicabo modi quod odit nesciunt, officia, eaque iste eos perspiciatis autem beatae tempora molestias impedit, neque dolorem. Cumque nulla omnis ea fuga! Dolorem ipsam alias neque tempore minima, odit fugiat excepturi aspernatur corrupti, nesciunt possimus eius blanditiis qui quidem voluptates sit velit consequuntur suscipit maiores animi accusantium hic! Ipsa repellat officiis possimus libero hic vitae assumenda ut in dolorum.</p>
+
+    <div class="hero__slick js-hero-slick">
+        {% assign events = site.categories.events | where: "lang", page.lang %}
+        {% for i in events %}
+            {% if i.description %}
+                <div>
+                    <a href="{{ site.baseurl }}{{ i.url }}" class="hero__item">
+
+                        <div class="hero__media">
+
+                            {% for cover in site.static_files %}
+                                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
+                                        <!-- <svg class="hero__svg">
+                                            <image class="hero__img" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}{{cover.path}}" width='200' height='200' clip-path="url(#clipping)"></image>
+                                        </svg> -->
+                                        <img class="hero__svg" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                                {% endif %}
+                            {% endfor %}
+
+                            <div class="hero__text">
+                                <div class="hero__title">{{ i.title }}</div>
+                                <div class="hero__description">{{ i.description }}</div>
+                            </div>
+
+                        </div>
+                    </a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <svg class="hero__clipping">
+        <clipPath id="clipping">
+            <polygon points="175,119 186.9,97.7 175,77.1 175,52.2 153.5,39.9 142,20 118.8,20 97.3,7.7 76.2,20 52.4,20 40.5,40.9 20,52.9 20,77 8.1,98 20,118.6 20,142.8 40.7,154.6 53.1,176 78.2,176 98.1,187.3 117.3,176 142.9,176 155.6,153.5 174.9,142.1"></polygon>
+        </clipPath>
+    </svg>
+
+    {% include pride.html %}
 </div>

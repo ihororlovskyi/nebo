@@ -8,6 +8,7 @@ tag: mass # mass, brand, corp, btl, mice
 location: Планетарий, Киев
 
 title: 'LG 3D TV Fulldome Show'
+description: 'Проект осуществлен агентством Небо по заказу компании LG'
 
 og-image: ''
 ---

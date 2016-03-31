@@ -113,6 +113,32 @@ $(document).ready(function() {
         //     }
         // ]
     });
+    $('.js-hero-slick').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 400,
+        fade: true,
+        cssEase: 'ease',
+        // centerMode: true,
+        // centerPadding: '20%',
+        slidesToShow: 1,
+        // slidesToScroll: 1,
+        lazyLoad: 'ondemand',
+        // autoplay: true,
+        // autoplaySpeed: 4000,
+        // swipeToSlide: true,
+        // mobileFirst: true,
+        // responsive: [
+        //     {
+        //         breakpoint: 768,
+        //         settings: {
+        //             slidesToShow: 8,
+        //             slidesToScroll: 2,
+        //         }
+        //     }
+        // ]
+    });
 
     /**
     * Remodal
@@ -172,3 +198,33 @@ $(function() {
       // placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
     });
 });
+
+
+/**
+* isotope with imagesloaded
+* https://github.com/metafizzy/isotope
+* https://github.com/desandro/imagesloaded
+*/
+// $(function(){
+
+//     var $container = $('#container');
+
+//     $container.isotope({
+//         itemSelector : '.element'
+//     });
+
+//     $container.infinitescroll({
+//         navSelector  : '#page_nav',    // selector for the paged navigation 
+//         nextSelector : '#page_nav a',  // selector for the NEXT link (to page 2)
+//         itemSelector : '.element',     // selector for all items you'll retrieve
+//         loading: {
+//             finishedMsg: 'No more pages to load.',
+//             img: 'http://i.imgur.com/qkKy8.gif'
+//         }
+//     },
+
+//     function( newElements ) {
+//         $container.isotope( 'appended', $( newElements ) ); 
+//         }
+//     );
+// });

@@ -8,6 +8,7 @@ tag: mice # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
 title: 'XS Power Drink'
+description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'
 
 og-image: ''
 size-large: true

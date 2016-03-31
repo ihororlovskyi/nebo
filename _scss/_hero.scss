@@ -3,5 +3,128 @@
     @include clearfix;
     text-align: left;
     color: #fff;
-    padding: 70px;
+    padding: 0;
+
+    &__clipping {
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+
+    &__slick {
+        // margin-bottom: -80px;
+
+        .slick-prev,
+        .slick-next {
+            height: 70px;
+            width: 70px;
+            opacity: 1;
+            transition: opacity .2s ease;
+            z-index: 1;
+
+            &:before {
+                color: #fff;
+                font-family: "icomoon";
+                font-size: 70px;
+            }
+
+            &:hover {
+                opacity: .5;
+            }
+        }
+
+        .slick-prev {
+            left: 0;
+
+            &:before {
+                content: '\e902';
+            }
+        }
+
+        .slick-next {
+            right: 0;
+
+            &:before {
+                content: '\e903';
+            }
+        }
+
+        .slick-dots {
+            bottom: 60px;
+
+            li {
+                margin: 0 8px;
+
+                button:before {
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &__item {
+        
+    }
+
+    &__media {
+        @include ratio (100%,2.5,1);
+        // float: right;
+    }
+
+    &__svg {
+        position: absolute;
+        top: 0;
+        display: block;
+        width: 70%;
+        // height: auto;
+        // width: auto;
+        height: 100%;
+        // width: 195px;
+        // height: 196px;
+        // transform: translate3d(0,-50%,0);
+
+        .slick-slide:nth-child(odd) & {
+            right: 0;
+        }
+        .slick-slide:nth-child(even) & {
+            left: 0;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 505px;
+        height: 505px;
+    }
+
+    &__text {
+        position: absolute;
+        width: 60%;
+        box-sizing: border-box;
+        top: 50%;
+        transform: translate3d(0,-50%,0);
+        color: #fff;
+
+        .slick-slide:nth-child(odd) & {
+            text-align: left;
+            left: 70px;
+        }
+        .slick-slide:nth-child(even) & {
+            text-align: right;
+            right: 70px;
+        }
+    }
+
+    &__title {
+        font-size: 60px;
+        line-height: 1;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        // width: 60%;
+        font-size: 20px;
+    }
 }
