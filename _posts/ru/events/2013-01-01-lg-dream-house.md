@@ -4,7 +4,7 @@ permalink: :title/
 lang: ru
 name: lg-dream-house
 category: events
-tag: corp # mass, brand, corp, btl, mice
+tag: brand # mass, brand, corp, btl, mice
 location: Киев
 
 title: 'Дом Мечты LG'

@@ -4,10 +4,10 @@ permalink: :title/
 lang: ru
 name: atmasfera-360
 category: events
-tag: mass # mass, brand, corp, btl, mice
+tag: btl # mass, brand, corp, btl, mice
 location: Планетарий, Киев
 
-title: 'Art  Atelier Chesterfield'
+title: 'Art Atelier Chesterfield'
 
 og-image: ''
 ---

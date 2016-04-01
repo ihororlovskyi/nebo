@@ -4,7 +4,7 @@ permalink: :title/
 lang: ru
 name: xs-power-drink
 category: events
-tag: mice # mass, brand, corp, btl, mice
+tag: brand # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
 title: 'XS Power Drink'

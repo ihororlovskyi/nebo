@@ -4,10 +4,10 @@ permalink: :title/
 lang: ru
 name: btl-lg-g3
 category: events
-tag: btl # mass, brand, corp, btl, mice
+tag: brand # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
-title: 'Marlboro Gold Edge.  Expect the Unexpected'
+title: 'Marlboro Gold Edge. Expect the Unexpected'
 
 og-image: ''
 ---
