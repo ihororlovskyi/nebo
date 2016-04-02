@@ -7,7 +7,7 @@ category: events
 tag: corp # mass, brand, corp, btl, mice
 location: МВЦ, Киев
 
-title: 'BTL LG G3'
+title: 'Альтис Холдинг Новый год'
 
 og-image: ''
 ---
