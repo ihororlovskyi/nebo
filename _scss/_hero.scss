@@ -78,6 +78,7 @@
         display: block;
         width: 70%;
         height: 100%;
+        z-index: 10;
 
         .slick-slide:nth-child(odd) & {
             right: 0;
@@ -103,9 +104,9 @@
     }
 
     &__img {
-        display: block;
-        width: 505px;
-        height: 505px;
+        // display: block;
+        // width: 505px;
+        // height: 505px;
     }
 
     &__text {
