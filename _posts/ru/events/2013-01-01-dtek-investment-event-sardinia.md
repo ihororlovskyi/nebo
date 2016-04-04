@@ -5,7 +5,8 @@ lang: ru
 name: dtek-investment-event-sardinia
 category: events
 tag: mice # mass, brand, corp, btl, mice
-location: Киев
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'DTEK Investment Event @ Sardinia'
 

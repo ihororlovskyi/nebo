@@ -7,10 +7,14 @@
     &__title {
         color: #5c5c5c;
         font-size: 28px;
-        margin-bottom: 90px;
+        margin-bottom: 70px;
     }
 
     &__slick {
+
+        .slick-slide {
+            width: 120px;
+        }
 
         .slick-prev,
         .slick-next {

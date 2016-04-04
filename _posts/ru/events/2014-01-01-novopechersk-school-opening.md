@@ -5,7 +5,8 @@ lang: ru
 name: novopechersk-school-opening
 category: events
 tag: brand # mass, brand, corp, btl, mice
-location: МВЦ, Киев
+award: liderotrasli # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Приз за лучший ивент 2014 года'
 
 title: 'Открытие Новопечерской школы'
 

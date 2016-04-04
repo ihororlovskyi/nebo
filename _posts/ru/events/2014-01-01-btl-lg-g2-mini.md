@@ -5,7 +5,8 @@ lang: ru
 name: btl-lg-g2-mini
 category: events
 tag: btl # mass, brand, corp, btl, mice
-location: МВЦ, Киев
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'BTL LG G2 mini'
 

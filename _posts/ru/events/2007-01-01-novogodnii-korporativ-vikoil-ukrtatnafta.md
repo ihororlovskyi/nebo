@@ -5,7 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: corp # mass, brand, corp, btl, mice
-location: МВЦ, Киев
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'Новогодний корпоратив компании ВикОил (Укртатнафта)'
 

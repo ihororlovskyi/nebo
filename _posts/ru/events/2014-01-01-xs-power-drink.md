@@ -5,7 +5,8 @@ lang: ru
 name: xs-power-drink
 category: events
 tag: brand # mass, brand, corp, btl, mice
-location: МВЦ, Киев
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Приз за лучший ивент 2014 года'
 
 title: 'XS Power Drink'
 description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'

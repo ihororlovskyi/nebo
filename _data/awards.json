@@ -1,0 +1,26 @@
+[
+    {
+        "id": "eventarizacia",
+        "number": "26 наград",
+        "title": {
+            "ru": "Eventаризация",
+            "en": "Eventаризация",
+        },
+    },
+    {
+        "id": "ukrainianeventawards",
+        "number": "14 наград",
+        "title": {
+            "ru": "Ukrainian Event Awards",
+            "en": "Ukrainian Event Awards",
+        },
+    },
+    {
+        "id": "liderotrasli",
+        "number": "14 наград",
+        "title": {
+            "ru": "Лидер Отрасли",
+            "en": "Лидер Отрасли",
+        },
+    },
+]

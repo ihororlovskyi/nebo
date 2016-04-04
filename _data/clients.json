@@ -21,6 +21,13 @@
         },
     },
     {
+        "id": "udp",
+        "title": {
+            "ru": "UDP",
+            "en": "UDP",
+        },
+    },
+    {
         "id": "top",
         "title": {
             "ru": "TOP",

@@ -5,7 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: mice # mass, brand, corp, btl, mice
-location: Планетарий, Киев
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'MTC Sales Awards 2011'
 

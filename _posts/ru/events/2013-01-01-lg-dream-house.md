@@ -5,7 +5,8 @@ lang: ru
 name: lg-dream-house
 category: events
 tag: brand # mass, brand, corp, btl, mice
-location: Киев
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'Дом Мечты LG'
 
