@@ -11,44 +11,94 @@
         margin-bottom: 40px;
     }
 
-    &__wrap {
+    &__list {
         @include clearfix;
+        margin: 0 -4%px;
     }
 
     &__item {
         float: left;
         width: 33.33333%;
+        padding: 0 4%;
+        box-sizing: border-box;
+
+        &-wrap {
+            position: relative;
+            height: 190px;
+
+            &:after {
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 20px;
+                right: 20px;
+                border-bottom: 1px solid rgba(#fff,.2);
+            }
+        }
 
         &-img {
-            
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate3d(-100%,0,0);
         }
 
         &-title {
-            
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 8px;
+            padding: 0 20px;
+            box-sizing: border-box;
         }
 
         &-number {
-            
+            color: #ad5a51;
+            font-size: 18px;
+            padding: 0 20px;
+            box-sizing: border-box;
         }
 
         &-btn {
-
-            svg {
-                display: inline-block;
-                width: 20px;
-                vertical-align: middle;
-            }
+            @include btn;
+            margin-left: 20px;
         }
     }
 
     &__event {
+        padding: 10px 0;
+        position: relative;
+        margin-bottom: 20px;
+
+            &:after {
+                position: absolute;
+                content: '';
+                bottom: 0;
+                left: 20px;
+                right: 20px;
+                border-bottom: 1px solid rgba(#fff,.2);
+            }
+
+        svg {
+            width: 30px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate3d(-100%,-50%,0);
+            fill: #fff;
+        }
 
         &-title {
-            
+            color: #fff;
+            font-size: 16px;
+            padding: 0 20px;
+            box-sizing: border-box;
         }
 
         &-prize {
-            
+            color: #ad5a51;
+            font-size: 14px;
+            padding: 0 20px;
+            box-sizing: border-box;
         }
     }
 }

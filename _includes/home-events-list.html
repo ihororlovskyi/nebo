@@ -1,4 +1,4 @@
-<section id="projects" class="mainmenu__section">
+<div class="events">
 
     {% include home-events-filter.html %}
 
@@ -20,7 +20,7 @@
     <div class="events-list js-events-list">
         <div class="events-list__sizer"></div>
         {% assign events = site.categories.events | where: "lang", page.lang %}
-        {% for i in events %}
+        {% for i in events limit: 14 %}
         <a href="{{ site.baseurl }}{{ i.url }}" class="events-list__item {% if i.size-large == true %}events-list__item--lg{% endif %} {{ i.tag }}">
             {% for cover in site.static_files %}
                 {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
@@ -70,4 +70,9 @@
         {% endfor %}
     </div>
 
-</section>
+    <a href="javascript:void(0)" class="events__btn">
+        Показать еще
+        {% include svg/expand-more.svg %}
+    </a>
+
+</div>

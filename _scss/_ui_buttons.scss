@@ -1,0 +1,27 @@
+@mixin btn {
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid rgba(#fff,.2);
+    border-radius: 50px;
+    display: inline-block;
+    line-height: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px 30px;
+
+    svg {
+        margin-left: 8px;
+        display: inline-block;
+        width: 20px;
+        vertical-align: middle;
+        fill: #fff;
+    }
+}
+
+@mixin btn--lg {
+    @include btn;
+    font-size: 18px;
+    border-width: 2px;
+    padding: 15px 30px;
+}
+

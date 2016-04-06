@@ -7,7 +7,10 @@
 @import 'vendor/slick/slick-theme';
 @import 'vendor/icomoon';
 
-// UX/UI
+// UI
+@import 'ui_buttons';
+
+// UX
 @import 'base';
 @import 'navs';
 @import 'totop';
@@ -15,7 +18,7 @@
 @import 'pride';
 @import 'awards';
 @import 'clients';
-@import 'projects';
+@import 'events';
 @import 'events-filter';
 @import 'events-list';
 @import 'events-item';
@@ -23,3 +26,4 @@
 @import 'agency';
 @import 'contacts';
 @import 'footer';
+

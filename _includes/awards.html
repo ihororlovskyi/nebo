@@ -1,0 +1,56 @@
+<div class="awards">
+
+    <div class="awards__title">{{ site.data.t.awards[page.lang] }}</div>
+
+    <div class="awards__list">
+        {% assign awards = site.data.awards %}
+        {% for i in awards %}
+            <div class="awards__item">
+
+                <div class="awards__item-wrap">
+                    {% for cover in site.static_files %}
+                        {% if cover.path contains i.id and cover.path contains '.png' %}
+                            <img class="awards__item-img" src="{{ site.baseurl }}{{ cover.path }}">
+                        {% endif %}
+                    {% endfor %}
+                    <div class="awards__item-title">{{ i.title[page.lang] }}</div>
+                    <div class="awards__item-number">{{ i.number }}</div>
+                </div>
+
+                {% assign events = site.categories.events | where: "lang", page.lang %}
+                {% for e in events %}
+                    {% if e.award contains i.id %}
+                        <div class="awards__event">
+
+                            {% if e.tag == 'brand' %}
+                                {% include svg/tag-brand.svg %}
+                            {% endif %}
+                            {% if e.tag == 'btl' %}
+                                {% include svg/tag-btl.svg %}
+                            {% endif %}
+                            {% if e.tag == 'corp' %}
+                                {% include svg/tag-corp.svg %}
+                            {% endif %}
+                            {% if e.tag == 'mass' %}
+                                {% include svg/tag-mass.svg %}
+                            {% endif %}
+                            {% if e.tag == 'mice' %}
+                                {% include svg/tag-mice.svg %}
+                            {% endif %}
+
+                            <div class="awards__event-title">{{ e.title }}</div>
+                            <div class="awards__event-prize">{{ e.prize }}</div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+
+                <a href="javascript:void(0)" class="awards__item-btn">
+                    Все проекты
+                    {% include svg/expand-more.svg %}
+                </a>
+            </div>
+
+        {% endfor %}
+    </div>
+
+</div>
