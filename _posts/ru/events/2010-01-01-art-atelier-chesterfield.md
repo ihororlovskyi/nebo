@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: '3е место Лучшее творческое использование малого бюджета'
 
 title: 'Art Atelier Chesterfield'
 

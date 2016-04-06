@@ -5,8 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучший бренд ивент, лучший дизайн площадки'
 
 title: 'Parliament Moon Café'
 

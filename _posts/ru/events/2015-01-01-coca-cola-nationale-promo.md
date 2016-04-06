@@ -4,7 +4,7 @@ permalink: :title/
 lang: ru
 name: xs-power-drink
 category: events
-tag: brand # mass, brand, corp, btl, mice
+tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 

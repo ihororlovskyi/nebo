@@ -5,10 +5,10 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучший социальный проект (eventarizacia), 3е место лучшее социальное мероприятие (ukrainianeventawards)'
 
-title: 'Премьера фильма Киры Муратовой  «Мелодия для шарманки»'
+title: 'Премьера фильма Киры Муратовой «Мелодия для шарманки»'
 
 og-image: ''
 ---

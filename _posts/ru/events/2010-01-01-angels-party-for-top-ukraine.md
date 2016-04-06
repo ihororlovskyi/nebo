@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучший частный праздник, Лучшее дизайнерское решение'
 
 title: '«Angels Party» для TOP Ukraine'
 

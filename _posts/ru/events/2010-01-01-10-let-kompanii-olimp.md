@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучшее корпоративное мероприятие'
 
 title: '10 лет компании «Олимп»'
 

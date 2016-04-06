@@ -5,8 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: '2е место лучшее спортивное мероприятие'
 
 title: 'Prime Yalta Rally 2009'
 

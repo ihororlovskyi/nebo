@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: '2е место в номинации лучше светское событие, 3е место в номинации лучший культурный проект'
 
 title: 'Жизнь как в Кино!'
 

@@ -5,8 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучший ивент для бренда, Диплом за инновационность, 3е место Лучший бренд ивент на ukrainianeventawards, Лучшее техническое решение'
 
 title: 'Marlboro Gold Edge [Tiesto]'
 

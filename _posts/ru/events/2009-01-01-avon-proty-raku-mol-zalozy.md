@@ -5,8 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучшее массовое мероприятие, 2е место Лучший социальный проект, 2е место лучший массвовый ивент (ukrainianeventawards), 2е место лучшее социальное мероприятие (ukrainianeventawards), лучший выбор локации (ukrainianeventawards)'
 
 title: 'Avon проти раку молочної залози'
 

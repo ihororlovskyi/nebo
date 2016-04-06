@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
-prize: 'Приз за лучший ивент 2014 года'
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'Выставочный стенд METRO Cash&Carry'
 

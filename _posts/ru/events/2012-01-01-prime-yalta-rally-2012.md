@@ -5,8 +5,8 @@ lang: ru
 name: atmasfera-360
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+prize: 'Лучшее спортивное мероприятие'
 
 title: 'Prime Yalta Rally 2012'
 

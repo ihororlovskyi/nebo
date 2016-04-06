@@ -5,8 +5,8 @@ lang: ru
 name: novopechersk-school-opening
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award: liderotrasli # eventarizacia, ukrainianeventawards, liderotrasli
-prize: 'Приз за лучший ивент 2014 года'
+award:  # eventarizacia, ukrainianeventawards, liderotrasli
+prize: ''
 
 title: 'Открытие Новопечерской школы'
 

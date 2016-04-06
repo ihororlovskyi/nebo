@@ -5,8 +5,8 @@ lang: ru
 name: btl-lg-g3
 category: events
 tag: mice # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
-prize: ''
+award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+prize: '3е место в номинации mice проект'
 
 title: 'TOYO Tires 24h Dubai'
 
