@@ -22,16 +22,18 @@
 
         <div class="contacts__description">Для того, чтобы связаться с нами, укажите Ваши контактные данные, а также интересующий Вас вопрос.</div>
 
-        <form class="contacts__form">
+        <form class="contacts__form" action="https://formspree.io/ihororlovskyi@gmail.com" method="POST">
             <div class="contacts__inputs-row">
-                <input class="contacts__name" type="name" placeholder="Ваше Имя">
+                <input class="contacts__name" type="text" name="name" placeholder="Ваше Имя">
             </div>
 
             <div class="contacts__inputs-row">
-                <input class="contacts__email" type="email" placeholder="Email">
+                <input class="contacts__email" type="email" name="_replyto" placeholder="Email">
             </div>
 
-            <textarea class="contacts__textarea" rows="3" placeholder="Текст вопроса"></textarea>
+            <textarea class="contacts__textarea" rows="3" placeholder="Текст вопроса"name="message"></textarea>
+
+            <!-- <input type="hidden" name="_next" value="{{ site.baseurl }}/#thanks"> -->
 
             <input class="contacts__submit" type="submit" value="Отправить">
         </form>
