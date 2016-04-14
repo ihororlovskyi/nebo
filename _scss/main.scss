@@ -8,12 +8,12 @@
 @import 'vendor/icomoon';
 
 // UI
-@import 'ui-buttons';
+@import 'ui/ui-buttons';
+@import 'ui/ui-fields';
 
 // UX
 @import 'base';
 @import 'navs';
-@import 'totop';
 @import 'hero';
 @import 'pride';
 @import 'awards';
@@ -26,4 +26,4 @@
 @import 'agency';
 @import 'contacts';
 @import 'footer';
-
+@import 'totop';

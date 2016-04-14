@@ -1,21 +1,6 @@
 <div class="events">
 
-    {% include home-events-filter.html %}
-
-    <!-- <div class="events-list">
-        {% assign events = site.data.events %}
-        {% for i in events %}
-        <a class="events-list__item" href="{{ site.baseurl }}/#{{ i.id }}">
-            {% for cover in site.static_files %}
-                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
-                    <img class="events-list__img" src="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
-                {% endif %}
-            {% endfor %}
-            <div class="events-list__title">{{ i.title }}</div>
-            <div class="events-list__location">{{ i.location }}</div>
-        </a>
-        {% endfor %}
-    </div> -->
+    {% include events-filter.html %}
 
     <div class="events-list js-events-list">
         <div class="events-list__sizer"></div>
