@@ -1,28 +1,40 @@
 <div class="contacts">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6997537864154!2d30.52308721565764!3d50.44669297947486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce54056b3f9b%3A0x80477d388445ac89!2z0LLRg9C7LiDQl9Cw0L3RjNC60L7QstC10YbRjNC60L7Rlywg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1460142643059" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-    <div class="contacts__title">{{ site.data.t.contacts[page.lang] }}</div>
-
-    <div>
-        Украина, Киев
-        <br>
-        ул. Заньковецкой 4
-        <br>
-        <br>
-        +380 95 126 26 80
-        <br>
-        +380 97 456 82 34
-        <br>
-        info@nebo.ua
+    <div class="contacts__right">
+        <iframe class="contacts__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6997537864154!2d30.52308721565764!3d50.44669297947486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce54056b3f9b%3A0x80477d388445ac89!2z0LLRg9C7LiDQl9Cw0L3RjNC60L7QstC10YbRjNC60L7Rlywg0JrQuNGX0LI!5e0!3m2!1sru!2sua!4v1460142643059" allowfullscreen></iframe>
     </div>
 
-    <div>Для того, чтобы связаться с нами, укажите Ваши контактные данные, а также интересующий Вас вопрос.</div>
+    <div class="contacts__left">
+        <div class="contacts__title">{{ site.data.t.contacts[page.lang] }}</div>
 
-    <input type="name" placeholder="Ваше Имя">
-    <input type="email" placeholder="Email">
-    <textarea name="" id="" cols="30" rows="10" placeholder="Текст вопроса"></textarea>
+        <div class="contacts__info">
+            Украина, Киев
+            <br>
+            ул. Заньковецкой 4
+            <br>
+            <br>
+            +380 95 126 26 80
+            <br>
+            +380 97 456 82 34
+            <br>
+            info@nebo.ua
+        </div>
 
-    <a href="javascript:void(0)">Отправить</a>
+        <div class="contacts__description">Для того, чтобы связаться с нами, укажите Ваши контактные данные, а также интересующий Вас вопрос.</div>
+
+        <form class="contacts__form">
+            <div class="contacts__inputs-row">
+                <input class="contacts__name" type="name" placeholder="Ваше Имя">
+            </div>
+
+            <div class="contacts__inputs-row">
+                <input class="contacts__email" type="email" placeholder="Email">
+            </div>
+
+            <textarea class="contacts__textarea" rows="3" placeholder="Текст вопроса"></textarea>
+
+            <input class="contacts__submit" type="submit" value="Отправить">
+        </form>
+    </div>
 
 </div>
