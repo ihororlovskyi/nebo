@@ -623,84 +623,32 @@ $(function() {
 /**
 * google map
 */
-function init() {
+function initMap() {
+    var myLatLng = {lat: 50.4476666, lng: 30.5234859};
 
     var styles = {
-      'Muted': [
-        {
-          featureType: "road",
-          elementType: "labels",
-          stylers: [
-            { visibility: "off" }
+      'Blue': [
+            {
+              featureType: 'all',
+              stylers: [
+                {hue: '#1446a3'},
+                {invert_lightness: 'true'},
+                {saturation: 100}
+              ]
+            }
           ]
-        },{
-          featureType: "road.highway",
-          elementType: "geometry",
-          stylers: [
-            { saturation: -100 },
-            { lightness: 40 }
-          ]
-        },{
-          featureType: "road.arterial",
-          elementType: "geometry",
-          stylers: [
-            { saturation: -100 },
-            { lightness: 70 },
-            { gamma: 0.4 },
-            { visibility: "simplified" }
-          ]
-        },{
-          featureType: "road.local",
-          elementType: "geometry",
-          stylers: [
-            { saturation: -100 },
-            { lightness: 20 },
-            { gamma: 0.8 },
-            { visibility: "simplified" }
-          ]
-        },{
-          featureType: "administrative",
-          elementType: "labels",
-          stylers: [
-            { lightness: -2 }
-          ]
-        },{
-          featureType: "landscape",
-          elementType: "labels",
-          stylers: [
-            { lightness: -2 }
-          ]
-        },{
-          featureType: "poi",
-          elementType: "all",
-          stylers: [
-            { lightness: -2 }
-          ]
-        },{
-          featureType: "water",
-          elementType: "labels",
-          stylers: [
-            { lightness: -2 }
-          ]
-        },{
-          featureType: "transit",
-          elementType: "all",
-          stylers: [
-            { visibility: "off" }
-          ]
-        }
-      ]
     };
 
     for (var s in styles) {
         var opt = {
             mapTypeControlOptions: {
-                mapTypeIds: [s]
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, s]
             },
             disableDefaultUI: false,
             navigationControl: true,
-            center: new google.maps.LatLng(50.446693, 30.525276),
-            zoom: 17,
+            scrollwheel: false,
+            center: myLatLng,
+            zoom: 18,
             mapTypeId: s
         };
 
@@ -709,4 +657,10 @@ function init() {
         var styledMapType = new google.maps.StyledMapType(styles[s], {name: s});
         map.mapTypes.set(s, styledMapType);
     }
+
+    var marker = new google.maps.Marker({
+        map: map,
+        position: myLatLng,
+        title: 'Hello World!'
+    });
 }

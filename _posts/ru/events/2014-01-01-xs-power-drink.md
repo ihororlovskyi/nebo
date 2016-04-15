@@ -12,7 +12,7 @@ title: 'XS Power Drink'
 description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'
 
 og-image: ''
-size-large: true
+size-large: false
 ---
 
 Запуск в Украине нового энергетического напитка XS power drink компании Amway.

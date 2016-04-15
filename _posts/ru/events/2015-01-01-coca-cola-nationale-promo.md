@@ -8,11 +8,9 @@ tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
-title: 'XS Power Drink'
-description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'
+title: 'Coca Cola Nationale Promo'
 
 og-image: ''
-size-large: true
 ---
 
 Запуск в Украине нового энергетического напитка XS power drink компании Amway.

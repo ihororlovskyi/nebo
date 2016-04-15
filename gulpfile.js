@@ -62,7 +62,7 @@ gulp.task('sass', function () {
 
 
 /* Js */
-gulp.task('jsConcat', function() {
+gulp.task('concat', function() {
     return gulp.src([
             'assets/js/lib/*',
             'assets/js/vendor/*',
@@ -72,7 +72,7 @@ gulp.task('jsConcat', function() {
         .pipe(gulp.dest('assets/js'));
 });
 
-gulp.task('jsMin', ['jsConcat'], function() {
+gulp.task('uglify', ['concat'], function() {
     return gulp.src(['assets/js/all.js'])
         .pipe(concat('all.min.js'))
         .pipe(uglify())
@@ -84,7 +84,7 @@ gulp.task('jsMin', ['jsConcat'], function() {
  * Watch scss files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
-gulp.task('watch', ['jsMin'], function () {
+gulp.task('watch', ['uglify'], function () {
     gulp.watch('_scss/**/*', ['sass']);
     gulp.watch([
             '_layouts/**/*.html',
