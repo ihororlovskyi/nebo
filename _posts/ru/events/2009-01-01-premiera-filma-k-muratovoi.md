@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: btl-lg-g3
+name: 
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

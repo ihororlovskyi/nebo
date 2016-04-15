@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: dtek-investment-event-sardinia
+name: dtek-investment-event-dubai
 category: events
 tag: mice # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

@@ -1,15 +1,14 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: atmasfera-360
+name: lg-3d-fulldome-show
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
 title: 'LG 3D TV Fulldome Show'
-description: 'Проект осуществлен агентством Небо по заказу компании LG'
+# description: 'Проект осуществлен агентством Небо по заказу компании LG'
 
 og-image: ''
 ---

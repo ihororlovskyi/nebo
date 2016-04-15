@@ -357,7 +357,7 @@ $(document).ready(function() {
         currentClass: 'mainmenu__li--selected',
         changeHash: true,
         scrollSpeed: 800,
-        scrollThreshold: 0.011,
+        scrollThreshold: 0.02,
         easing: 'easeInOutExpo',
     });
 
@@ -543,9 +543,10 @@ $(document).ready(function() {
 */
 $(function() {
     $("img.lazy").lazyload({
-      threshold : 0,
-      effect : 'show',
-      placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"
+        threshold : 0,
+        effect : 'show',
+        // placeholder : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC",
+        placeholder : 'none'
     });
 });
 
@@ -624,7 +625,7 @@ $(function() {
 * google map
 */
 function initMap() {
-    var myLatLng = {lat: 50.4476666, lng: 30.5234859};
+    var myLatLng = {lat: 50.44761581, lng: 30.52425742};
 
     var styles = {
       'Blue': [
@@ -642,7 +643,7 @@ function initMap() {
     for (var s in styles) {
         var opt = {
             mapTypeControlOptions: {
-                mapTypeIds: [google.maps.MapTypeId.ROADMAP, s]
+                mapTypeIds: [google.maps.MapTypeId.ROADMAP, google.maps.MapTypeId.SATELLITE, s]
             },
             disableDefaultUI: false,
             navigationControl: true,

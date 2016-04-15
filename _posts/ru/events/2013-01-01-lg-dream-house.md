@@ -1,6 +1,5 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
 name: lg-dream-house
 category: events

@@ -1,6 +1,5 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
 name: btl-lg-g2-mini
 category: events

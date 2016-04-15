@@ -5,10 +5,10 @@
     <div class="events-list js-events-list">
         <div class="events-list__sizer"></div>
         {% assign events = site.categories.events | where: "lang", page.lang %}
-        {% for i in events limit: 16 %}
+        {% for i in events limit: 20 %}
         <a href="{{ site.baseurl }}{{ i.url }}" class="events-list__item {% if i.size-large == true %}events-list__item--lg{% endif %} {{ i.tag }}">
             {% for cover in site.static_files %}
-                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
+                {% if cover.path contains i.name and cover.path contains 'cover.jpg' %}
                     <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                 {% endif %}
             {% endfor %}

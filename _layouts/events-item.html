@@ -35,7 +35,7 @@ layout: default
 
     <div class="events-item__slick js-events-item-slick">
         {% for image in site.static_files %}
-            {% if image.path contains page.id  %}
+            {% if image.path contains page.name  %}
                 {% unless image.path contains 'cover.jpg' %}
                     <div>
                         <div class="events-item__media">
@@ -48,7 +48,7 @@ layout: default
     </div>
 
     {% for cover in site.static_files %}
-        {% if cover.path contains page.id and cover.path contains 'cover.jpg' %}
+        {% if cover.path contains page.name and cover.path contains 'cover.jpg' %}
             <img class="lazy events-item__cover" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
         {% endif %}
     {% endfor %}

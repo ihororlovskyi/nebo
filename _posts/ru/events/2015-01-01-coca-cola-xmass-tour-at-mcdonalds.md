@@ -1,18 +1,16 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: xs-power-drink
+name: coca-cola-xmass-tour-at-mcdonalds
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
 title: 'Coca Cola Xmass Tour At MCdonalds'
+description: 'Coca Cola Xmass Tour At MCdonalds Lorem Ipsum Dolor Sit Amet Consectetur'
 
 og-image: ''
 ---
 
-Запуск в Украине нового энергетического напитка XS power drink компании Amway.
-
-Выступление легендарного ди джея Joachim Garraud.
+Coca Cola Xmass Tour At MCdonalds.

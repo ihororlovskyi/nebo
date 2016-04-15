@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: atmasfera-360
+name: stend-metro-cash-and-carry
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

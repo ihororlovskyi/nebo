@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: atmasfera-360
+name: lg-na-kozyrnoi-party-2012
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

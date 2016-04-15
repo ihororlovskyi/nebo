@@ -1,6 +1,5 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
 name: xs-power-drink
 category: events
@@ -9,7 +8,7 @@ award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
 title: 'XS Power Drink'
-description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'
+# description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'
 
 og-image: ''
 size-large: false

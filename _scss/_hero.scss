@@ -68,7 +68,7 @@
     }
 
     &__media {
-        @include ratio (100%,2.5,1);
+        @include ratio (100%,5,2);
         // float: right;
     }
 
@@ -79,6 +79,15 @@
         width: 70%;
         height: 100%;
         z-index: 10;
+    }
+
+    &__svg-helper {
+        // opacity: .2 !important;
+        position: absolute;
+        top: 0;
+        display: block;
+        width: auto;
+        height: 100%;
 
         .slick-slide:nth-child(odd) & {
             right: 0;
@@ -92,15 +101,6 @@
         .slick-slide:nth-child(even) &--odd {
             display: none;
         }
-    }
-
-    &__svg-helper {
-        opacity: .2 !important;
-        position: absolute;
-        top: 0;
-        display: block;
-        width: 70%;
-        height: 100%;
     }
 
     &__img {
@@ -137,5 +137,10 @@
     &__description {
         // width: 60%;
         font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        @include btn--lg;
     }
 }

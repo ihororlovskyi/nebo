@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: atmasfera-360
+name: zhizn-kak-v-kino
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

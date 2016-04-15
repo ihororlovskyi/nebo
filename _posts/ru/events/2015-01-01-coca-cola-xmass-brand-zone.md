@@ -1,18 +1,16 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: xs-power-drink
+name: coca-cola-xmass-brand-zone
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
 title: 'Coca Cola Xmass Brand Zone'
+description: 'Coca Cola Xmass Brand Zone Lorem Ipsum Dolor Sit Amet Consectetur'
 
 og-image: ''
 ---
 
-Запуск в Украине нового энергетического напитка XS power drink компании Amway.
-
-Выступление легендарного ди джея Joachim Garraud.
+Coca Cola Xmass Brand Zone.

@@ -5,18 +5,18 @@
         {% for i in events %}
             {% if i.description %}
                 <div>
-                    <a href="{{ site.baseurl }}{{ i.url }}" class="hero__item">
+                    <div class="hero__item">
 
                         <div class="hero__media">
 
                             {% for cover in site.static_files %}
-                                {% if cover.path contains i.id and cover.path contains 'cover.jpg' %}
-                                        <svg class="hero__svg hero__svg--odd">
+                                {% if cover.path contains i.name and cover.path contains 'cover.jpg' %}
+                                        <!-- <svg class="hero__svg hero__svg--odd">
                                             <image class="hero__img" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}{{cover.path}}" width='100%' height='100%' clip-path="url(#clipPath1)"></image>
                                         </svg>
                                         <svg class="hero__svg hero__svg--even">
                                             <image class="hero__img" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{{ site.baseurl }}{{cover.path}}" width='100%' height='100%' clip-path="url(#clipPath2)"></image>
-                                        </svg>
+                                        </svg> -->
                                         <img class="hero__svg-helper" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
                                 {% endif %}
                             {% endfor %}
@@ -24,23 +24,24 @@
                             <div class="hero__text">
                                 <div class="hero__title">{{ i.title }}</div>
                                 <div class="hero__description">{{ i.description }}</div>
+                                <a href="{{ site.baseurl }}{{ i.url }}" class="hero__btn">Подробнее</a>
                             </div>
 
                         </div>
-                    </a>
+                    </div>
                 </div>
             {% endif %}
         {% endfor %}
     </div>
 
-    <svg class="hero__clipping">
+    <!-- <svg class="hero__clipping">
         <clipPath id="clipPath1">
             <path d="M712.066663,573.612331 C712.066663,573.612331 117.239044,573.612323 57.4674805,573.612331 C71.2892227,831.990812 285.175056,1037.24254 547,1037.24254 C604.916804,1037.24254 660.487884,1027.1993 712.066664,1008.75939 C712.066663,985.532784 712.066663,573.612331 712.066663,573.612331 Z"></path>
         </clipPath>
         <clipPath id="clipPath2">
             <path d="M628,593 L68,593 L68,152.694885 L407.229675,152.694885 L628,593 Z"></path>
         </clipPath>
-    </svg>
+    </svg> -->
 
     {% include pride.html %}
 </div>

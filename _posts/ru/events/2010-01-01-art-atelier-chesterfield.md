@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: atmasfera-360
+name: 
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

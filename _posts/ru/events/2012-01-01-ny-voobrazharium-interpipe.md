@@ -1,8 +1,7 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: dtek-investment-event-sardinia
+name: ny-voobrazharium-interpipe
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

@@ -91,7 +91,7 @@ gulp.task('watch', ['uglify'], function () {
             '_includes/**/*',
             '_posts/**/*',
             '_data/*',
-            'assets/img/**/*',
+            'assets/img/**/**/**/**/*.*',
             'assets/fonts/*',
             'assets/js/**/*',
             '_config.yml',

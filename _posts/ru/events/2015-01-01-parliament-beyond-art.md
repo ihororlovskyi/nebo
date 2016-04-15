@@ -1,18 +1,16 @@
 ---
 layout: events-item
-permalink: :title/
 lang: ru
-name: xs-power-drink
+name: parliament-beyond-art
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 
 title: 'Parliament Beyond Art'
+description: 'Parliament Beyond Art Description Lorem Ipsum Dolor Sit Amet Consectetur'
 
 og-image: ''
 ---
 
-Запуск в Украине нового энергетического напитка XS power drink компании Amway.
-
-Выступление легендарного ди джея Joachim Garraud.
+Parliament Beyond Art.
