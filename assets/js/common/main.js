@@ -244,3 +244,135 @@ $(function() {
 //         }
 //     );
 // });
+
+
+
+
+
+// function initMap() {
+
+//   // Specify features and elements to define styles.
+//   var styleArray = [
+//     {
+//       featureType: "all",
+//       stylers: [
+//        { saturation: -80 }
+//       ]
+//     },{
+//       featureType: "road.arterial",
+//       elementType: "geometry",
+//       stylers: [
+//         { hue: "#00ffee" },
+//         { saturation: 50 }
+//       ]
+//     },{
+//       featureType: "poi.business",
+//       elementType: "labels",
+//       stylers: [
+//         { visibility: "off" }
+//       ]
+//     }
+//   ];
+
+//   // Create a map object and specify the DOM element for display.
+//   var map = new google.maps.Map(document.getElementById('map'), {
+//     center: {lat: -34.397, lng: 150.644},
+//     scrollwheel: false,
+//     // Apply the map style array to the map.
+//     styles: styleArray,
+//     zoom: 8
+//   });
+// }
+
+
+
+/**
+* google map
+*/
+function init() {
+
+    var styles = {
+      'Muted': [
+        {
+          featureType: "road",
+          elementType: "labels",
+          stylers: [
+            { visibility: "off" }
+          ]
+        },{
+          featureType: "road.highway",
+          elementType: "geometry",
+          stylers: [
+            { saturation: -100 },
+            { lightness: 40 }
+          ]
+        },{
+          featureType: "road.arterial",
+          elementType: "geometry",
+          stylers: [
+            { saturation: -100 },
+            { lightness: 70 },
+            { gamma: 0.4 },
+            { visibility: "simplified" }
+          ]
+        },{
+          featureType: "road.local",
+          elementType: "geometry",
+          stylers: [
+            { saturation: -100 },
+            { lightness: 20 },
+            { gamma: 0.8 },
+            { visibility: "simplified" }
+          ]
+        },{
+          featureType: "administrative",
+          elementType: "labels",
+          stylers: [
+            { lightness: -2 }
+          ]
+        },{
+          featureType: "landscape",
+          elementType: "labels",
+          stylers: [
+            { lightness: -2 }
+          ]
+        },{
+          featureType: "poi",
+          elementType: "all",
+          stylers: [
+            { lightness: -2 }
+          ]
+        },{
+          featureType: "water",
+          elementType: "labels",
+          stylers: [
+            { lightness: -2 }
+          ]
+        },{
+          featureType: "transit",
+          elementType: "all",
+          stylers: [
+            { visibility: "off" }
+          ]
+        }
+      ]
+    };
+
+    for (var s in styles) {
+        var opt = {
+            mapTypeControlOptions: {
+                mapTypeIds: [s]
+            },
+            disableDefaultUI: false,
+            navigationControl: true,
+            center: new google.maps.LatLng(50.446693, 30.525276),
+            zoom: 17,
+            mapTypeId: s
+        };
+
+        var div = document.getElementById('map');
+        var map = new google.maps.Map(div, opt);
+        var styledMapType = new google.maps.StyledMapType(styles[s], {name: s});
+        map.mapTypes.set(s, styledMapType);
+    }
+}
