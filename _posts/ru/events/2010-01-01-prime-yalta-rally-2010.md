@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: prime-yalta-rally-2010
 category: events
 tag: mass # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

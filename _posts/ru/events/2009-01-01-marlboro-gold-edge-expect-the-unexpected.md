@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: marlboro-gold-edge-expect-the-unexpected
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

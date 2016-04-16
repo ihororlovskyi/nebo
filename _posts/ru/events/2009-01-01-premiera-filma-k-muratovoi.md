@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: premiera-filma-k-muratovoi
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

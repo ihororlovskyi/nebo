@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: marlboro-mototreck-remix
 category: events
 tag: mass # mass, brand, corp, btl, mice
 award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli

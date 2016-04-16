@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: marlboro-gold-edge-tiesto
 category: events
 tag: mass # mass, brand, corp, btl, mice
 award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: marlboro-filter-plus-4-sound-party
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli

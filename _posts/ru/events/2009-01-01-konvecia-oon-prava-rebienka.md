@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: konvecia-oon-prava-rebienka
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

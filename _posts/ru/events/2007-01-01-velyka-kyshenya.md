@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: velyka-kyshenya
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

@@ -476,7 +476,7 @@ $(document).ready(function() {
         // slidesToScroll: 1,
         lazyLoad: 'ondemand',
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 4000,
         // swipeToSlide: true,
         // mobileFirst: true,
         // responsive: [

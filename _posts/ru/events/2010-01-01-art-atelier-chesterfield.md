@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: art-atelier-chesterfield
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

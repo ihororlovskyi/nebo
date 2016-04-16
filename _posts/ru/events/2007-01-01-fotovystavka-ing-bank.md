@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: fotovystavka-ing-bank
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

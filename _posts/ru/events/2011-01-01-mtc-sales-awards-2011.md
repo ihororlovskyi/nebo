@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: mtc-sales-awards-2011
 category: events
 tag: mice # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

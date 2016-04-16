@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: avon-proty-raku-mol-zalozy
 category: events
 tag: mass # mass, brand, corp, btl, mice
 award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli

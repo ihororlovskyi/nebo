@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: nemiroff-yalta-ralli
 category: events
 tag: mass # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

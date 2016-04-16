@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: altis-holding-novyi-god
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrainianeventawards, liderotrasli

@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: parliament-moon-cafe
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli

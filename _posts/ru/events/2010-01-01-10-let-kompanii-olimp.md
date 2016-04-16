@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: 
+name: 10-let-kompanii-olimp
 category: events
 tag: corp # mass, brand, corp, btl, mice
 award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
