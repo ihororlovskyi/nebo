@@ -24,9 +24,9 @@
         display: table;
         transition: background .2s ease;
 
-        &:first-child {
-            padding-left: 16px;
-        }
+        // &:first-child {
+        //     padding-left: 16px;
+        // }
 
         .events-filter__link + & {
             margin-left: -1px;

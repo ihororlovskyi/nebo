@@ -4,6 +4,7 @@ lang: ru
 name: parliament-beyond-art
 category: events
 tag: brand # mass, brand, corp, btl, mice
+best-tag: true # true, false
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 

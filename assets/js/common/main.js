@@ -169,30 +169,33 @@ $(document).ready(function() {
     * https://github.com/metafizzy/isotope
     * https://github.com/desandro/imagesloaded
     */
-    var $container = $('.js-events-list');
-    var $win = $(window);
-    $container.imagesLoaded( function() {
+    var $container = $('.js-events-list'),
+        $win = $(window);
+
+    $container.imagesLoaded(function() {
+
         $container.isotope({
             itemSelector: '.events-list__item',
-            // layoutMode: 'fitRows',
-            // masonry: {
-            //     columnWidth: 4
-            // }
             percentPosition: true,
             masonry: {
                 columnWidth: '.events-list__sizer'
-            }
+            },
+            filter: '.best'
         });
+
         $container.on('layoutComplete', function(){
-        $win.trigger("scroll");
+            $win.trigger("scroll");
         });
+
         var filterFns = {
         };
+
         $('.isotope-filter').on( 'click', 'a', function() {
             var filterValue = $( this ).attr('data-filter');
             filterValue = filterFns[ filterValue ] || filterValue;
             $container.isotope({ filter: filterValue });
         });
+
         $('.isotope-filter').each( function( i, buttonGroup ) {
             var $buttonGroup = $( buttonGroup );
             $buttonGroup.on( 'click', 'a', function() {
