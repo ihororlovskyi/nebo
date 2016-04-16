@@ -1,7 +1,15 @@
 .events-related {
+    border-top: 1px solid #e2e2e2;
+    margin: 0 -70px;
+
+    &__wrapper {
+        padding: 0 70px;
+    }
 
     &__caption {
         font-size: 30px;
-        margin-bottom: 30px;
+        margin: 30px auto;
+        color: #5e5e5e;
+        font-size: 20px
     }
 }

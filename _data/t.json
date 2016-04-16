@@ -1,7 +1,7 @@
 {
-    "projects": {
-        "ru": "Проекты",
-        "en": "Projects",
+    "events": {
+        "ru": "Ивенты",
+        "en": "Events",
     },
     "awards": {
         "ru": "Награды",
