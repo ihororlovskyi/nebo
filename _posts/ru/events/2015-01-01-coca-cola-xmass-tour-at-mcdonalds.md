@@ -4,6 +4,7 @@ lang: ru
 name: coca-cola-xmass-tour-at-mcdonalds
 category: events
 tag: btl # mass, brand, corp, btl, mice
+best-tag: true # true, false
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 

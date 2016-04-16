@@ -4,6 +4,7 @@ lang: ru
 name: coca-cola-xmass-brand-zone
 category: events
 tag: brand # mass, brand, corp, btl, mice
+best-tag: true # true, false
 award:  # eventarizacia, ukrainianeventawards, liderotrasli
 prize: ''
 

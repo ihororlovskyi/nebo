@@ -4,6 +4,7 @@
     text-align: left;
     color: #fff;
     padding: 0;
+    overflow: hidden;
 
     &__clipping {
         position: absolute;
@@ -12,7 +13,11 @@
     }
 
     &__slick {
-        margin-bottom: 30px;
+        margin-bottom: -50px;
+
+        .slick-list {
+            overflow: visible;
+        }
 
         .slick-prev,
         .slick-next {
@@ -50,7 +55,7 @@
         }
 
         .slick-dots {
-            bottom: 30px;
+            bottom: 80px;
 
             li {
                 margin: 0 8px;
@@ -84,23 +89,25 @@
     &__svg-helper {
         // opacity: .2 !important;
         position: absolute;
-        top: 0;
+        top: -100px;
         display: block;
-        width: auto;
-        height: 90%;
+        width: 65%;
+        height: auto;
         box-shadow: 0 4px 40px rgba(#000,.4);
         border: 0 solid transparent;
-        border-bottom-width: 40px;
+        border-bottom-width: 70px;
         box-sizing: border-box;
 
         .slick-slide:nth-child(odd) & {
-            right: 0;
-            border-radius: 0 0 0 500px;
-            border-left-width: 40px;
+            right: -70px;
+            border-radius: 500px 0 0 500px;
+            border-top-width: 70px;
+            border-left-width: 70px;
+            border-right-width: 70px;
         }
         .slick-slide:nth-child(even) & {
-            left: 0;
-            border-right-width: 40px;
+            left: -70px;
+            border-right-width: 70px;
             border-radius: 0 0 500px 0;
         }
         .slick-slide:nth-child(odd) &--even {

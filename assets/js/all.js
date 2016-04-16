@@ -475,8 +475,8 @@ $(document).ready(function() {
         slidesToShow: 1,
         // slidesToScroll: 1,
         lazyLoad: 'ondemand',
-        // autoplay: true,
-        // autoplaySpeed: 4000,
+        autoplay: true,
+        autoplaySpeed: 3000,
         // swipeToSlide: true,
         // mobileFirst: true,
         // responsive: [
@@ -503,36 +503,51 @@ $(document).ready(function() {
     * https://github.com/metafizzy/isotope
     * https://github.com/desandro/imagesloaded
     */
-    var $container = $('.js-events-list');
-    var $win = $(window);
-    $container.imagesLoaded( function() {
-        $container.isotope({
+    var $eventsList = $('.js-events-list'),
+        $eventsRelated = $('.js-events-related'),
+        $win = $(window);
+
+    $eventsList.imagesLoaded(function() {
+
+        $eventsList.isotope({
             itemSelector: '.events-list__item',
-            // layoutMode: 'fitRows',
-            // masonry: {
-            //     columnWidth: 4
-            // }
             percentPosition: true,
             masonry: {
                 columnWidth: '.events-list__sizer'
-            }
+            },
+            filter: '.best'
         });
-        $container.on('layoutComplete', function(){
-        $win.trigger("scroll");
+
+        $eventsList.on('layoutComplete', function(){
+            $win.trigger("scroll");
         });
+
         var filterFns = {
         };
+
         $('.isotope-filter').on( 'click', 'a', function() {
             var filterValue = $( this ).attr('data-filter');
             filterValue = filterFns[ filterValue ] || filterValue;
-            $container.isotope({ filter: filterValue });
+            $eventsList.isotope({ filter: filterValue });
         });
+
         $('.isotope-filter').each( function( i, buttonGroup ) {
             var $buttonGroup = $( buttonGroup );
             $buttonGroup.on( 'click', 'a', function() {
             $buttonGroup.find('.events-filter__link--selected').removeClass('events-filter__link--selected');
             $( this ).addClass('events-filter__link--selected');
             });
+        });
+    });
+
+    $eventsRelated.imagesLoaded(function() {
+
+        $eventsRelated.isotope({
+            itemSelector: '.events-list__item',
+            percentPosition: true,
+            masonry: {
+                columnWidth: '.events-list__sizer'
+            },
         });
     });
 });
