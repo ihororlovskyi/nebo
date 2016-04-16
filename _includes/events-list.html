@@ -6,7 +6,7 @@
     <a href="{{ site.baseurl }}{{ i.url }}" class="events-list__item {% if i.size-large == true %}events-list__item--lg{% endif %} {{ i.tag }} {% if i.best-tag == true %}best{% endif %}">
         {% for cover in site.static_files %}
             {% if cover.path contains i.name and cover.path contains 'cover.jpg' %}
-                <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                <img class="events-list__img lazy" data-original="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
             {% endif %}
         {% endfor %}
 

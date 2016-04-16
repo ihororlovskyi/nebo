@@ -1,10 +1,8 @@
 .events-item {
-    // padding: 60px 0 0;
     min-height: 100%;
     background: #f7f7f7;
     border: 70px solid #fff;
     border-top-width: 79px;
-    // position: relative;
 
     &:after {
         position: absolute;
@@ -15,7 +13,6 @@
         z-index: 10;
         background: #fdc0b9;
         content: '';
-        // border-top: 9px solid #fdc0b9;
     }
 
     &__close {
@@ -34,46 +31,37 @@
     }
 
     &__tag {
-        font-size: 0;
-        margin-bottom: 30px;
         position: absolute;
-        top: 28px;
-        left: 0;
-        width: 100%;
+        top: 9px;
+        left: 50%;
+        display: table;
+        transform: translate3d(-50%,0,0);
+        text-align: center;
 
         nav {
             font-size: 20px;
-            @include clearfix;
-            display: inline-block;
+            display: table;
+            padding-left: 40px;
         }
 
         svg {
-            display: inline-block;
-            width: 30px;
-            float: left;
-            margin-right: 10px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 24px;
+            height: auto;
+            transform: translate3d(0,-50%,0);
         }
-        // svg {
-        //     position: absolute;
-        //     top: 50%;
-        //     left: 14px;
-        //     width: 24px;
-        //     height: auto;
-        //     // float: left;
-        //     // margin-right: 10px;
-        //     transform: translate3d(0,-50%,0) scale(.9);
-        //     transition: transform .3s ease;
-        // }
 
         span {
+            display: table-cell;
+            vertical-align: middle;
             text-align: left;
-            display: inline-block;
-            float: left;
+            height: 70px;
         }
     }
 
     &__title {
-        // font-size: 5vw;
         font-size: 54px;
         margin: 60px auto 0;
     }
@@ -111,7 +99,6 @@
             transition: opacity .2s ease;
 
             &:before {
-                // color: #fff;
                 font-family: "icomoon";
                 font-size: 70px;
             }
@@ -146,21 +133,15 @@
     &__img {
         position: absolute;
         top: 50%;
-        // top: 0;
         left: 50%;
-        // width: 100%;
-        // height: auto;
         width: auto;
         height: 55%;
-        // max-width: 100%;
-        // max-height: auto;
         margin: 0 auto;
         display: block;
         transition: height .3s ease .3s;
         transform: translate3d(-50%,-50%,0);
 
         .slick-current & {
-            // width: 100%;
             height: 80%;
         }
     }
