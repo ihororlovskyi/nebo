@@ -1,0 +1,22 @@
+.popup-thanks {
+    margin-bottom: 0;
+    max-width: 420px;
+
+    &__icon {
+        color: #f5a39a;
+        font-size: 60px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    &__title {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        @include btn--lg;
+        @include btn--pink;
+    }
+}

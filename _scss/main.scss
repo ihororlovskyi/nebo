@@ -5,6 +5,8 @@
 @import '../node_modules/coriolan-ui/coriolan-ui';
 @import 'vendor/slick/slick';
 @import 'vendor/slick/slick-theme';
+@import 'vendor/remodal/remodal';
+@import 'vendor/remodal/remodal-default-theme';
 @import 'vendor/icomoon';
 
 // UI
@@ -27,3 +29,4 @@
 @import 'contacts';
 @import 'footer';
 @import 'totop';
+@import 'popup-thanks';

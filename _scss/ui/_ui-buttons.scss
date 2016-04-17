@@ -10,6 +10,7 @@
     padding: 10px 30px;
     transition: border-color .2s ease;
     outline: none;
+    cursor: pointer;
 
     svg {
         margin-left: 8px;
@@ -29,5 +30,16 @@
     font-size: 18px;
     border-width: 2px;
     padding: 15px 30px;
+}
+
+@mixin btn--pink {
+    // @include btn;
+    color: #f5a39a;
+    border-color: #f5a39a;
+
+    &:hover {
+        color: darken(#f5a39a, 10);
+        border-color: darken(#f5a39a, 10);
+    }
 }
 

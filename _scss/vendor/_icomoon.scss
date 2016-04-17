@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-letter:before {
+    content: "\e904";
+}
 .icon-arrow-prev:before {
     content: "\e902";
 }
@@ -36,5 +39,3 @@
 .icon-navigate-next:before {
     content: "\e901";
 }
-
-

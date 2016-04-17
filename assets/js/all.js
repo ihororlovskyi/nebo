@@ -684,3 +684,11 @@ function initMap() {
         title: 'Hello World!'
     });
 }
+
+/**
+ * Remodal
+ * https://github.com/VodkaBears/Remodal
+ */
+$('.js-popup').remodal({
+    // closeOnEscape: false
+});
