@@ -1,11 +1,3 @@
-<svg viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD-Copy-2" transform="translate(-1022.000000, -691.000000)" fill="#B28AFC">
-            <g id="Catalog" transform="translate(60.000000, 668.000000)">
-                <g id="Works" transform="translate(12.000000, 0.000000)">
-                    <rect id="Rectangle-404" x="950" y="23" width="18.2690058" height="18.2702482"></rect>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg fill="#b28afc" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h18.27v18.27H0z"/>
 </svg>

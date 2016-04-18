@@ -1,4 +1,5 @@
 <div class="awards">
+    {% include svg/awards-bg.svg class='awards__bg' %}
 
     <div class="awards__title">{{ site.data.t.awards[page.lang] }}</div>
 
@@ -17,40 +18,42 @@
                     <div class="awards__item-number">{{ i.number }}</div>
                 </div>
 
-                {% assign events = site.categories.events | where: "lang", page.lang %}
-                {% for e in events %}
-                    {% if e.award contains i.id %}
-                        <div class="awards__event">
+                <div class="awards__events">
+                    {% assign events = site.categories.events | where: "lang", page.lang %}
+                    {% for e in events %}
+                        {% if e.award contains i.id %}
+                            <a href="{{ site.baseurl }}/{{ e.url }}" class="awards__event">
 
-                            {% if e.tag == 'brand' %}
-                                {% include svg/tag-brand.svg %}
-                            {% endif %}
-                            {% if e.tag == 'btl' %}
-                                {% include svg/tag-btl.svg %}
-                            {% endif %}
-                            {% if e.tag == 'corp' %}
-                                {% include svg/tag-corp.svg %}
-                            {% endif %}
-                            {% if e.tag == 'mass' %}
-                                {% include svg/tag-mass.svg %}
-                            {% endif %}
-                            {% if e.tag == 'mice' %}
-                                {% include svg/tag-mice.svg %}
-                            {% endif %}
+                                {% if e.tag == 'brand' %}
+                                    {% include svg/tag-brand.svg %}
+                                {% endif %}
+                                {% if e.tag == 'btl' %}
+                                    {% include svg/tag-btl.svg %}
+                                {% endif %}
+                                {% if e.tag == 'corp' %}
+                                    {% include svg/tag-corp.svg %}
+                                {% endif %}
+                                {% if e.tag == 'mass' %}
+                                    {% include svg/tag-mass.svg %}
+                                {% endif %}
+                                {% if e.tag == 'mice' %}
+                                    {% include svg/tag-mice.svg %}
+                                {% endif %}
 
-                            <div class="awards__event-title">{{ e.title }}</div>
-                            <div class="awards__event-prize">{{ e.prize }}</div>
-                        </div>
-                    {% endif %}
-                {% endfor %}
+                                <div class="awards__event-title">{{ e.title }}</div>
+                                <div class="awards__event-prize">{{ e.prize }}</div>
 
-                <a href="javascript:void(0)" class="awards__item-btn">
-                    Все проекты
-                    {% include svg/expand-more.svg %}
-                </a>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
             </div>
 
         {% endfor %}
     </div>
 
+    <a class="awards__btn js-awards-show-more">
+        Все награды
+        {% include svg/expand-more.svg %}
+    </a>
 </div>

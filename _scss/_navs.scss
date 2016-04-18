@@ -82,6 +82,11 @@
             color: #1446a3;
         }
 
+        &--ru,
+        &--en {
+          display: none;
+        }
+
         &--ru:lang(ru),
         &--en:lang(en) {
           color: #1446a3;

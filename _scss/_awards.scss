@@ -1,11 +1,24 @@
 .awards {
     background: #f5a39a;
     @include clearfix;
-    text-align: left;
+    text-align: center;
     color: #fff;
-    padding: 70px;
+    padding: 70px 20px 40px;
+    position: relative;
+    overflow: hidden;
+
+    &__bg {
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate3d(-50%,-29%,0);
+        opacity: .9;
+    }
 
     &__title {
+        position: relative;
         text-align: center;
         font-size: 28px;
         margin-bottom: 40px;
@@ -13,7 +26,18 @@
 
     &__list {
         @include clearfix;
-        margin: 0 -4%px;
+        margin: 0 0 40px;
+        text-align: left;
+        border-bottom: 1px solid rgba(#fff,.2);
+        max-height: 480px;
+        overflow: hidden;
+        transition: max-height .9s ease-in-out;
+        padding: 0 40px 10px;
+        position: relative;
+
+        &--open {
+            max-height: 8480px;
+        }
     }
 
     &__item {
@@ -25,6 +49,7 @@
         &-wrap {
             position: relative;
             height: 190px;
+            margin-bottom: 20px;
 
             &:after {
                 position: absolute;
@@ -52,53 +77,91 @@
         }
 
         &-number {
-            color: #ad5a51;
+            color: #84352b;
             font-size: 18px;
             padding: 0 20px;
             box-sizing: border-box;
         }
-
-        &-btn {
-            @include btn;
-            margin-left: 20px;
-        }
     }
 
-    &__event {
-        padding: 10px 0;
-        position: relative;
-        margin-bottom: 20px;
+    // &__events {
+    //     padding-bottom: 20px;
+    //     margin-bottom: 20px;
+    //     position: relative;
 
-            &:after {
-                position: absolute;
-                content: '';
-                bottom: 0;
-                left: 20px;
-                right: 20px;
-                border-bottom: 1px solid rgba(#fff,.2);
-            }
+    //     &:after {
+    //         position: absolute;
+    //         content: '';
+    //         bottom: 0;
+    //         left: 20px;
+    //         right: 20px;
+    //         border-bottom: 1px solid rgba(#fff,.2);
+    //         z-index: 30;
+    //     }
+
+    //     &:before {
+    //         position: absolute;
+    //         content: '';
+    //         height: 60px;
+    //         bottom: 0;
+    //         left: 0;
+    //         right: 0;
+    //         background: linear-gradient(to top, #f5a39a 30%, transparent);
+    //         z-index: 20;
+    //     }
+    // }
+
+    &__event {
+        padding: 10px 10px 10px 45px;
+        position: relative;
+        margin: 0 0 10px -45px;
+        display: block;
+        background: rgba(#a1493e,.0);
+        border-radius: 3px;
+        transition: background .2s ease;
+
+        &:hover {
+            background: rgba(#a1493e,.2);
+        }
+
+
+            // &:after {
+            //     position: absolute;
+            //     content: '';
+            //     bottom: 0;
+            //     left: 20px;
+            //     right: 20px;
+            //     border-bottom: 1px solid rgba(#fff,.2);
+            // }
 
         svg {
-            width: 30px;
+            width: 20px;
             position: absolute;
-            top: 50%;
-            left: 0;
-            transform: translate3d(-100%,-50%,0);
+            top: 12px;
+            left: 12px;
+            // transform: translate3d(0,-50%,0);
             fill: #fff;
         }
 
         &-title {
             color: #fff;
             font-size: 16px;
-            padding: 0 20px;
+            // padding: 0 20px;
             box-sizing: border-box;
         }
 
         &-prize {
-            color: #ad5a51;
+            color: #84352b;
             font-size: 14px;
-            padding: 0 20px;
+            // padding: 0 20px;
             box-sizing: border-box;
         }
+    }
+
+    &__btn {
+        @include btn;
+        @include btn--lg;
+        margin: 0 auto;
+
     }
 }
