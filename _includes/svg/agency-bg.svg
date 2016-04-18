@@ -1,0 +1,39 @@
+<svg class="{{ include.class }}" viewBox="0 0 832 830" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="superfilter">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none">
+        <g id="Desktop-HD-Copy-11" transform="translate(-304.000000, -1580.000000)">
+            <g id="Group-2-Copy" transform="translate(344.000000, 1615.000000)">
+                <g id="Oval-39">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo1"></use>
+                    <circle fill="#f5a39a" id="kolo1" cx="376" cy="376" r="376"></circle>
+                </g>
+                <g id="Oval-39-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo2"></use>
+                    <circle fill="#f5a39a" id="kolo2" cx="376" cy="376" r="315.936102"></circle>
+                </g>
+                <g id="Oval-39-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo3"></use>
+                    <circle fill="#f5a39a" id="kolo3" cx="376" cy="376" r="255.872204"></circle>
+                </g>
+                <g id="Oval-39-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo4"></use>
+                    <circle fill="#f5a39a" id="kolo4" cx="376" cy="376" r="195.808307"></circle>
+                </g>
+                <g id="Oval-39-Copy-5">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo5"></use>
+                    <circle fill="#f5a39a" id="kolo5" cx="376" cy="376" r="135.744409"></circle>
+                </g>
+                <g id="Oval-39-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#kolo11"></use>
+                    <circle fill="#f5a39a" id="kolo11" cx="376" cy="376" r="75.6805112"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

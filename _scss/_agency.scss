@@ -4,24 +4,44 @@
     text-align: left;
     color: #fff;
     padding: 70px;
+    position: relative;
+    overflow: hidden;
+
+    &__bg {
+        width: 70%;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate3d(-50%,-29%,0);
+        opacity: .9;
+    }
+
 
     &__title {
+        position: relative;
         text-align: center;
         font-size: 28px;
-        margin-bottom: 40px;
+        margin: 0 auto 40px;
+        max-width: 70%;
     }
 
     &__subtitle {
+        position: relative;
         font-size: 22px;
-        margin-bottom: 34px;
+        margin: 0 auto 34px;
+        max-width: 70%;
     }
 
     p {
+        position: relative;
         font-size: 18px;
-        margin-bottom: 18px;
+        margin: 0 auto 18px;
+        max-width: 70%;
     }
 
     &__slick {
+        position: relative;
         margin: 40px -70px;
 
         .slick-prev,
@@ -63,6 +83,7 @@
     &__media {
         @include ratio(100%,4,3);
         text-align: center;
+        position: relative;
     }
 
     &__img {

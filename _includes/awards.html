@@ -22,7 +22,7 @@
                     {% assign events = site.categories.events | where: "lang", page.lang %}
                     {% for e in events %}
                         {% if e.award contains i.id %}
-                            <a href="{{ site.baseurl }}/{{ e.url }}" class="awards__event">
+                            <a href="{{ site.baseurl }}{{ e.url }}" class="awards__event">
 
                                 {% if e.tag == 'brand' %}
                                     {% include svg/tag-brand.svg %}
