@@ -1,5 +1,54 @@
 [
     {
+        "id": "coca-cola",
+        "title": {
+            "ru": "Coca-Cola",
+            "en": "Coca-Cola",
+        },
+    },
+    {
+        "id": "dtek",
+        "title": {
+            "ru": "Dtek",
+            "en": "Dtek",
+        },
+    },
+    {
+        "id": "metro",
+        "title": {
+            "ru": "Metro",
+            "en": "Metro",
+        },
+    },
+    {
+        "id": "lg-client",
+        "title": {
+            "ru": "LG",
+            "en": "LG",
+        },
+    },
+    {
+        "id": "interpipe",
+        "title": {
+            "ru": "Interpipe",
+            "en": "Interpipe",
+        },
+    },
+    {
+        "id": "lifecell",
+        "title": {
+            "ru": "Lifecell",
+            "en": "Lifecell",
+        },
+    },
+    {
+        "id": "amway",
+        "title": {
+            "ru": "Amway",
+            "en": "Amway",
+        },
+    },
+    {
         "id": "philip-morris",
         "title": {
             "ru": "Philip Morris",
@@ -140,7 +189,7 @@
         },
     },
     {
-        "id": "life",
+        "id": "life-client",
         "title": {
             "ru": "life:) GSM",
             "en": "life:) GSM",
