@@ -4,7 +4,7 @@ lang: ru
 name: marlboro-gold-edge-expect-the-unexpected
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Marlboro Gold Edge. Expect the Unexpected'

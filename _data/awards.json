@@ -8,7 +8,7 @@
         },
     },
     {
-        "id": "ukrainianeventawards",
+        "id": "ukrawards",
         "number": "14 наград",
         "title": {
             "ru": "Ukrainian Event Awards",
@@ -16,11 +16,11 @@
         },
     },
     {
-        "id": "liderotrasli",
+        "id": "propeller",
         "number": "1 награда",
         "title": {
-            "ru": "Лидер Отрасли",
-            "en": "Лидер Отрасли",
+            "ru": "Золотой пропеллер",
+            "en": "Золотой пропеллер",
         },
     },
 ]

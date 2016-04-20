@@ -4,7 +4,7 @@ lang: ru
 name: art-atelier-chesterfield
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+award: ukrawards # eventarizacia, ukrawards, propeller
 prize: '3е место Лучшее творческое использование малого бюджета'
 
 title: 'Art Atelier Chesterfield'

@@ -1,7 +1,7 @@
 .totop {
     width: 50px;
     height: 50px;
-    background: #1446a3;
+    background: #fff;
     position: fixed;
     z-index: 200;
     bottom: 10px;
@@ -9,10 +9,13 @@
     cursor: pointer;
     display: none;
     // border-radius: 25px;
+    border-radius: 100px;
     border: 3px solid transparent;
     box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(#000,.2);
     transition: border .2s ease-in-out,
-                background .2s ease-in-out;
+                background .2s ease-in-out,
+                box-shadow .2s ease-in-out;
 
     svg {
         width: 40px;
@@ -23,17 +26,18 @@
         transform: translate3d(0,-50%,0);
 
         path {
-            fill: #fff;
+            fill: #1446a3;
             transition: fill .2s ease-in-out;
         }
     }
 
     &:hover {
-        border-color: #1446a3;
+        // border-color: #1446a3;
         background: transparent;
+        box-shadow: 0 0 20px rgba(#000,.3);
 
-        svg path {
-            fill: #1446a3;
-        }
+        // svg path {
+        //     fill: #1446a3;
+        // }
     }
 }

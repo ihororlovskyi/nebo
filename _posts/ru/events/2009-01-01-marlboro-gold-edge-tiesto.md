@@ -4,8 +4,8 @@ lang: ru
 name: marlboro-gold-edge-tiesto
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award: eventarizacia, ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
-prize: 'Лучший ивент для бренда, Диплом за инновационность, 3е место Лучший бренд ивент на ukrainianeventawards, Лучшее техническое решение'
+award: eventarizacia, ukrawards # eventarizacia, ukrawards, propeller
+prize: 'Лучший ивент для бренда, Диплом за инновационность, 3е место Лучший бренд ивент на ukrawards, Лучшее техническое решение'
 
 title: 'Marlboro Gold Edge [Tiesto]'
 

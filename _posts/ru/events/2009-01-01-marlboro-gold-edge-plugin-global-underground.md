@@ -4,7 +4,7 @@ lang: ru
 name: marlboro-gold-edge-plugin-global-underground
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Marlboro Gold Edge. Plug-in Global Underground'

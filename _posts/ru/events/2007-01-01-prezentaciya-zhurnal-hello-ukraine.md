@@ -4,7 +4,7 @@ lang: ru
 name: prezentaciya-zhurnal-hello-ukraine
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Презентация журнала HELLO! в Украине'

@@ -30,14 +30,16 @@
 
     &__li {
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     &__a {
         padding: 23px 15px 26px;
         text-transform: uppercase;
         line-height: 20px;
-        color: #b3b3b3;
+        font-weight: 700;
+        // color: #b3b3b3;
+        color: #1446a3;
         display: block;
         // box-sizing: border-box;
         transition: color .3s ease;
@@ -69,13 +71,15 @@
     margin-right: -15px;
 
     &__link {
-        font-size: 16px;
+        font-size: 14px;
+        font-weight: 700;
         padding: 23px 15px 26px;
         line-height: 20px;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         display: inline-block;
         border-top: 4px solid transparent;
-        color: #b3b3b3;
+        // color: #b3b3b3;
+        color: #1446a3;
         transition: color .2s ease;
 
         &:hover {

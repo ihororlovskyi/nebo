@@ -4,7 +4,7 @@ lang: ru
 name: formula-1-ing-bank
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Formula 1 ING Bank'

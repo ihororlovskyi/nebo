@@ -4,7 +4,7 @@ lang: ru
 name: lg-3d-fulldome-show
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'LG 3D TV Fulldome Show'

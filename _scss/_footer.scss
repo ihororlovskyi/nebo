@@ -1,10 +1,21 @@
 .footer {
     background: #3b3b3b;
     padding: 80px 20px;
+    position: relative;
+
+    &__figures-bg {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+    }
 
     &__wrap {
         margin: 0 auto;
         max-width: 740px;
+        position: relative;
         @include clearfix;
     }
 
@@ -20,7 +31,7 @@
         text-align: left;
     }
 
-    svg {
+    &__nebo-svg {
         max-width: 70px;
         fill: #686868;
         display: block;

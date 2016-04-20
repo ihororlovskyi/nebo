@@ -4,7 +4,7 @@ lang: ru
 name: mtc-sales-awards-2011
 category: events
 tag: mice # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'MTC Sales Awards 2011'

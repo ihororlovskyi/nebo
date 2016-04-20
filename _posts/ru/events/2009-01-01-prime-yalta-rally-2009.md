@@ -4,7 +4,7 @@ lang: ru
 name: prime-yalta-rally-2009
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award: eventarizacia # eventarizacia, ukrainianeventawards, liderotrasli
+award: eventarizacia # eventarizacia, ukrawards, propeller
 prize: '2е место лучшее спортивное мероприятие'
 
 title: 'Prime Yalta Rally 2009'

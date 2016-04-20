@@ -4,7 +4,7 @@ lang: ru
 name: fotovystavka-ing-bank
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Фотовыставка ING Bank'

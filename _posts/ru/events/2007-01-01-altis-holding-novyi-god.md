@@ -4,7 +4,7 @@ lang: ru
 name: altis-holding-novyi-god
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Альтис Холдинг Новый год'

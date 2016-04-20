@@ -95,23 +95,23 @@
         position: absolute;
         top: -100px;
         display: block;
-        width: 65%;
+        width: 55%;
         height: auto;
         box-shadow: 0 4px 40px rgba(#000,.4);
         border: 0 solid transparent;
-        border-bottom-width: 70px;
+        border-bottom-width: 38px;
         box-sizing: border-box;
 
         .slick-slide:nth-child(odd) & {
-            right: -70px;
+            right: -38px;
             border-radius: 500px 0 0 500px;
-            border-top-width: 70px;
-            border-left-width: 70px;
-            border-right-width: 70px;
+            border-top-width: 38px;
+            border-left-width: 38px;
+            border-right-width: 38px;
         }
         .slick-slide:nth-child(even) & {
-            left: -70px;
-            border-right-width: 70px;
+            left: -38px;
+            border-right-width: 38px;
             border-radius: 0 0 500px 0;
         }
         .slick-slide:nth-child(odd) &--even {

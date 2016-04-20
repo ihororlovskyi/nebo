@@ -4,7 +4,7 @@ lang: ru
 name: ing-bank-10-let
 category: events
 tag: corp # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Новогодний корпоратив компании ВикОил (Укртатнафта)'

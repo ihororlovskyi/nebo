@@ -4,7 +4,7 @@ lang: ru
 name: chesterfield-festivals
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Chesterfield Festivals'

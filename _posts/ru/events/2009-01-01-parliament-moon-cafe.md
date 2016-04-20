@@ -4,7 +4,7 @@ lang: ru
 name: parliament-moon-cafe
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award: ukrainianeventawards # eventarizacia, ukrainianeventawards, liderotrasli
+award: ukrawards # eventarizacia, ukrawards, propeller
 prize: 'Лучший бренд ивент, лучший дизайн площадки'
 
 title: 'Parliament Moon Café'

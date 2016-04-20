@@ -1,4 +1,5 @@
 <div class="agency">
+    {% include svg/figures-agency.svg class='agency__figures-bg' %}
     {% include svg/agency-bg.svg class='agency__bg' %}
 
     <div class="agency__title">{{ site.data.t.agency[page.lang] }}</div>
@@ -10,17 +11,14 @@
     <p>За 9 лет работы мы провели более 300 мероприятий и получили более 40 наград на профильных конкурсах (Eventаризация, Золотой пропеллер, Event Awards).</p>
 
     <div class="agency__slick js-agency-slick">
-        {% assign agency = site.data.agency %}
-        {% for i in agency %}
-            {% for cover in site.static_files %}
-                {% if cover.path contains i.id and cover.path contains 'img/agency' %}
-                    <div>
-                        <div class="agency__media">
-                            <img class="agency__img" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title[page.lang] }} Logo">
-                        </div>
+        {% for cover in site.static_files %}
+            {% if cover.path contains 'img/agency' %}
+                <div>
+                    <div class="agency__media">
+                        <img class="agency__img" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="Nebo">
                     </div>
-                {% endif %}
-            {% endfor %}
+                </div>
+            {% endif %}
         {% endfor %}
     </div>
 

@@ -4,7 +4,7 @@ lang: ru
 name: btl-lg-g2-mini
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'BTL LG G2 mini'

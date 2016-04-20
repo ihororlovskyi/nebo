@@ -4,8 +4,9 @@ lang: ru
 name: coca-cola-nationale-promo
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
+client:  # ,
 
 title: 'Coca Cola Nationale Promo'
 

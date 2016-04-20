@@ -4,7 +4,7 @@ lang: ru
 name: marlboro-fresh-launch-plug-ins
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Marlboro Fresh Launch Plug-ins'

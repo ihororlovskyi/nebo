@@ -4,7 +4,7 @@ lang: ru
 name: stend-metro-cash-and-carry
 category: events
 tag: brand # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Выставочный стенд METRO Cash&Carry'

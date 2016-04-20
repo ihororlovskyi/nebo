@@ -4,7 +4,7 @@ lang: ru
 name: irc-prime-yalta-rally-2011
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'IRC Prime Yalta Rally 2011'

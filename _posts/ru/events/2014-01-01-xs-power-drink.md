@@ -5,7 +5,7 @@ name: xs-power-drink
 category: events
 tag: brand # mass, brand, corp, btl, mice
 best-tag: true # true, false
-award:  # eventarizacia, ukrainianeventawards, liderotrasli
+award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'XS Power Drink'
