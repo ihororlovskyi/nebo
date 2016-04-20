@@ -52,10 +52,14 @@
         position: relative;
         margin: 40px 0;
 
+        .slick-slide {
+            outline: none;
+        }
+
         .slick-prev,
         .slick-next {
-            height: 70px;
-            width: 70px;
+            height: 100%;
+            width: 19%;
             opacity: 1;
             transition: opacity .2s ease;
             z-index: 1;
@@ -72,7 +76,7 @@
         }
 
         .slick-prev {
-            left: 8%;
+            left: 0;
 
             &:before {
                 content: '\e902';
@@ -80,7 +84,7 @@
         }
 
         .slick-next {
-            right: 8%;
+            right: 0;
 
             &:before {
                 content: '\e903';

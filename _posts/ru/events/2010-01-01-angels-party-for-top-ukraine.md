@@ -5,7 +5,7 @@ name: angels-party-for-top-ukraine
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award: eventarizacia # eventarizacia, ukrawards, propeller
-prize: 'Лучший частный праздник, Лучшее дизайнерское решение'
+prize: 'Лучший частный праздник<br>Лучшее дизайнерское решение'
 
 title: '«Angels Party» для TOP Ukraine'
 

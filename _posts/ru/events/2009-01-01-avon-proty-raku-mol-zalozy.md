@@ -4,8 +4,8 @@ lang: ru
 name: avon-proty-raku-mol-zalozy
 category: events
 tag: mass # mass, brand, corp, btl, mice
-award: eventarizacia # eventarizacia, ukrawards, propeller
-prize: 'Лучшее массовое мероприятие, 2е место Лучший социальный проект, 2е место лучший массвовый ивент (ukrawards), 2е место лучшее социальное мероприятие (ukrawards), лучший выбор локации (ukrawards)'
+award: eventarizacia, ukrawards # eventarizacia, ukrawards, propeller
+prize: 'Лучшее массовое мероприятие (eventarizacia), 2е место Лучший социальный проект (eventarizacia), 2е место лучший массвовый ивент (ukrawards), 2е место лучшее социальное мероприятие (ukrawards), лучший выбор локации (ukrawards)'
 
 title: 'Avon проти раку молочної залози'
 
