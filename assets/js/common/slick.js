@@ -47,7 +47,7 @@
         slidesToScroll: 1,
         lazyLoad: 'progressive',
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3500,
         variableWidth: true,
         // swipeToSlide: true,
         mobileFirst: true,

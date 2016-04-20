@@ -5,6 +5,65 @@
     color: #fff;
     padding: 0;
     overflow: hidden;
+    position: relative;
+
+    &__figures-bg1,
+    &__figures-bg2 {
+        height: auto;
+        position: absolute;
+        left: 50%;
+        transform: translate3d(-50%,-50%,0);
+        display: none;
+        z-index: 10;
+    }
+
+    &__figures-bg1 {
+
+        .slick-slide:nth-child(odd) & {
+            top: 50%;
+            width: 75%;
+            display: block;
+        }
+    }
+
+    &__figures-bg2 {
+
+        .slick-slide:nth-child(even) & {
+            top: 40%;
+            width: 85%;
+            display: block;
+        }
+    }
+
+    &__bg1,
+    &__bg2 {
+        height: auto;
+        position: absolute;
+        display: none;
+        z-index: 9;
+    }
+
+    &__bg1 {
+
+        .slick-slide:nth-child(odd) & {
+            width: 60%;
+            top: -12%;
+            left: -12%;
+            display: block;
+            // transform: translate3d(-50%,-50%,0);
+        }
+    }
+
+    &__bg2 {
+
+        .slick-slide:nth-child(even) & {
+            width: 55%;
+            top: -20%;
+            right: -20%;
+            display: block;
+            // transform: translate3d(50%,-50%,0);
+        }
+    }
 
     &__clipping {
         position: absolute;
@@ -79,6 +138,7 @@
     &__media {
         @include ratio (100%,5,2);
         // float: right;
+        z-index: 60;
     }
 
     &__svg {

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="675px" height="678px" viewBox="0 0 675 678" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="605 605 0 605 302.5 0"></polygon>
+        <polygon id="path-3" points="530.462012 555.308008 74.5379877 555.308008 302.5 99.3839836"></polygon>
+        <polygon id="path-5" points="455.924025 505.616016 149.075975 505.616016 302.5 198.767967"></polygon>
+        <polygon id="path-7" points="381.386037 455.924025 223.613963 455.924025 302.5 298.151951"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-146.000000, -50.000000)">
+            <g id="Background" transform="translate(-69.000000, -504.000000)">
+                <g id="Group" transform="translate(250.000000, 583.000000)">
+                    <g id="Triangle-12">
+                        <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#triangle1"></use>
+                        <polygon fill="#1446a3" id="triangle1" points="605 605 0 605 302.5 0"></polygon>
+                    </g>
+                    <g id="Triangle-12-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#triangle2"></use>
+                        <polygon fill="#1446a3" id="triangle2" points="530.462012 555.308008 74.5379877 555.308008 302.5 99.3839836"></polygon>
+                    </g>
+                    <g id="Triangle-12-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#triangle3"></use>
+                        <polygon fill="#1446a3" id="triangle3" points="455.924025 505.616016 149.075975 505.616016 302.5 198.767967"></polygon>
+                    </g>
+                    <g id="Triangle-12-Copy-3">
+                        <use fill="black" fill-opacity="1" filter="url(#superfilter)" xlink:href="#triangle4"></use>
+                        <polygon fill="#1446a3" id="triangle4" points="381.386037 455.924025 223.613963 455.924025 302.5 298.151951"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
