@@ -3,7 +3,7 @@
     @include clearfix;
     text-align: left;
     color: #fff;
-    padding: 70px;
+    padding: 70px 0;
     position: relative;
     overflow: hidden;
 
@@ -50,7 +50,7 @@
 
     &__slick {
         position: relative;
-        margin: 40px -70px;
+        margin: 40px 0;
 
         .slick-prev,
         .slick-next {

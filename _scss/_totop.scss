@@ -13,9 +13,10 @@
     border: 3px solid transparent;
     box-sizing: border-box;
     box-shadow: 0 0 10px rgba(#000,.2);
-    transition: border .2s ease-in-out,
-                background .2s ease-in-out,
-                box-shadow .2s ease-in-out;
+    // transition: border .2s ease-in-out,
+    //             background .2s ease-in-out,
+    //             box-shadow .2s ease-in-out;
+    transition: box-shadow .2s ease-in-out;
 
     svg {
         width: 40px;
@@ -33,7 +34,7 @@
 
     &:hover {
         // border-color: #1446a3;
-        background: transparent;
+        // background: transparent;
         box-shadow: 0 0 20px rgba(#000,.3);
 
         // svg path {

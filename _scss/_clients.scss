@@ -1,19 +1,20 @@
 .clients {
     background: #fff;
     padding: 80px 70px;
-    margin: 0 -70px;
+    // margin: 0 -70px;
     @include clearfix;
 
     &__title {
         color: #5c5c5c;
         font-size: 28px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     &__slick {
 
         .slick-slide {
             width: 120px;
+            margin: 0 15px;
         }
 
         .slick-prev,
