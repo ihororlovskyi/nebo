@@ -1,6 +1,6 @@
 .footer {
     background: #3b3b3b;
-    padding: 80px 20px;
+    padding: 100px 20px 80px;
     position: relative;
 
     &__figures-bg {
@@ -23,12 +23,13 @@
         max-width: 100px;
         height: auto;
         float: left;
-        margin-right: 30px;
-        margin-bottom: 12px;
+        // margin-right: 30px;
+        // margin-bottom: 12px;
     }
 
     &__text {
         text-align: left;
+        padding-left: 130px;
     }
 
     &__nebo-svg {
@@ -45,5 +46,14 @@
 
     &__copyright {
         color: #686868;
+        margin-bottom: 40px;
+    }
+
+    &__powered {
+        color: #686868;
+    }
+
+    &__link {
+        color: #fff;
     }
 }
