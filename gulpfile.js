@@ -61,7 +61,7 @@ gulp.task('sass', function () {
 });
 
 
-/* Js */
+/* Js concat */
 gulp.task('concat', function() {
     return gulp.src([
             'assets/js/lib/*',
@@ -72,6 +72,7 @@ gulp.task('concat', function() {
         .pipe(gulp.dest('assets/js'));
 });
 
+/* Js uglify */
 gulp.task('uglify', ['concat'], function() {
     return gulp.src(['assets/js/all.js'])
         .pipe(concat('all.min.js'))
