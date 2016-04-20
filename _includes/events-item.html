@@ -1,30 +1,32 @@
 <article class="events-item">
 
-    <a href="{{ site.baseurl }}/#projects" class="events-item__close">{% include svg/close.svg %}</a>
+    <div class="events-item__header">
+        <a href="{{ site.baseurl }}/#projects" class="events-item__close">{% include svg/close.svg %}</a>
 
-    <div class="events-item__tag">
-        <nav>
-            {% if page.tag == 'brand' %}
-                {% include svg/tag-brand.svg %}
-                <span>{{ site.data.tags.tag-brand[page.lang] }}</span>
-            {% endif %}
-            {% if page.tag == 'btl' %}
-                {% include svg/tag-btl.svg %}
-                <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
-            {% endif %}
-            {% if page.tag == 'corp' %}
-                {% include svg/tag-corp.svg %}
-                <span>{{ site.data.tags.tag-corp[page.lang] }}</span>
-            {% endif %}
-            {% if page.tag == 'mass' %}
-                {% include svg/tag-mass.svg %}
-                <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
-            {% endif %}
-            {% if page.tag == 'mice' %}
-                {% include svg/tag-mice.svg %}
-                <span>{{ site.data.tags.tag-mice[page.lang] }}</span>
-            {% endif %}
-        </nav>
+        <div class="events-item__tag">
+            <nav>
+                {% if page.tag == 'brand' %}
+                    {% include svg/tag-brand.svg %}
+                    <span>{{ site.data.tags.tag-brand[page.lang] }}</span>
+                {% endif %}
+                {% if page.tag == 'btl' %}
+                    {% include svg/tag-btl.svg %}
+                    <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
+                {% endif %}
+                {% if page.tag == 'corp' %}
+                    {% include svg/tag-corp.svg %}
+                    <span>{{ site.data.tags.tag-corp[page.lang] }}</span>
+                {% endif %}
+                {% if page.tag == 'mass' %}
+                    {% include svg/tag-mass.svg %}
+                    <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
+                {% endif %}
+                {% if page.tag == 'mice' %}
+                    {% include svg/tag-mice.svg %}
+                    <span>{{ site.data.tags.tag-mice[page.lang] }}</span>
+                {% endif %}
+            </nav>
+        </div>
     </div>
 
     <div class="events-item__title">{{ page.title }}</div>
