@@ -5,6 +5,7 @@ Web development of Nebo Event Management site
 - [nebo.ua](http://nebo.ua)
 - [nebo.com.ua](http://nebo.com.ua)
 - [neboua.github.io](http://neboua.github.io)
+- [neboua.github.io/nebo](http://neboua.github.io/nebo)
 
 ### Run
 
