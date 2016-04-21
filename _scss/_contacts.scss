@@ -6,12 +6,20 @@
     // padding: 70px;
     position: relative;
 
-    &__right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 60%;
+    &__map-wrap {
+        float: left;
+        // width: 100%;
+        // position: relative;
+        @include ratio(100%,1,1);
+
+        @include media(M) {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 60%;
+            padding-bottom: 0;
+        }
     }
 
     &__map {
@@ -23,11 +31,18 @@
         border: none;
     }
 
-    &__left {
-        float: right;
-        width: 40%;
-        padding: 40px;
+    &__text-wrap {
+        float: left;
+        width: 100%;
+        padding: 40px 20px;
         box-sizing: border-box;
+
+        @include media(M) {
+            float: auto;
+            float: right;
+            padding: 40px;
+            width: 40%;
+        }
     }
 
     &__title {

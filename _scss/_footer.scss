@@ -30,7 +30,7 @@
 
         @include media(S) {
             float: left;
-        };
+        }
     }
 
     &__text {
@@ -38,7 +38,7 @@
 
         @include media(S) {
             padding-left: 130px;
-        };
+        }
     }
 
     &__nebo-svg {
