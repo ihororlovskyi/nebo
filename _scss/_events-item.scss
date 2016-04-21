@@ -73,16 +73,24 @@
     }
 
     &__title {
-        font-size: 54px;
+        font-size: 36px;
         margin: 60px auto 0;
+
+        @include media(L) {
+            font-size: 54px;
+        }
     }
 
     &__cover {
-        width: 100%;
-        max-width: 800px;
+        width: 70%;
+        max-width: 700px;
         height: auto;
         display: block;
         margin: 0 auto 30px;
+
+        @include media(M) {
+            width: 100%;
+        }
     }
 
     &__about {

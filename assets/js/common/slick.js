@@ -27,7 +27,7 @@
                 breakpoint: 754,
                 settings: {
                     arrows: true,
-                    swipeToSlide: false
+                    // swipeToSlide: false
                     // fade: true,
                 }
             }

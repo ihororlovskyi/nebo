@@ -11,7 +11,15 @@
     &__item {
         float: left;
         overflow: hidden;
-        @include ratio(25%,2,1.1);
+        @include ratio(100%,2,1.1);
+
+        @include media(S) {
+            @include ratio(50%,2,1.1);
+        }
+
+        @include media(L) {
+            @include ratio(25%,2,1.1);
+        }
 
         &--lg {
             @include ratio(50%,2,1.1);
