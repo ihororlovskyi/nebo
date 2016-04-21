@@ -10,4 +10,6 @@ prize: '2 место в номинации Лучший MICE проект'
 title: 'DTEK Investment Event @ Dubai'
 
 og-image: ''
+
+best-tag: true
 ---
