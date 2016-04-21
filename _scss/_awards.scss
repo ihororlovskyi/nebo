@@ -3,7 +3,7 @@
     @include clearfix;
     text-align: center;
     color: #fff;
-    padding: 70px 20px 40px;
+    padding: 70px 0 40px;
     position: relative;
     overflow: hidden;
 
@@ -36,20 +36,32 @@
         position: relative;
 
         &--open {
-            max-height: 8480px;
+            max-height: 20000px;
         }
     }
 
     &__item {
         float: left;
-        width: 33.33333%;
+        width: 100%;
         padding: 0 4%;
         box-sizing: border-box;
+        margin-bottom: 50px;
+
+        @include media(M) {
+            width: 33.33333%;
+        }
 
         &-wrap {
             position: relative;
-            height: 190px;
-            margin-bottom: 20px;
+            height: auto;
+            padding-bottom: 30px;
+            margin-bottom: 80px;
+
+            @include media(M) {
+                height: 190px;
+                padding-bottom: 0;
+                margin-bottom: 20px;
+            }
 
             &:after {
                 position: absolute;

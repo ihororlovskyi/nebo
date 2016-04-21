@@ -22,7 +22,9 @@
         }
 
         &--lg {
-            @include ratio(50%,2,1.1);
+            @include media(S) {
+                @include ratio(50%,2,1.1);
+            }
         }
 
         &:after {
