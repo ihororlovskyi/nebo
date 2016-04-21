@@ -36,7 +36,7 @@
 
     $('.js-clients-slick').slick({
         dots: false,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 300,
         // fade: true,
@@ -55,6 +55,7 @@
             {
                 breakpoint: 754,
                 settings: {
+                    arrows: true,
                     slidesToShow: 8,
                     slidesToScroll: 1
                 }
