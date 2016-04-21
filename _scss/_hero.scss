@@ -6,6 +6,7 @@
     padding: 0;
     overflow: hidden;
     position: relative;
+    margin-top: 73px;
 
     &__figures-bg1,
     &__figures-bg2 {
@@ -23,6 +24,10 @@
             top: 50%;
             width: 75%;
             display: block;
+
+            @include media(M) {
+                font-size: 48px;
+            }
         }
     }
 
@@ -41,27 +46,38 @@
         position: absolute;
         display: none;
         z-index: 9;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        transform: translate3d(11%,28%,0);
     }
 
     &__bg1 {
-
         .slick-slide:nth-child(odd) & {
-            width: 60%;
-            top: -12%;
-            left: -12%;
             display: block;
-            // transform: translate3d(-50%,-50%,0);
+
+            @include media(M) {
+                width: 60%;
+                top: -12%;
+                left: -12%;
+                bottom: auto;
+                transform: translate3d(0,0,0);
+            }
         }
     }
 
     &__bg2 {
-
         .slick-slide:nth-child(even) & {
-            width: 55%;
-            top: -20%;
-            right: -20%;
             display: block;
-            // transform: translate3d(50%,-50%,0);
+
+            @include media(M) {
+                width: 55%;
+                top: -20%;
+                left: auto;
+                right: -20%;
+                bottom: auto;
+                transform: translate3d(0,0,0);
+            }
         }
     }
 
@@ -72,7 +88,11 @@
     }
 
     &__slick {
-        margin-bottom: -50px;
+        margin-bottom: 50px;
+
+        @include media(M) {
+            margin-bottom: -50px;
+        }
 
         .slick-list {
             overflow: visible;
@@ -118,7 +138,11 @@
         }
 
         .slick-dots {
-            bottom: 80px;
+            bottom: -20px;
+
+            @include media(M) {
+                bottom: 80px;
+            }
 
             li {
                 margin: 0 8px;
@@ -136,9 +160,14 @@
     }
 
     &__media {
-        @include ratio (100%,5,2);
+        // @include ratio (100%,5,3);
         // float: right;
+        position: relative;
         z-index: 60;
+
+        @include media(M) {
+            @include ratio (100%,5,2);
+        }
     }
 
     &__svg {
@@ -152,27 +181,41 @@
 
     &__svg-helper {
         // opacity: .2 !important;
-        position: absolute;
-        top: -100px;
+        width: 90%;
         display: block;
-        width: 55%;
         height: auto;
         box-shadow: 0 4px 40px rgba(#000,.4);
         border: 0 solid transparent;
         border-bottom-width: 38px;
         box-sizing: border-box;
+        margin: -38px auto 40px;
+
+        @include media(M) {
+            position: absolute;
+            top: -100px;
+            width: 55%;
+        }
 
         .slick-slide:nth-child(odd) & {
-            right: -38px;
-            border-radius: 500px 0 0 500px;
-            border-top-width: 38px;
-            border-left-width: 38px;
-            border-right-width: 38px;
+            border-width: 38px;
+            border-radius: 0 0 500px 500px;
+
+            @include media(M) {
+                right: -38px;
+                border-top-width: 38px;
+                border-left-width: 38px;
+                border-right-width: 38px;
+                border-radius: 500px 0 0 500px;
+            }
         }
         .slick-slide:nth-child(even) & {
-            left: -38px;
-            border-right-width: 38px;
-            border-radius: 0 0 500px 0;
+            border-width: 38px;
+            border-radius: 0 0 500px 500px;
+
+            @include media(M) {
+                left: -38px;
+                border-radius: 0 0 500px 0;
+            }
         }
         .slick-slide:nth-child(odd) &--even {
             display: none;
@@ -189,12 +232,20 @@
     }
 
     &__text {
-        position: absolute;
-        width: 50%;
+        // position: absolute;
+        // width: 50%;
+        padding: 20px;
         box-sizing: border-box;
-        top: 50%;
-        transform: translate3d(0,-50%,0);
+        // top: 50%;
         color: #fff;
+
+        @include media(M) {
+            position: absolute;
+            top: 50%;
+            width: 50%;
+            padding: 0;
+            transform: translate3d(0,-50%,0);
+        }
 
         .slick-slide:nth-child(odd) & {
             text-align: left;
@@ -207,16 +258,27 @@
     }
 
     &__title {
-        font-size: 60px;
-        line-height: 1;
+        font-size: 36px;
         font-weight: 600;
         margin-bottom: 30px;
+
+        @include media(M) {
+            font-size: 48px;
+        }
+
+        @include media(L) {
+            font-size: 60px;
+            line-height: 1;
+        }
     }
 
     &__description {
-        // width: 60%;
-        font-size: 20px;
+        font-size: 16px;
         margin-bottom: 30px;
+
+        @include media(M) {
+            font-size: 20px;
+        }
     }
 
     &__btn {
