@@ -1,32 +1,32 @@
 <div class="events-filter js-events-filter">
-    <nav>
+    <nav class="events-filter__nav">
         <a data-filter="*" class="events-filter__link">
             {% include svg/tag-all.svg %}
-            <span>{{ site.data.tags.tag-all[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-all[page.lang] }}</span>
         </a>
         <a data-filter=".best" class="events-filter__link events-filter__link--selected">
             {% include svg/tag-best.svg %}
-            <span>{{ site.data.tags.tag-best[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-best[page.lang] }}</span>
         </a>
         <a data-filter=".mass" class="events-filter__link">
             {% include svg/tag-mass.svg %}
-            <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-mass[page.lang] }}</span>
         </a>
         <a data-filter=".brand" class="events-filter__link">
             {% include svg/tag-brand.svg %}
-            <span>{{ site.data.tags.tag-brand[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-brand[page.lang] }}</span>
         </a>
         <a data-filter=".corp" class="events-filter__link">
             {% include svg/tag-corp.svg %}
-            <span>{{ site.data.tags.tag-corp[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-corp[page.lang] }}</span>
         </a>
         <a data-filter=".btl" class="events-filter__link">
             {% include svg/tag-btl.svg %}
-            <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-btl[page.lang] }}</span>
         </a>
         <a data-filter=".mice" class="events-filter__link">
             {% include svg/tag-mice.svg %}
-            <span>{{ site.data.tags.tag-mice[page.lang] }}</span>
+            <span class="events-filter__span">{{ site.data.tags.tag-mice[page.lang] }}</span>
         </a>
     </nav>
 </div>

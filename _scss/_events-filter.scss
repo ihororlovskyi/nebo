@@ -4,7 +4,7 @@
     border-width: 1px 0;
     font-size: 0;
 
-    nav {
+    &__nav {
         font-size: 14px;
         display: inline-block;
         @include clearfix;
@@ -13,7 +13,7 @@
     &__link {
         color: #fff;
         line-height: 20px;
-        padding: 12px 16px 12px 56px;
+        padding: 12px 0 12px 52px;
         border: 1px solid #2b58ac;
         border-width: 0 1px;
         cursor: pointer;
@@ -23,6 +23,10 @@
         float: left;
         display: table;
         transition: background .2s ease;
+
+        @include media(M) {
+            padding: 12px 16px 12px 56px;
+        }
 
         // &:first-child {
         //     padding-left: 16px;
@@ -64,10 +68,14 @@
     //     display: table;
     // }
 
-    span {
-        display: table-cell;
-        vertical-align: middle;
+    &__span {
+        display: none;
         text-align: left;
+
+        @include media(M) {
+            display: table-cell;
+            vertical-align: middle;
+        }
     }
 }
 
