@@ -24,7 +24,7 @@
         mobileFirst: true,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 754,
                 settings: {
                     arrows: true,
                     swipeToSlide: false
@@ -78,7 +78,7 @@
 
     $('.js-agency-slick').slick({
         dots: false,
-        arrows: true,
+        arrows: false,
         infinite: true,
         speed: 300,
         // fade: true,
@@ -87,20 +87,19 @@
         centerPadding: '20%',
         slidesToShow: 1,
         // slidesToScroll: 1,
-        lazyLoad: 'ondemand'
-        // autoplay: true,
-        // autoplaySpeed: 4000,
+        lazyLoad: 'ondemand',
+        autoplay: true,
+        autoplaySpeed: 4000,
         // swipeToSlide: true,
-        // mobileFirst: true,
-        // responsive: [
-        //     {
-        //         breakpoint: 768,
-        //         settings: {
-        //             slidesToShow: 8,
-        //             slidesToScroll: 2,
-        //         }
-        //     }
-        // ]
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 754,
+                settings: {
+                    arrows: true,
+                }
+            }
+        ]
     });
 
     $('.js-hero-slick').slick({
@@ -121,7 +120,7 @@
         // mobileFirst: true,
         // responsive: [
         //     {
-        //         breakpoint: 768,
+        //         breakpoint: 754,
         //         settings: {
         //             slidesToShow: 8,
         //             slidesToScroll: 2,

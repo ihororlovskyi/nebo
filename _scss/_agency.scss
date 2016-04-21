@@ -31,21 +31,33 @@
         text-align: center;
         font-size: 28px;
         margin: 0 auto 40px;
-        max-width: 70%;
+        max-width: 90%;
+
+        @include media(M) {
+            max-width: 70%;
+        }
     }
 
     &__subtitle {
         position: relative;
         font-size: 22px;
         margin: 0 auto 34px;
-        max-width: 70%;
+        max-width: 90%;
+
+        @include media(M) {
+            max-width: 70%;
+        }
     }
 
-    p {
+    &__p {
         position: relative;
         font-size: 18px;
         margin: 0 auto 18px;
-        max-width: 70%;
+        max-width: 90%;
+
+        @include media(M) {
+            max-width: 70%;
+        }
     }
 
     &__slick {
@@ -63,6 +75,7 @@
             opacity: 1;
             transition: opacity .2s ease;
             z-index: 1;
+            display: none;
 
             &:before {
                 color: #fff;
