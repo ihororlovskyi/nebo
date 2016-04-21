@@ -7,7 +7,7 @@ tag: btl # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
-title: 'Coca Cola Xmass Tour'
+title: 'Coca Cola XMas Tour'
 
 og-image: ''
 

@@ -7,8 +7,8 @@ tag: brand # mass, brand, corp, btl, mice
 award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
-title: 'Coca Cola Xmass Brand Zone'
-description: 'Coca Cola Xmass Brand Zone Lorem Ipsum Dolor Sit Amet Consectetur'
+title: 'Coca Cola XMas Brand Zone'
+description: 'Coca Cola XMas Brand Zone Lorem Ipsum Dolor Sit Amet Consectetur'
 
 og-image: ''
 

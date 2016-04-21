@@ -87,6 +87,8 @@
         height: auto;
         display: block;
         margin: 0 auto 30px;
+        // position: relative;
+        // z-index: 1;
 
         @include media(M) {
             width: 100%;
