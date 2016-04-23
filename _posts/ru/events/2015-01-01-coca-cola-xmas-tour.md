@@ -4,14 +4,14 @@ lang: ru
 name: coca-cola-xmass-tour
 category: events
 tag: btl # mass, brand, corp, btl, mice
-award:  # eventarizacia, ukrawards, propeller
-prize: ''
+award: ukrawards # eventarizacia, ukrawards, propeller
+prize: 'Бронза в номинации Массовый Ивент'
 
-title: 'Coca Cola XMas Tour'
+title: 'Coca Cola xMas Tour'
 
 og-image: ''
 
 best-tag: true
 ---
 
-Coca Cola Xmass Tour.
+Coca Cola xMas Tour.
