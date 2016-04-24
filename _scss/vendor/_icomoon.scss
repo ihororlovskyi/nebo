@@ -24,6 +24,27 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-combined:before {
+    content: "\e905";
+}
+.icon-crown:before {
+    content: "\e906";
+}
+.icon-square:before {
+    content: "\e907";
+}
+.icon-flash:before {
+    content: "\e908";
+}
+.icon-triangle:before {
+    content: "\e909";
+}
+.icon-star:before {
+    content: "\e90a";
+}
+.icon-oval:before {
+    content: "\e90b";
+}
 .icon-letter:before {
     content: "\e904";
 }

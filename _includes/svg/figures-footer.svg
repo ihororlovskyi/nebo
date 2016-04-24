@@ -1,6 +1,0 @@
-<svg class="{{ include.class }}" viewBox="0 0 1055 109" xmlns="http://www.w3.org/2000/svg">
-  <g fill="none" fill-rule="evenodd">
-    <path fill="#B28AFC" d="M0 0h31.288v31.29H0z"/>
-    <path fill="#E28D83" d="M1023.475 57h19.072l-6.423 14.725 18.124-1.162-32.294 38.416 10.04-27.017-13.994 3.62"/>
-  </g>
-</svg>

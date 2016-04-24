@@ -1,16 +1,39 @@
 .footer {
-    background: #3b3b3b;
     padding: 100px 20px 80px;
     position: relative;
-    background: silver;
+    background: #3b3b3b;
 
-    &__figures-bg {
-        width: 80%;
-        height: auto;
+    @include media(S) {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__figure {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%,-50%,0);
+
+        &--top-square {
+            top: 10%;
+            left: 10%;
+            font-size: 28px;
+            color: #b28afc;
+
+            @include media(L) {
+                top: 40%;
+            }
+        }
+
+        &--top-flash {
+            bottom: 20%;
+            right: 10%;
+            font-size: 40px;
+            color: #e28d83;
+
+            @include media(L) {
+                bottom: 40%;
+            }
+        }
     }
 
     &__wrap {
