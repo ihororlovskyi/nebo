@@ -8,7 +8,7 @@ award:  # eventarizacia, ukrawards, propeller
 prize: ''
 
 title: 'Coca Cola xMas Tour @ McDonalds'
-description: 'Coca Cola xMas Tour At MCdonalds Lorem Ipsum Dolor Sit Amet Consectetur'
+description: 'Хмас макдональдс  - Промо тур по ресторанам McDonalds'
 
 og-image: ''
 

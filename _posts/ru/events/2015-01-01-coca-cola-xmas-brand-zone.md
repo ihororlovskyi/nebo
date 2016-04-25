@@ -8,7 +8,7 @@ award: ukrawards # eventarizacia, ukrawards, propeller
 prize: 'Лучший спонсорский проект<br>Серебро в лучшая арт инсталяция'
 
 title: 'Coca Cola xMas Brand Zone'
-description: 'Coca Cola xMas Brand Zone Lorem Ipsum Dolor Sit Amet Consectetur'
+description: 'Coca Cola brand Zone - Спонсорская интеграция в рамках празднования нового года на Софиевской Площади'
 
 og-image: ''
 

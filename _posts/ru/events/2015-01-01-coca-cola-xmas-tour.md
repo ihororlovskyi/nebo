@@ -8,6 +8,7 @@ award: ukrawards # eventarizacia, ukrawards, propeller
 prize: 'Бронза в номинации Массовый Ивент'
 
 title: 'Coca Cola xMas Tour'
+description: 'Coca Cola xMas Tour - Road Show в рамках празднования Нового года и Рождества'
 
 og-image: ''
 

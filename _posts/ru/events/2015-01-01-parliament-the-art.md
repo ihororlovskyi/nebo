@@ -8,7 +8,7 @@ award: ukrawards # eventarizacia, ukrawards, propeller
 prize: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
 
 title: 'Parliament The Art'
-description: 'Parliament The Art Description Lorem Ipsum Dolor Sit Amet Consectetur'
+description: 'The Art - Серия арт вечеринок посвященных 100-тию супрематизма'
 
 og-image: ''
 
