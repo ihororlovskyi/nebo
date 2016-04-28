@@ -1,4 +1,4 @@
-.header {
+.mainmenu {
     position: fixed;
     z-index: 600;
     top: 0;
@@ -6,26 +6,19 @@
     width: 100%;
     height: 73px;
     background: #fff;
-}
 
-.logo {
-    position: fixed;
-    z-index: 900;
-    top: 0;
-    left: 5%;
-    // line-height: 70px;
-    // color: #b3b3b3;
-    // max-width: 225px;
+    &__logo-link {
+        position: fixed;
+        z-index: 900;
+        top: 0;
+        left: 5%;
+    }
 
-    &__img {
+    &__logo-img {
         width: auto;
         height: 75px;
         display: block;
         transform: translate3d(0,-18px,0);
-    }
-
-    @include media(M) {
-        width: 33.33333%;
     }
 }
 
