@@ -1,14 +1,36 @@
 ;$(document).ready(function () {
     /**
-     * slick
-     * https://github.com/kenwheeler/slick
-     */
-    // $('#fullpage').fullpage();
+    * slick
+    * https://github.com/kenwheeler/slick
+    */
 
-    /**
-     * slick
-     * https://github.com/kenwheeler/slick
-     */
+    $('.js-hero-slick').slick({
+        dots: true,
+        arrows: true,
+        infinite: true,
+        speed: 400,
+        fade: true,
+        cssEase: 'ease',
+        // centerMode: true,
+        // centerPadding: '20%',
+        slidesToShow: 1,
+        // slidesToScroll: 1,
+        lazyLoad: 'ondemand',
+        autoplay: true,
+        autoplaySpeed: 4000
+        // swipeToSlide: true,
+        // mobileFirst: true,
+        // responsive: [
+        //     {
+        //         breakpoint: 754,
+        //         settings: {
+        //             slidesToShow: 8,
+        //             slidesToScroll: 2,
+        //         }
+        //     }
+        // ]
+    });
+
     $('.js-events-item-slick').slick({
         dots: false,
         arrows: false,
@@ -101,32 +123,5 @@
                 }
             }
         ]
-    });
-
-    $('.js-hero-slick').slick({
-        dots: true,
-        arrows: true,
-        infinite: true,
-        speed: 400,
-        fade: true,
-        cssEase: 'ease',
-        // centerMode: true,
-        // centerPadding: '20%',
-        slidesToShow: 1,
-        // slidesToScroll: 1,
-        lazyLoad: 'ondemand',
-        autoplay: true,
-        autoplaySpeed: 4000
-        // swipeToSlide: true,
-        // mobileFirst: true,
-        // responsive: [
-        //     {
-        //         breakpoint: 754,
-        //         settings: {
-        //             slidesToShow: 8,
-        //             slidesToScroll: 2,
-        //         }
-        //     }
-        // ]
     });
 });

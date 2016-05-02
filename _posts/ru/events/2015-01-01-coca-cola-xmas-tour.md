@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: coca-cola-xmass-tour
+name: coca-cola-xmas-tour
 category: events
 tag: btl # mass, brand, corp, btl, mice
 award: ukrawards # eventarizacia, ukrawards, propeller

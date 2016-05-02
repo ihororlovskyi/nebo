@@ -1,7 +1,7 @@
 ---
 layout: events-item
 lang: ru
-name: coca-cola-xmass-brand-zone
+name: coca-cola-xmas-brand-zone
 category: events
 tag: brand # mass, brand, corp, btl, mice
 award: ukrawards # eventarizacia, ukrawards, propeller
