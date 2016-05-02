@@ -171,7 +171,7 @@
         border: 0 solid transparent;
         border-bottom-width: 38px;
         box-sizing: border-box;
-        margin: -38px auto 40px;
+        margin: -48px auto 40px;
         position: relative;
         z-index: 250;
 
@@ -181,23 +181,23 @@
         }
 
         .slick-slide:nth-child(odd) & {
-            border-width: 38px;
+            border-width: 48px;
             border-radius: 0 0 500px 500px;
 
             @include media(M) {
-                right: -38px;
-                border-top-width: 38px;
-                border-left-width: 38px;
-                border-right-width: 38px;
+                right: -48px;
+                border-top-width: 48px;
+                border-left-width: 48px;
+                border-right-width: 48px;
                 border-radius: 500px 0 0 500px;
             }
         }
         .slick-slide:nth-child(even) & {
-            border-width: 38px;
+            border-width: 48px;
             border-radius: 0 0 500px 500px;
 
             @include media(M) {
-                left: -38px;
+                left: -48px;
                 border-radius: 0 0 500px 0;
             }
         }
