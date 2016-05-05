@@ -14,7 +14,7 @@
 
                             {% for cover in site.static_files %}
                                 {% if cover.path contains i.name and cover.path contains 'cover.jpg' %}
-                                        <img class="hero__img" data-lazy="{{ site.baseurl }}{{cover.path}}" alt="{{ i.title }} Cover">
+                                    <img class="hero__img" data-lazy="{{ site.baseurl }}{{cover.path}}">
                                 {% endif %}
                             {% endfor %}
 
