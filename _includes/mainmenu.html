@@ -3,42 +3,46 @@
         <img class="mainmenu__logo-img" src="{{ site.baseurl }}/assets/img/header/nebo-logo.png" alt="Nebo Event Management Logo">
     </a>
 
-    <ul class="mainmenu__nav js-page-nav">
-        <li class="mainmenu__nav-li mainmenu__nav-li--selected" style="display: none;">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#hero">
-                Top
-            </a>
-        </li>
-        <li class="mainmenu__nav-li">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#events">
-                {{ site.data.t.events[page.lang] }}
-            </a>
-        </li>
-        <li class="mainmenu__nav-li">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#awards">
-                {{ site.data.t.awards[page.lang] }}
-            </a>
-        </li>
-        <li class="mainmenu__nav-li">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#clients">
-                {{ site.data.t.clients[page.lang] }}
-            </a>
-        </li>
-        <li class="mainmenu__nav-li">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#agency">
-                {{ site.data.t.agency[page.lang] }}
-            </a>
-        </li>
-        <li class="mainmenu__nav-li">
-            <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#contacts">
-                {{ site.data.t.contacts[page.lang] }}
-            </a>
-        </li>
-    </ul>
+    <a class="mainmenu__mobile-menu-btn">Menu</a>
 
-    <nav class="mainmenu__lang">
-        <a class="mainmenu__lang-link mainmenu__lang-link--ru" href="{{ site.baseurl }}/">Ru</a>
-        <a class="mainmenu__lang-link mainmenu__lang-link--en" href="{{ site.baseurl }}/en">En</a>
-        <a class="mainmenu__lang-link" href="https://www.facebook.com/NEBO.events.management" target="_blank">Facebook</a>
-    </nav>
+    <div class="mainmenu__wrapper">
+        <ul class="mainmenu__nav js-one-page-nav">
+            <li class="mainmenu__nav-li mainmenu__nav-li--selected" style="display: none;">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#hero">
+                    Top
+                </a>
+            </li>
+            <li class="mainmenu__nav-li">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#events">
+                    {{ site.data.t.events[page.lang] }}
+                </a>
+            </li>
+            <li class="mainmenu__nav-li">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#awards">
+                    {{ site.data.t.awards[page.lang] }}
+                </a>
+            </li>
+            <li class="mainmenu__nav-li">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#clients">
+                    {{ site.data.t.clients[page.lang] }}
+                </a>
+            </li>
+            <li class="mainmenu__nav-li">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#agency">
+                    {{ site.data.t.agency[page.lang] }}
+                </a>
+            </li>
+            <li class="mainmenu__nav-li">
+                <a class="mainmenu__nav-a" href="{{ site.baseurl }}/#contacts">
+                    {{ site.data.t.contacts[page.lang] }}
+                </a>
+            </li>
+        </ul>
+
+        <nav class="mainmenu__lang">
+            <a class="mainmenu__lang-link mainmenu__lang-link--ru" href="{{ site.baseurl }}/">Ru</a>
+            <a class="mainmenu__lang-link mainmenu__lang-link--en" href="{{ site.baseurl }}/en">En</a>
+            <a class="mainmenu__lang-link" href="https://www.facebook.com/NEBO.events.management" target="_blank">Facebook</a>
+        </nav>
+    </div>
 </header>

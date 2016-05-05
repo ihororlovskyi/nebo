@@ -21,20 +21,72 @@
         }
     }
 
+    &__wrapper {
+        position: fixed;
+        top: 73px;
+        left: 100%;
+        background: #fff;
+        transform: translate3d(0,0,0);
+        transition: transform .3s ease;
+        width: 50%;
+        min-width: 260px;
+        min-height: 100%;
+
+        @include media(L) {
+            display: block;
+            position: relative;
+            top: auto;
+            left: auto;
+            width: auto;
+            background: transparent;
+            transform: translate3d(0,0,0);
+        }
+
+        &--active {
+            transform: translate3d(-100%,0,0);
+
+            @include media(L) {
+                transform: translate3d(0,0,0);
+            }
+        }
+    }
+
+    &__mobile-menu-btn {
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        padding: 23px 15px 26px;
+        text-transform: uppercase;
+        line-height: 20px;
+        font-weight: 700;
+        color: #1446a3;
+        display: block;
+        transition: color .3s ease;
+        border-top: 4px solid transparent;
+        transition: border-color .2s ease, color .2s ease;
+
+        @include media(L) {
+            display: none;
+        }
+
+        &--active {
+            text-transform: uppercase;
+        }
+    }
+
     &__nav {
         list-style: none;
         padding: 0;
         margin: 0;
         font-size: 0;
-        display: none;
-
-        @include media(M) {
-            display: block;
-        }
 
         &-li {
-            display: inline-block;
+            display: block;
             font-size: 14px;
+
+            @include media(L) {
+                display: inline-block;
+            }
         }
 
         &-a {
@@ -42,10 +94,8 @@
             text-transform: uppercase;
             line-height: 20px;
             font-weight: 700;
-            // color: #b3b3b3;
             color: #1446a3;
             display: block;
-            // box-sizing: border-box;
             transition: color .3s ease;
             border-top: 4px solid transparent;
             transition: border-color .2s ease, color .2s ease;
@@ -62,22 +112,24 @@
     }
 
     &__lang {
-        position: fixed;
-        z-index: 800;
-        top: 0;
-        right: 5%;
+        position: relative;
         font-size: 0;
-        margin-right: -15px;
+
+        @include media(L) {
+            position: fixed;
+            z-index: 800;
+            top: 0;
+            right: 5%;
+            margin-right: -15px;
+        }
 
         &-link {
             font-size: 14px;
             font-weight: 700;
             padding: 23px 15px 26px;
             line-height: 20px;
-            // text-transform: uppercase;
             display: inline-block;
             border-top: 4px solid transparent;
-            // color: #b3b3b3;
             color: #1446a3;
             transition: color .2s ease;
 

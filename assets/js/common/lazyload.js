@@ -1,9 +1,8 @@
+/**
+* lazyload.js
+* https://github.com/tuupola/jquery_lazyload
+*/
 ;$(document).ready(function () {
-
-    /**
-     * lazyload.js
-     * https://github.com/tuupola/jquery_lazyload
-     */
     $(function () {
         $("img.lazy").lazyload({
             threshold: 0,

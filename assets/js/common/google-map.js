@@ -1,6 +1,7 @@
 /**
- * google map
- */
+* google map
+* 
+*/
 function initMap() {
     var myLatLng = {lat: 50.44761581, lng: 30.52425742};
 

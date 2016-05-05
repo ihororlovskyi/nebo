@@ -1,3 +1,7 @@
+/**
+* stellar
+* 
+*/
 ;$(document).ready(function () {
     $('.js-parallax-agency').stellar({
         horizontalScrolling: false,

@@ -1,18 +1,9 @@
+/**
+* isotope with imagesloaded
+* https://github.com/metafizzy/isotope
+* https://github.com/desandro/imagesloaded
+*/
 ;$(document).ready(function () {
-
-    /**
-     * Remodal
-     * https://github.com/VodkaBears/Remodal
-     */
-    // $('.js-remodal').remodal({
-    //     closeOnEscape: false
-    // });
-
-    /**
-     * isotope with imagesloaded
-     * https://github.com/metafizzy/isotope
-     * https://github.com/desandro/imagesloaded
-     */
     var $eventsList = $('.js-events-list'),
         $eventsRelated = $('.js-events-related'),
         $win = $(window);
@@ -63,13 +54,5 @@
                 columnWidth: '.events-list__sizer'
             }
         });
-    });
-
-    /**
-     * Remodal
-     * https://github.com/VodkaBears/Remodal
-     */
-    $('.js-popup').remodal({
-        // closeOnEscape: false
     });
 });

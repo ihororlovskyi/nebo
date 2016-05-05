@@ -1,9 +1,8 @@
+/**
+* slick
+* https://github.com/kenwheeler/slick
+*/
 ;$(document).ready(function () {
-    /**
-    * slick
-    * https://github.com/kenwheeler/slick
-    */
-
     $('.js-hero-slick').slick({
         dots: true,
         arrows: true,
