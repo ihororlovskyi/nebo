@@ -12,7 +12,7 @@ Web development of Nebo Event Management site
 
 `npm start` or `gulp`
 
-### Cast
+### Authors
 
 Design by [Anton Pivniuk](https://www.behance.net/antonpivniuk) (Lead UI/UX Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
 
