@@ -1,5 +1,5 @@
 .footer {
-    padding: 100px 20px 80px;
+    padding: 100px 20px 0;
     position: relative;
     background: #3b3b3b;
 
@@ -8,6 +8,8 @@
         width: 100%;
         left: 0;
         bottom: 0;
+        height: 360px;
+        box-sizing: border-box;
     }
 
     &__figure {
