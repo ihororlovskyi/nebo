@@ -3,6 +3,10 @@
         "ru": "Все",
         "en": "All",
     },
+    "tag-best": {
+        "ru": "Best",
+        "en": "Best",
+    },
     "tag-mass": {
         "ru": "Массовые<br>Мероприятия",
         "en": "Public<br>Events",
@@ -23,9 +27,4 @@
         "ru": "MICE",
         "en": "MICE",
     },
-    "tag-best": {
-        "ru": "Best",
-        "en": "Best",
-    },
 },
-
