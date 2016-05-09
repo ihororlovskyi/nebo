@@ -1,15 +1,35 @@
 .footer {
-    padding: 100px 20px 0;
+    padding: 100px 15px 100px;
     position: relative;
     background: #3b3b3b;
+    // perspective: 100px;
+    // overflow-x: hidden;
+    // overflow-y: auto;
 
     @include media(S) {
         position: fixed;
+    // position: relative;
         width: 100%;
         left: 0;
         bottom: 0;
         height: 360px;
         box-sizing: border-box;
+        // overflow-x: hidden;
+        // overflow-y: auto;
+        // perspective: 300px;
+        // perspective-origin: 100% 100%;
+    }
+
+    &__parallax {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        // transform-style: preserve-3d;
+        // transform: translateZ(-1px);
+        // background: #3b3b3b;
+        // transform: translateZ(-100px) scale(2);
     }
 
     &__figure {
@@ -43,6 +63,10 @@
         max-width: 740px;
         position: relative;
         @include clearfix;
+        // transform-style: preserve-3d;
+        // transform: translateZ(0);
+        // transform: translateZ(0);
+        // transform: translateZ(-50px) scale(1.5);
     }
 
     &__logo {
@@ -50,7 +74,6 @@
         width: 100px;
         height: auto;
         display: block;
-        // margin-right: 30px;
         margin-bottom: 20px;
 
         @include media(S) {

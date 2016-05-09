@@ -11,6 +11,8 @@ body {
 main {
     background: #fff;
     margin-bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 
     @include media(S) {
         margin-bottom: 360px;

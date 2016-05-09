@@ -151,8 +151,31 @@
 
     &__section {
         position: relative;
-        z-index: 20;
         margin-top: -70px;
         padding-top: 70px;
+    
+        &--hero {
+            z-index: 90;
+        }
+
+        &--events {
+            z-index: 80;
+        }
+
+        &--awards {
+            z-index: 70;
+        }
+
+        &--clients {
+            z-index: 60;
+        }
+
+        &--agency {
+            z-index: 50;
+        }
+
+        &--contacts {
+            z-index: 40;
+        }
     }
 }

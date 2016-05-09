@@ -6,7 +6,7 @@ function initMap() {
     var myLatLng = {lat: 50.44761581, lng: 30.52425742};
 
     var styles = {
-        'Blue': [
+        'Nebo Style': [
             {
                 featureType: 'all',
                 stylers: [
