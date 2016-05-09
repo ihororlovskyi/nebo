@@ -1,23 +1,41 @@
 .pride {
     text-align: center;
     font-size: 0;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     position: relative;
     z-index: 100;
+
+    @include media(M) {
+        padding-top: 60px;
+    }
+
+    @include media(L) {
+        padding-top: 0;
+    }
 
     &__item {
         display: inline-block;
         width: 33.33333%;
         max-width: 300px;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
 
     &__number {
-        font-size: 50px;
+        font-size: 28px;
         color: #779ee5;
         font-weight: 700;
+
+        @include media(S) {
+            font-size: 50px;
+        }
     }
 
     &__title {
-        font-size: 18px;
+        font-size: 12px;
+
+        @include media(S) {
+            font-size: 18px;
+        }
     }
 }
