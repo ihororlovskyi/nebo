@@ -63,12 +63,12 @@ gulp.task('jsConcat', ['sass'], function () {
             'assets/js/vendor/*',
             'assets/js/common/*'
         ])
-        .pipe(concat('all.min.js'))
+        .pipe(concat('all.js'))
         .pipe(gulp.dest('assets/js'));
 });
 
 gulp.task('jsMin', ['jsConcat'], function () {
-    return gulp.src('assets/js/all.min.js')
+    return gulp.src('assets/js/all.js')
         .pipe(uglify())
         .pipe(gulp.dest('assets/js'));
 });
