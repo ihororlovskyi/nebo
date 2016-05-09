@@ -12,57 +12,24 @@
         
     }
 
-    // &__figures-bg1,
-    // &__figures-bg2 {
-    //     height: auto;
-    //     position: absolute;
-    //     left: 50%;
-    //     transform: translate3d(-50%,-50%,0);
-    //     display: none;
-    //     // display: none !important;
-    //     z-index: 10;
-    // }
-
-    // &__figures-bg1 {
-
-    //     .slick-slide:nth-child(odd) & {
-    //         top: 50%;
-    //         width: 75%;
-    //         display: block;
-
-    //         @include media(M) {
-    //             font-size: 48px;
-    //         }
-    //     }
-    // }
-
-    // &__figures-bg2 {
-
-    //     .slick-slide:nth-child(even) & {
-    //         top: 40%;
-    //         width: 85%;
-    //         display: block;
-    //     }
-    // }
-
     &__bg1,
     &__bg2 {
         height: auto;
         position: absolute;
-        display: none;
+        display: none !important;
         z-index: 90;
-        width: 60%;
+        width: 70%;
         bottom: -20%;
         left: 50%;
-        transform: translate3d(-50%,0,0);
+        transform: translate3d(-50%,70%,0);
     }
 
     &__bg1 {
         .slick-slide:nth-child(odd) & {
-            display: block;
+            display: block !important;
 
             @include media(M) {
-                width: 60%;
+                width: 40%;
                 top: -12%;
                 left: -12%;
                 bottom: auto;
@@ -73,13 +40,13 @@
 
     &__bg2 {
         .slick-slide:nth-child(even) & {
-            display: block;
+            display: block !important;
 
             @include media(M) {
-                width: 55%;
-                top: -20%;
+                width: 45%;
+                top: -12%;
                 left: auto;
-                right: -20%;
+                right: -12%;
                 bottom: auto;
                 transform: translate3d(0,0,0);
             }
@@ -220,13 +187,18 @@
 
     &__group1,
     &__group2 {
-        display: none;
+        display: none !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
     &__group1 {
 
         .slick-slide:nth-child(odd) & {
-            display: block;
+            display: block !important;
         }
 
         &-top-flash {
@@ -270,7 +242,7 @@
     &__group2 {
 
         .slick-slide:nth-child(even) & {
-            display: block;
+            display: block !important;
         }
 
         &-top-square {

@@ -14,9 +14,9 @@ main {
     overflow-x: hidden;
     overflow-y: auto;
 
-    @include media(S) {
-        margin-bottom: 360px;
-    }
+    // @include media(S) {
+    //     margin-bottom: 360px;
+    // }
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -27,6 +27,8 @@ a {
     text-decoration: none;
 }
 
+
+// надобы что-то с этим сделать
 .icon-combined {
     color: #3469cb;
 }
@@ -47,4 +49,12 @@ a {
 }
 .icon-oval {
     color: #4974c4;
+}
+
+.superfilter {
+    position: absolute;
+    height: 0;
+    width: 0;
+    left: 0;
+    top: 0;
 }

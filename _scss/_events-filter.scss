@@ -13,7 +13,7 @@
     &__link {
         color: #fff;
         line-height: 20px;
-        padding: 12px 0 12px 52px;
+        padding: 12px 0 12px 44px;
         border: 1px solid #2b58ac;
         border-width: 0 1px;
         cursor: pointer;
@@ -25,7 +25,7 @@
         transition: background .2s ease;
 
         @include media(M) {
-            padding: 12px 16px 12px 56px;
+            padding: 12px 12px 12px 44px;
         }
 
         // &:first-child {
@@ -48,7 +48,7 @@
     svg {
         position: absolute;
         top: 50%;
-        left: 14px;
+        left: 11px;
         width: 24px;
         height: auto;
         // float: left;

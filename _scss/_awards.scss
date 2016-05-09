@@ -1,21 +1,14 @@
 .awards {
-    background: #f5a39a;
+    background: #db8b82;
     @include clearfix;
     text-align: center;
     color: #fff;
     padding: 70px 0 40px;
     position: relative;
     overflow: hidden;
-
-    &__bg {
-        width: 70%;
-        height: auto;
-        position: absolute;
-        left: 50%;
-        top: 0;
-        transform: translate3d(-50%,-29%,0);
-        opacity: .9;
-    }
+    background-image: url(../img/bg-awards.png);
+    background-position: 50% 0;
+    background-repeat: repeat-y;
 
     &__title {
         position: relative;
