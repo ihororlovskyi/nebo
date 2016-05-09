@@ -3,13 +3,10 @@
     @include clearfix;
     text-align: left;
     color: #fff;
-    // padding: 70px;
     position: relative;
 
     &__map-wrap {
         float: left;
-        // width: 100%;
-        // position: relative;
         @include ratio(100%,1,1);
 
         @include media(M) {
@@ -34,13 +31,13 @@
     &__text-wrap {
         float: left;
         width: 100%;
-        padding: 40px 20px;
+        padding: 40px 15px;
         box-sizing: border-box;
 
         @include media(M) {
             float: auto;
             float: right;
-            padding: 40px;
+            padding: 60px 40px;
             width: 40%;
         }
     }
@@ -55,6 +52,11 @@
         padding-bottom: 40px;
         border-bottom: 1px solid rgba(#fff,.2);
         margin-bottom: 40px;
+
+        a[href^="tel"],
+        a[href^="mailto"] {
+            color: #fff;
+        }
     }
 
     &__description {
@@ -64,7 +66,6 @@
 
     &__form {
         text-align: center;
-        margin-bottom: 20px;
     }
 
     &__inputs-row {
@@ -92,7 +93,6 @@
 
     &__textarea {
         @include input;
-        // max-height: none;
         display: block;
         margin-bottom: 20px;
     }

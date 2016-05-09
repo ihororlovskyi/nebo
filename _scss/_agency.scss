@@ -11,25 +11,27 @@
     background-repeat: repeat-y;
 
     &__bg {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        display: block !important;
+        background-image: url(../img/bg-agency-figures.png);
+        background-position: 50% 0;
+        background-repeat: repeat-y;
     }
 
     &__figure {
-        position: absolute;
+        position: fixed;
 
         &--top-square {
-            top: 6%;
+            top: 18%;
             left: 27%;
             font-size: 30px;
         }
 
         &--top-flash {
-            top: 14%;
+            top: 24%;
             right: 38%;
             font-size: 50px;
             color: #e28d83;
@@ -74,7 +76,7 @@
         max-width: 90%;
 
         @include media(M) {
-            max-width: 70%;
+            max-width: 800px;
         }
     }
 
@@ -85,7 +87,7 @@
         max-width: 90%;
 
         @include media(M) {
-            max-width: 70%;
+            max-width: 800px;
         }
     }
 
@@ -96,7 +98,7 @@
         max-width: 90%;
 
         @include media(M) {
-            max-width: 70%;
+            max-width: 800px;
         }
     }
 

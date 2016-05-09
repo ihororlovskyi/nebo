@@ -11,8 +11,9 @@ body {
 main {
     background: #fff;
     margin-bottom: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
+    // overflow-x: hidden;
+    // overflow-y: auto;
 
     // @include media(S) {
     //     margin-bottom: 360px;
@@ -49,12 +50,4 @@ a {
 }
 .icon-oval {
     color: #4974c4;
-}
-
-.superfilter {
-    position: absolute;
-    height: 0;
-    width: 0;
-    left: 0;
-    top: 0;
 }

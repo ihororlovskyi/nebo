@@ -89,33 +89,6 @@
         }
     }
 
-    // &__events {
-    //     padding-bottom: 20px;
-    //     margin-bottom: 20px;
-    //     position: relative;
-
-    //     &:after {
-    //         position: absolute;
-    //         content: '';
-    //         bottom: 0;
-    //         left: 20px;
-    //         right: 20px;
-    //         border-bottom: 1px solid rgba(#fff,.2);
-    //         z-index: 30;
-    //     }
-
-    //     &:before {
-    //         position: absolute;
-    //         content: '';
-    //         height: 60px;
-    //         bottom: 0;
-    //         left: 0;
-    //         right: 0;
-    //         background: linear-gradient(to top, #f5a39a 30%, transparent);
-    //         z-index: 20;
-    //     }
-    // }
-
     &__event {
         padding: 10px 10px 10px 45px;
         position: relative;
@@ -129,36 +102,23 @@
             background: rgba(#a1493e,.2);
         }
 
-
-            // &:after {
-            //     position: absolute;
-            //     content: '';
-            //     bottom: 0;
-            //     left: 20px;
-            //     right: 20px;
-            //     border-bottom: 1px solid rgba(#fff,.2);
-            // }
-
         svg {
             width: 20px;
             position: absolute;
             top: 12px;
             left: 12px;
-            // transform: translate3d(0,-50%,0);
             fill: #fff;
         }
 
         &-title {
             color: #fff;
             font-size: 16px;
-            // padding: 0 20px;
             box-sizing: border-box;
         }
 
         &-prize {
             color: #84352b;
             font-size: 14px;
-            // padding: 0 20px;
             box-sizing: border-box;
         }
     }

@@ -3,7 +3,8 @@
 * 
 */
 function initMap() {
-    var myLatLng = {lat: 50.44761581, lng: 30.52425742};
+    var myLatLng = {lat: 50.44761581, lng: 30.52425742},
+        draggable = isMobile.any() ? false : true;
 
     var styles = {
         'Nebo Style': [
@@ -25,6 +26,7 @@ function initMap() {
             },
             disableDefaultUI: false,
             navigationControl: true,
+            draggable: draggable,
             scrollwheel: false,
             center: myLatLng,
             zoom: 18,
@@ -43,3 +45,27 @@ function initMap() {
         title: 'Hello World!'
     });
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+    // GLOBAL VARIABLES
+    //////////////////////////////////////////////////////////////////////////////////////////////////////
+    var isMobile = {
+        Android: function() {
+            return navigator.userAgent.match(/Android/i);
+        },
+        BlackBerry: function() {
+            return navigator.userAgent.match(/BlackBerry/i);
+        },
+        iOS: function() {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        },
+        Opera: function() {
+            return navigator.userAgent.match(/Opera Mini/i);
+        },
+        Windows: function() {
+            return navigator.userAgent.match(/IEMobile/i);
+        },
+        any: function() {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+    };
