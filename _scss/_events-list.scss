@@ -89,13 +89,22 @@
     }
 
     &__title {
-        font-size: 20px;
+        font-size: 12px;
         color: #fff;
-        margin-bottom: 4px;
+
+        @include media(S) {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
     }
 
     &__tag {
-        font-size: 12px;
-        color: #fff;
+        display: none;
+
+        @include media(S) {
+            display: block;
+            font-size: 12px;
+            color: #fff;
+        }
     }
 }

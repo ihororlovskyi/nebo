@@ -339,6 +339,7 @@
     }
 
     &__btn {
+        @include btn;
         @include btn--lg;
     }
 }

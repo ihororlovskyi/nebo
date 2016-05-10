@@ -85,7 +85,7 @@ gulp.task('watch', ['browser-sync'], function () {
         '_posts/**/*',
         '_data/*',
         'assets/img/**/**/**/**/*.*',
-        'assets/fonts/*',
+        'assets/fonts/**/*.*',
         'assets/js/**/*',
         '_config.yml',
         '_config_dev.yml'

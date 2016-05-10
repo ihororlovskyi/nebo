@@ -12,28 +12,18 @@
     outline: none;
     cursor: pointer;
 
-    svg {
-        margin-left: 8px;
-        display: inline-block;
-        width: 20px;
-        vertical-align: middle;
-        fill: #fff;
-    }
-
     &:hover {
         border-color: rgba(#fff,.8);
     }
 }
 
 @mixin btn--lg {
-    @include btn;
     font-size: 18px;
     border-width: 2px;
     padding: 15px 30px;
 }
 
 @mixin btn--pink {
-    // @include btn;
     color: #f5a39a;
     border-color: #f5a39a;
 

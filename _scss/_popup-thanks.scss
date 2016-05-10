@@ -16,6 +16,7 @@
     }
 
     &__btn {
+        @include btn;
         @include btn--lg;
         @include btn--pink;
     }

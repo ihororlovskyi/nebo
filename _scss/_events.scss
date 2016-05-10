@@ -1,9 +1,9 @@
 .events {
     background: #1446a3;
     @include clearfix;
-    // padding-bottom: 25px;
 
     &__btn {
+        @include btn;
         @include btn--lg;
         margin-top: 25px;
     }

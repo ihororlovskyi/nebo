@@ -128,5 +128,30 @@
         @include btn--lg;
         margin: 0 auto;
         position: relative;
+
+        [class^="icon-"] {
+            font-size: 20px;
+            margin-left: 4px;
+            vertical-align: middle;
+        }
+
+        [class^="icon-arrow-up"] {
+            display: none;
+        }
+
+        [class^="icon-arrow-down"] {
+            display: inline-block;
+        }
+
+        &--active {
+
+            [class^="icon-arrow-up"] {
+                display: inline-block;
+            }
+
+            [class^="icon-arrow-down"] {
+                display: none;
+            }
+        }
     }
 }
