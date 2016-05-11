@@ -49,6 +49,7 @@
     </div>
 
     {% assign awards = site.data.awards %}
+    {% if page.award %}
     <div class="events-item__awards" data-stellar-background-ratio="-0.5" data-stellar-vertical-offset="100">
 
         {% if page.award contains 'eventarizacia' %}
@@ -87,6 +88,7 @@
             </div>
         {% endif %}
     </div>
+    {% endif %}
 
     {% if page.description %}
         <div class="events-item__description">{{ page.description }}</div>
