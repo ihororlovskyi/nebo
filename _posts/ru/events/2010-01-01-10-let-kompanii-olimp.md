@@ -4,8 +4,12 @@ lang: ru
 name: 10-let-kompanii-olimp
 category: events
 tag: corp # mass, brand, corp, btl, mice
+
 award: eventarizacia # eventarizacia, ukrawards, propeller
-prize: 'Лучшее корпоративное мероприятие'
+# prize: 'Лучшее корпоративное мероприятие'
+prize-eventarizacia: 'Лучшее корпоративное мероприятие'
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: '10 лет компании «Олимп»'
 

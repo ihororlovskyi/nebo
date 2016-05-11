@@ -4,8 +4,12 @@ lang: ru
 name: nemiroff-yalta-ralli
 category: events
 tag: mass # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Nemiroff Yalta Rally'
 

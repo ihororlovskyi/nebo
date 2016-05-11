@@ -4,8 +4,12 @@ lang: ru
 name: dtek-investment-event-sardinia
 category: events
 tag: mice # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'DTEK Investment Event @ Sardinia'
 

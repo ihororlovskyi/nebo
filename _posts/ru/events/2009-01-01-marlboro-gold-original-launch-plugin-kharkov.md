@@ -4,8 +4,12 @@ lang: ru
 name: marlboro-gold-original-launch-plugin-kharkov
 category: events
 tag: mass # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Marlboro Gold Original Launch Plug-in Харьков'
 

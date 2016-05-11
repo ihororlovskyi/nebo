@@ -4,8 +4,12 @@ lang: ru
 name: konvecia-oon-prava-rebienka
 category: events
 tag: corp # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: '20-летие Конвенции ООН о правах ребенка'
 

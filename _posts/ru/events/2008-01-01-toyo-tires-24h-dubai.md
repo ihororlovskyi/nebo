@@ -4,8 +4,12 @@ lang: ru
 name: toyo-tires-24h-dubai
 category: events
 tag: mice # mass, brand, corp, btl, mice
+
 award: eventarizacia # eventarizacia, ukrawards, propeller
-prize: '3е место в номинации mice проект'
+# prize: '3е место в номинации mice проект'
+prize-eventarizacia: '3е место в номинации mice проект'
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'TOYO Tires 24h Dubai'
 

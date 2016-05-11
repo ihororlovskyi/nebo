@@ -4,8 +4,12 @@ lang: ru
 name: lg-na-kozyrnoi-party-2012
 category: events
 tag: btl # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'LG на Козырной Party 2012'
 

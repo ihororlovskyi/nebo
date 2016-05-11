@@ -4,8 +4,12 @@ lang: ru
 name: marlboro-unexpected-experience
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Marlboro Unexpected Experience'
 

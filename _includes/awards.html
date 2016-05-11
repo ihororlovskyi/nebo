@@ -5,7 +5,7 @@
     <div class="awards__list">
         {% assign awards = site.data.awards %}
         {% for i in awards %}
-            <div class="awards__item">
+            <div class="awards__item awards__item--{{ i.id }}">
 
                 <div class="awards__item-wrap">
                     {% for cover in site.static_files %}
@@ -18,29 +18,38 @@
                 </div>
 
                 <div class="awards__events">
-                    {% assign events = site.categories.events | where: "lang", page.lang %}
+                    {% assign events = site.categories.events %}
                     {% for e in events %}
                         {% if e.award contains i.id %}
                             <a href="{{ site.baseurl }}{{ e.url }}" class="awards__event">
 
-                                {% if e.tag == 'brand' %}
-                                    {% include svg/tag-brand.svg %}
+                                {% if e.tag == 'mass' %}
+                                    <span class="icon-flash"></span>
                                 {% endif %}
-                                {% if e.tag == 'btl' %}
-                                    {% include svg/tag-btl.svg %}
+                                {% if e.tag == 'brand' %}
+                                    <span class="icon-oval"></span>
                                 {% endif %}
                                 {% if e.tag == 'corp' %}
-                                    {% include svg/tag-corp.svg %}
+                                    <span class="icon-triangle"></span>
                                 {% endif %}
-                                {% if e.tag == 'mass' %}
-                                    {% include svg/tag-mass.svg %}
+                                {% if e.tag == 'btl' %}
+                                    <span class="icon-star"></span>
                                 {% endif %}
                                 {% if e.tag == 'mice' %}
-                                    {% include svg/tag-mice.svg %}
+                                    <span class="icon-square"></span>
                                 {% endif %}
 
                                 <div class="awards__event-title">{{ e.title }}</div>
-                                <div class="awards__event-prize">{{ e.prize }}</div>
+
+                                {% if e.award contains 'eventarizacia' %}
+                                    <div class="awards__event-prize awards__event-prize--eventarizacia">{{ e.prize-eventarizacia }}</div>
+                                {% endif %}
+                                {% if e.award contains 'ukrawards' %}
+                                    <div class="awards__event-prize awards__event-prize--ukrawards">{{ e.prize-ukrawards }}</div>
+                                {% endif %}
+                                {% if e.award contains 'propeller' %}
+                                    <div class="awards__event-prize awards__event-prize--propeller">{{ e.prize-propeller }}</div>
+                                {% endif %}
 
                             </a>
                         {% endif %}

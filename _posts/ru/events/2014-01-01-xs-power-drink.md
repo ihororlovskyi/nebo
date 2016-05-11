@@ -4,8 +4,12 @@ lang: ru
 name: xs-power-drink
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'XS Power Drink'
 # description: 'Запуск в Украине нового энергетического напитка XS power drink компании Amway'

@@ -4,8 +4,12 @@ lang: ru
 name: prime-yalta-rally-2012
 category: events
 tag: mass # mass, brand, corp, btl, mice
+
 award: ukrawards # eventarizacia, ukrawards, propeller
-prize: 'Лучшее спортивное мероприятие'
+# prize: 'Лучшее спортивное мероприятие'
+prize-eventarizacia: ''
+prize-ukrawards: 'Лучшее спортивное мероприятие'
+prize-propeller: ''
 
 title: 'Prime Yalta Rally 2012'
 

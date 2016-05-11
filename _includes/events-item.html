@@ -8,21 +8,21 @@
 
         <div class="events-item__tag">
             <nav>
+                {% if page.tag == 'mass' %}
+                    {% include svg/tag-mass.svg %}
+                    <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
+                {% endif %}
                 {% if page.tag == 'brand' %}
                     {% include svg/tag-brand.svg %}
                     <span>{{ site.data.tags.tag-brand[page.lang] }}</span>
-                {% endif %}
-                {% if page.tag == 'btl' %}
-                    {% include svg/tag-btl.svg %}
-                    <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'corp' %}
                     {% include svg/tag-corp.svg %}
                     <span>{{ site.data.tags.tag-corp[page.lang] }}</span>
                 {% endif %}
-                {% if page.tag == 'mass' %}
-                    {% include svg/tag-mass.svg %}
-                    <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
+                {% if page.tag == 'btl' %}
+                    {% include svg/tag-btl.svg %}
+                    <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'mice' %}
                     {% include svg/tag-mice.svg %}
@@ -41,12 +41,56 @@
                     <div>
                         <div class="events-item__media">
                             <img class="events-item__img" data-lazy="{{ site.baseurl }}{{image.path}}">
-                    </div>
+                        </div>
                     </div>
                 {% endunless %}
             {% endif %}
         {% endfor %}
     </div>
+
+    {% assign awards = site.data.awards %}
+    <div class="events-item__awards" data-stellar-background-ratio="-0.5" data-stellar-vertical-offset="100">
+
+        {% if page.award contains 'eventarizacia' %}
+            <div class="events-item__awards-item">
+                {% for a in awards %}
+                    {% if a.id == 'eventarizacia' %}
+                        <img class="events-item__awards-img" src="{{ site.baseurl }}/assets/img/awards/{{ a.id }}.png">
+                        <div class="events-item__awards-title">{{ a.title[page.lang] }}</div>
+                    {% endif %}
+                {% endfor %}
+                <div class="events-item__awards-prize">{{ page.prize-eventarizacia }}</div>
+            </div>
+        {% endif %}
+
+        {% if page.award contains 'ukrawards' %}
+            <div class="events-item__awards-item">
+                {% for a in awards %}
+                    {% if a.id == 'ukrawards' %}
+                        <img class="events-item__awards-img" src="{{ site.baseurl }}/assets/img/awards/{{ a.id }}.png">
+                        <div class="events-item__awards-title">{{ a.title[page.lang] }}</div>
+                    {% endif %}
+                {% endfor %}
+                <div class="events-item__awards-prize">{{ page.prize-ukrawards }}</div>
+            </div>
+        {% endif %}
+
+        {% if page.award contains 'propeller' %}
+            <div class="events-item__awards-item">
+                {% for a in awards %}
+                    {% if a.id == 'propeller' %}
+                        <img class="events-item__awards-img" src="{{ site.baseurl }}/assets/img/awards/{{ a.id }}.png">
+                        <div class="events-item__awards-title">{{ a.title[page.lang] }}</div>
+                    {% endif %}
+                {% endfor %}
+                <div class="events-item__awards-prize">{{ page.prize-propeller }}</div>
+            </div>
+        {% endif %}
+    </div>
+
+    {% if page.description %}
+        <div class="events-item__description">{{ page.description }}</div>
+    {% endif %}
 
     {% for cover in site.static_files %}
         {% if cover.path contains page.name and cover.path contains 'cover.jpg' %}

@@ -1,11 +1,11 @@
 .awards {
-    background: #db8b82;
     @include clearfix;
     text-align: center;
     color: #fff;
     padding: 70px 0 40px;
     position: relative;
     overflow: hidden;
+    background-color: #db8b82;
     background-image: url(../img/bg-awards.png);
     background-position: 50% 0;
     background-repeat: repeat-y;
@@ -42,6 +42,18 @@
 
         @include media(M) {
             width: 33.33333%;
+        }
+
+        &--eventarizacia {
+            
+        }
+
+        &--ukrawards {
+            
+        }
+
+        &--propeller {
+            
         }
 
         &-wrap {
@@ -102,12 +114,12 @@
             background: rgba(#a1493e,.2);
         }
 
-        svg {
-            width: 20px;
+        [class^="icon-"] {
+            color: #fff;
+            font-size: 26px;
             position: absolute;
-            top: 12px;
-            left: 12px;
-            fill: #fff;
+            top: 9px;
+            left: 9px;
         }
 
         &-title {
@@ -120,6 +132,26 @@
             color: #84352b;
             font-size: 14px;
             box-sizing: border-box;
+            display: none;
+
+            &--eventarizacia {
+                .awards__item--eventarizacia & {
+                    display: block;
+                }
+            }
+
+            &--ukrawards {
+                .awards__item--ukrawards & {
+                    display: block;
+                }
+            }
+
+            &--propeller {
+                .awards__item--propeller & {
+                    display: block;
+                }
+            }
+
         }
     }
 

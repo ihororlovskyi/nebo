@@ -4,8 +4,12 @@ lang: ru
 name: parliament-beyond-art
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award: ukrawards # eventarizacia, ukrawards, propeller
-prize: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+# prize: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+prize-eventarizacia: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+prize-ukrawards: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+prize-propeller: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
 
 title: 'Parliament The Art'
 description: 'The Art - Серия арт вечеринок посвященных 100-тию супрематизма'
@@ -16,4 +20,8 @@ best-tag: true
 size-large: true
 ---
 
-Parliament Beyond Art. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore modi at alias aliquid aut ad a quasi animi ratione, officiis aspernatur! Quidem incidunt fuga impedit quisquam doloribus odit veritatis quaerat fugit, rem laboriosam nostrum placeat voluptatem, dolorem error harum dolor alias reiciendis libero accusantium consequuntur aliquid corrupti numquam? Ipsam delectus facere rem officia tempora vero vitae.
+За неделю до вечеринки «The Art» мы уже знали, что встретим на ней весь светский Киев, — пригласительные на мероприятие в виде набора красок, кисточки и карандаша в Instagram опубликовали почти все герои наших хроник. Поводом для встречи художников, дизайнеров, галеристов и фотографов в субботний вечер стало 100-летие картины «Черный квадрат» украинского художника Казимира Малевича. Рассказывая о работах современных последователей супрематизма, представленных на экспозиции в пространстве музея, арт-куратор Марина Щербенко напомнила, что это направление авангардного искусства зародилось именно в Украине. Сейчас дело Малевича продолжают Тиберий Сильваши, участники Альянса 22, Анна Надуда, Tenpoint, произведения которых гости смогли увидеть в рамках арт-проекта и даже сами стали объектом искусства, сделав селфи с абстрактной видеопроекцией на лице.
+
+Отпраздновать юбилей и послушать ONUKA, лучшего музыканта года по версии Elle Style Awards, пришли дизайнеры Наталья Каменская, Иван Фролов, Елена Рева, Катя Березницкая, Алена Беттяр и Оксана Голубченко, фотограф Василина Врублевская, певица Санта Димопулос и старший редактор отдела моды Vogue Татьяна Соловей. Хоть дресс-код мероприятия заявлен не был, лучше всего тему вечеринки представили дизайнер Светлана Бевза, главный редактор Harper's Bazaar Анна Земскова и Марина Щербенко в нарядах из коллекции BEVZA осень-зима 2015/16, посвященной абстракционистам Василию Кандинскому и Марку Ротко, которые вместе с Малевичем стояли у истоков авангарда в искусстве.
+
+Copyright: [http://bestin.ua/event/11873](http://bestin.ua/event/11873)

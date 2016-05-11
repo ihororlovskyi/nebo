@@ -68,44 +68,8 @@
         }
     }
 
-    &__title {
-        font-size: 36px;
-        margin: 60px auto 0;
-
-        @include media(L) {
-            font-size: 54px;
-        }
-    }
-
-    &__cover {
-        width: 70%;
-        max-width: 700px;
-        height: auto;
-        display: block;
-        margin: 0 auto 30px;
-        // position: relative;
-        // z-index: 1;
-
-        @include media(M) {
-            width: 100%;
-        }
-    }
-
-    &__about {
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
-
-    &__content {
-        text-align: left;
-        font-size: 20px;
-        margin-bottom: 90px;
-        padding: 0 70px;
-    }
-
     &__slick {
         margin: 40px 0;
-        // max-height: 20px;
 
         .slick-slide {
             outline: none;
@@ -146,6 +110,45 @@
         }
     }
 
+    &__awards {
+        padding: 60px 15px 80px;
+        margin-bottom: 60px;
+        text-align: left;
+        // background-color: #cb9233;
+        background-color: #db8b82;
+        background-image: url(../img/bg-awards.png);
+        background-position: 50% 0;
+        background-repeat: repeat-y;
+
+        &-item {
+            padding-left: 30%;
+            margin-bottom: 60px;
+            position: relative;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &-img {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            padding-right: 40px;
+            transform: translate3d(-100%,-50%,0);
+        }
+
+        &-title {
+            color: #fff;
+            font-size: 50px;
+        }
+
+        &-prize {
+            color: #fff;
+            font-size: 22px;
+        }
+    }
+
     &__media {
         @include ratio(100%,4,3);
         text-align: center;
@@ -164,6 +167,63 @@
 
         .slick-current & {
             height: 80%;
+        }
+    }
+
+    &__title {
+        font-size: 36px;
+        margin: 60px auto 0;
+        padding: 0 15px;
+
+        @include media(M) {
+            font-size: 54px;
+        }
+    }
+
+    &__description {
+        font-size: 22px;
+        max-width: 800px;
+        margin: 0 auto 60px;
+        text-align: left;
+        padding: 0 15px;
+
+        @include media(M) {
+            font-size: 34px;
+        }
+    }
+
+    &__cover {
+        width: 70%;
+        max-width: 800px;
+        height: auto;
+        display: block;
+        margin: 0 auto 60px;
+
+        @include media(M) {
+            width: 100%;
+        }
+    }
+
+    &__about {
+        font-size: 20px;
+        max-width: 800px;
+        margin: 0 auto 60px;
+        padding: 0 15px;
+
+        @include media(M) {
+            font-size: 28px;
+        }
+    }
+
+    &__content {
+        font-size: 14px;
+        max-width: 800px;
+        margin: 0 auto 90px;
+        text-align: left;
+        padding: 0 15px;
+
+        @include media(M) {
+            font-size: 18px;
         }
     }
 }

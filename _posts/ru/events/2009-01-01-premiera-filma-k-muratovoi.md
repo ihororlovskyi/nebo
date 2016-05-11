@@ -4,8 +4,12 @@ lang: ru
 name: premiera-filma-k-muratovoi
 category: events
 tag: corp # mass, brand, corp, btl, mice
+
 award: eventarizacia, ukrawards # eventarizacia, ukrawards, propeller
-prize: 'Лучший социальный проект (eventarizacia), 3е место лучшее социальное мероприятие (ukrawards)'
+# prize: 'Лучший социальный проект (eventarizacia), 3е место лучшее социальное мероприятие (ukrawards)'
+prize-eventarizacia: 'Лучший социальный проект'
+prize-ukrawards: '3е место лучшее социальное мероприятие'
+prize-propeller: ''
 
 title: 'Премьера фильма Киры Муратовой «Мелодия для шарманки»'
 

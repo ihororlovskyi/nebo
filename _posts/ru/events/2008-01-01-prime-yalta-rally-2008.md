@@ -4,8 +4,12 @@ lang: ru
 name: prime-yalta-rally-2008
 category: events
 tag: mass # mass, brand, corp, btl, mice
+
 award: eventarizacia, ukrawards # eventarizacia, ukrawards, propeller
-prize: '3е место Лучший массовый ивент (eventarizacia), 3е место Лучший массовый ивент (ukrawards)'
+# prize: '3е место Лучший массовый ивент (eventarizacia), 3е место Лучший массовый ивент (ukrawards)'
+prize-eventarizacia: '3е место Лучший массовый ивент'
+prize-ukrawards: '3е место Лучший массовый ивент'
+prize-propeller: ''
 
 title: 'Prime Yalta Rally 2008'
 

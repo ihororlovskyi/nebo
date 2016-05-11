@@ -4,8 +4,12 @@ lang: ru
 name: marlboro-fresh-a-paper-fest
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Malboro Fresh @ Paper Fest'
 

@@ -4,8 +4,12 @@ lang: ru
 name: opening-peking-duck-express
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Открытие PEKING DUCK Express'
 

@@ -4,8 +4,12 @@ lang: ru
 name: stella-artois-cannes-cinema-club
 category: events
 tag: brand # mass, brand, corp, btl, mice
+
 award:  # eventarizacia, ukrawards, propeller
-prize: ''
+# prize: ''
+prize-eventarizacia: ''
+prize-ukrawards: ''
+prize-propeller: ''
 
 title: 'Stella Artois Cannes Cinema Club'
 

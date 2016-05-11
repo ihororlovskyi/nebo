@@ -4,8 +4,12 @@ lang: ru
 name: ny-voobrazharium-interpipe
 category: events
 tag: corp # mass, brand, corp, btl, mice
+
 award: ukrawards # eventarizacia, ukrawards, propeller
-prize: '3е место в номинации лучшее творческая концепция'
+# prize: '3е место в номинации лучшее творческая концепция'
+prize-eventarizacia: ''
+prize-ukrawards: '3е место в номинации лучшее творческая концепция'
+prize-propeller: ''
 
 title: 'Новогодний Воображариум Interpipe'
 
