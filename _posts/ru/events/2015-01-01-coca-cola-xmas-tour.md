@@ -3,10 +3,14 @@ layout: events-item
 lang: ru
 name: coca-cola-xmas-tour
 category: events
-tag: btl # mass, brand, corp, btl, mice
 
-award: ukrawards # eventarizacia, ukrawards, propeller
-# prize: 'Бронза в номинации Массовый Ивент'
+# Варианты тегов:
+# mass, brand, corp, btl, mice
+tag: btl
+
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
+award: ukrawards
 prize-eventarizacia: ''
 prize-ukrawards: 'Бронза в номинации Массовый Ивент'
 prize-propeller: ''
@@ -16,7 +20,12 @@ description: 'Coca Cola xMas Tour - Road Show в рамках празднова
 
 og-image: ''
 
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
+
 best-tag: true
+size-large: 
 ---
 
 Coca Cola xMas Tour.

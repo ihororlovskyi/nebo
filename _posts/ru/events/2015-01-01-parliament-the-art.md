@@ -3,7 +3,10 @@ layout: events-item
 lang: ru
 name: parliament-beyond-art
 category: events
-tag: brand # mass, brand, corp, btl, mice
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
+tag: brand 
 
 # Варианты авардов:
 # eventarizacia, ukrawards, propeller

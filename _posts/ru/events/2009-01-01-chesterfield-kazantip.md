@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: chesterfield-kazantip
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: brand # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award:  # eventarizacia, ukrawards, propeller
 # prize: ''
 prize-eventarizacia: ''
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: 'Chesterfield Kazantip'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 Казантип - магнит огромных размеров, который каждое лето притягивает тысячи и тысячи клабберов, тусовщиков и просто хороших людей уже не только со всего СНГ, но и Европы в посёлок Поповка на берегу Чёрного моря в Крыму. Клабберов заставляет возвращаться в это место не только незабываемая атмосфера, качественная музыка, яркие перформансы и счастье. Одним из таких мест стало уже традиционное <b>Art Atelier Chesterfield</b>.

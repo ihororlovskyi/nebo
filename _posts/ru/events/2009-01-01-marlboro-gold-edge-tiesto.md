@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: marlboro-gold-edge-tiesto
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: mass # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award: eventarizacia, ukrawards # eventarizacia, ukrawards, propeller
 # prize: 'Лучший ивент для бренда, Диплом за инновационность, 3е место Лучший бренд ивент на ukrawards, Лучшее техническое решение'
 prize-eventarizacia: 'Лучший ивент для бренда<br>Диплом за инновационность'
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: 'Marlboro Gold Edge [Tiesto]'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 Пятичасовое выступление иконы клубной музыки <b>DJ Tiesto</b>, которое посетили около 15 тысяч человек в киевском МВЦ, стало наиболее ярким мероприятием с участием ТМ Marlboro Gold Edge, где полностью раскрылась философия бренда – «Expect the Unexpected».

@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: parliament-moon-cafe
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: brand # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award: ukrawards # eventarizacia, ukrawards, propeller
 # prize: 'Лучший бренд ивент, лучший дизайн площадки'
 prize-eventarizacia: ''
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: 'Parliament Moon Café'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 Это был серьезный вызов для нашей компании, так как Parliament всегда привлекал для реализации своих проектов зарубежные креативные клубы, вроде голландского Supper Club или испанского ресторана elBulli, обладающего тремя мишленовскими звездами. Впервые за пять лет проведения мероприятий <b>Parliament</b>, которые всегда становились топ-событиями года, разработка и воплощение идеи были полностью доверены украинскому агентству. А после вечеринки все гости отметили, что это лучшее мероприятие бренда за всю историю проведения. Нам удалось за один день, без длительного монтажа, превратить пляж в Ялте в невероятно модное мистическое место – <b>«Moon Place Café»</b>.

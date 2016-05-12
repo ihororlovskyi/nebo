@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: art-atelier-chesterfield
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: btl # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award: ukrawards # eventarizacia, ukrawards, propeller
 # prize: '3е место Лучшее творческое использование малого бюджета'
 prize-eventarizacia: ''
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: 'Art Atelier Chesterfield'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 Уже второй год подряд  агентство работает с брендом <b>Chesterfield</b> как Event&BTL full service.  В 2010 году мы провели 24 креативных <b>plug-in</b> мероприятия на платформе <b>Art  Atelier Chesterfield</b> среди курильщиков.

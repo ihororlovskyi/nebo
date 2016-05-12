@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: coca-cola-xmas-at-mcdonalds
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: btl # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award:  # eventarizacia, ukrawards, propeller
 # prize: ''
 prize-eventarizacia: ''
@@ -16,7 +21,12 @@ description: 'Хмас макдональдс  - Промо тур по рест
 
 og-image: ''
 
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
+
 best-tag: true
+size-large: 
 ---
 
 Coca Cola xMas Tour At MCdonalds.

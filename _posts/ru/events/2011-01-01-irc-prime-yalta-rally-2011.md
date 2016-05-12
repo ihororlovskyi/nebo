@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: irc-prime-yalta-rally-2011
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: mass # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award:  # eventarizacia, ukrawards, propeller
 # prize: ''
 prize-eventarizacia: ''
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: 'IRC Prime Yalta Rally 2011'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 В начале лета Ялта стала Меккой самых известных автогонщиков мира.

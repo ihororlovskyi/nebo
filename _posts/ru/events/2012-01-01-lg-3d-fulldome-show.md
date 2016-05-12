@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: lg-3d-fulldome-show
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: brand # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award:  # eventarizacia, ukrawards, propeller
 # prize: ''
 prize-eventarizacia: ''
@@ -15,6 +20,10 @@ title: 'LG 3D TV Fulldome Show'
 # description: 'Проект осуществлен агентством Небо по заказу компании LG'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 С 1 по 7 сентября 2012 г. в самом центре Киева в мобильных купольных кинотеатрах прошли презентации нового 84-дюймового 3D телевизора LG. Купола были установлены на Контрактовой площади и в Пассаже.

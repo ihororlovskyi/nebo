@@ -3,8 +3,13 @@ layout: events-item
 lang: ru
 name: angels-party-for-top-ukraine
 category: events
+
+# Варианты тегов:
+# mass, brand, corp, btl, mice
 tag: brand # mass, brand, corp, btl, mice
 
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
 award: eventarizacia # eventarizacia, ukrawards, propeller
 # prize: 'Лучший частный праздник<br>Лучшее дизайнерское решение'
 prize-eventarizacia: 'Лучший частный праздник<br>Лучшее дизайнерское решение'
@@ -14,6 +19,10 @@ prize-propeller: ''
 title: '«Angels Party» для TOP Ukraine'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 ---
 
 За рекордные 12 дней агентству удалось не только организовать масштабное празднование дня рождения известного бизнесмена, но и сместить акцент с частного праздника на публичное и светское событие.
