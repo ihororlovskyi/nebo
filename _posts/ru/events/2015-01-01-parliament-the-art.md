@@ -5,16 +5,21 @@ name: parliament-beyond-art
 category: events
 tag: brand # mass, brand, corp, btl, mice
 
-award: ukrawards # eventarizacia, ukrawards, propeller
-# prize: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
-prize-eventarizacia: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+# Варианты авардов:
+# eventarizacia, ukrawards, propeller
+award: ukrawards
+prize-eventarizacia: ''
 prize-ukrawards: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
-prize-propeller: 'Гран При<br>Лучший Brand Event<br>Лучшее светское мероприятие'
+prize-propeller: ''
 
 title: 'Parliament The Art'
 description: 'The Art - Серия арт вечеринок посвященных 100-тию супрематизма'
 
 og-image: ''
+
+# Варианты клиентов:
+# cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
+client: philipmorris
 
 best-tag: true
 size-large: true
