@@ -6,12 +6,11 @@ category: events
 
 # Варианты тегов:
 # mass, brand, corp, btl, mice
-tag: brand # mass, brand, corp, btl, mice
+tag: brand
 
 # Варианты авардов:
 # eventarizacia, ukrawards, propeller
-award:  # eventarizacia, ukrawards, propeller
-# prize: ''
+award: 
 prize-eventarizacia: ''
 prize-ukrawards: ''
 prize-propeller: ''
@@ -22,7 +21,7 @@ og-image: ''
 
 # Варианты клиентов:
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
-client: philipmorris
+client: pekingduck
 ---
 
 В декабре агентство организовало открытие ресторана экспресс-обслуживания PEKING DUCK Express в Киеве.

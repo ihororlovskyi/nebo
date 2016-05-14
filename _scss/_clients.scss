@@ -17,8 +17,8 @@
     &__slick {
 
         .slick-slide {
-            width: 120px;
-            margin: 0 15px;
+            width: 100px;
+            margin: 0 10px;
             outline: none;
         }
 
@@ -76,4 +76,74 @@
         font-size: 14px;
         color: #9b9b9b;
     }
+    
+    &-filter__link {
+        display: block;
+        outline: none;
+        border-radius: 3px;
+        cursor: pointer;
+
+        &:hover,
+        &--selected {
+            background: #f5f5f5;
+        }
+    }
+
+    // .js-clients-events-list {
+    //     transition: height .4s ease;
+    // }
+
+    &__event {
+        background: #1446a3;
+        padding: 10px;
+        text-align: left;
+        width: 100%;
+        float: left;
+
+        [class^="icon-"] {
+            display: inline-block;
+        }
+
+        &-client {
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+
+        &-title {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        &-year {
+            font-size: 14px;
+            color: #fff;
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    // .isotope,
+    // .isotope .isotope-item {
+    //     transition-duration: 0.8s;
+    // }
+
+    // .isotope {
+    //     transition-property: height, width;
+    // }
+
+    // .isotope .isotope-item {
+    //     transition-property: transform, opacity;
+    // }
+
+    /**** disabling Isotope CSS3 transitions ****/
+
+    // .isotope.no-transition,
+    // .isotope.no-transition .isotope-item,
+    // .isotope .isotope-item.no-transition {
+    //           transition-duration: 0s;
+    // }
 }

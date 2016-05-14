@@ -6,12 +6,11 @@ category: events
 
 # Варианты тегов:
 # mass, brand, corp, btl, mice
-tag: brand # mass, brand, corp, btl, mice
+tag: brand
 
 # Варианты авардов:
 # eventarizacia, ukrawards, propeller
-award:  # eventarizacia, ukrawards, propeller
-# prize: ''
+award: 
 prize-eventarizacia: ''
 prize-ukrawards: ''
 prize-propeller: ''

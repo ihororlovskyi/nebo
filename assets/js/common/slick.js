@@ -84,6 +84,7 @@
             {
                 breakpoint: 1054,
                 settings: {
+                    arrows: true,
                     slidesToShow: 10,
                     slidesToScroll: 2
                 }
@@ -91,6 +92,7 @@
             {
                 breakpoint: 1300,
                 settings: {
+                    arrows: true,
                     slidesToShow: 12,
                     slidesToScroll: 2
                 }

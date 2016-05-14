@@ -1,18 +1,60 @@
 <div class="clients">
     <div class="clients__title">{{ site.data.t.clients[page.lang] }}</div>
 
-    <div class="clients__slick js-clients-slick">
+    <div class="js-clients-events-filter">
+        <div class="clients__slick js-clients-slick">
+            {% assign clients = site.data.clients %}
+            {% for _i in clients %}
+                <div>
+                    <a data-filter=".{{ _i.id }}" class="clients-filter__link">
+
+                        <div class="clients__item-img-wrap">
+                            {% for cover in site.static_files %}
+                                {% if cover.path contains _i.id and cover.path contains '.png' %}
+                                    <img class="clients__item-img" data-lazy="{{ site.baseurl }}{{ cover.path }}">
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <div class="clients__item-title">{{ _i.title[page.lang] }}</div>
+
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="js-clients-events-list">
         {% assign clients = site.data.clients %}
         {% for i in clients %}
-            <div>
-                <div class="clients__item-img-wrap">
-                    {% for cover in site.static_files %}
-                        {% if cover.path contains i.id and cover.path contains '.png' %}
-                            <img class="clients__item-img" data-lazy="{{ site.baseurl }}{{ cover.path }}">
-                        {% endif %}
-                    {% endfor %}
-                </div>
-                <div class="clients__item-title">{{ i.title[page.lang] }}</div>
+            <div class="clients__event {{ i.id }}">
+                <!-- <div class="clients__event-client">{{ i.title[page.lang] }}:</div> -->
+                {% assign events = site.categories.events | where: "lang", page.lang %}
+                {% for e in events limit: 100 %}
+                    {% if e.client contains i.id %}
+
+                        <div class="clients__event-title">
+                            {% if e.tag == 'mass' %}
+                                <span class="icon-flash"></span>
+                            {% endif %}
+                            {% if e.tag == 'brand' %}
+                                <span class="icon-oval"></span>
+                            {% endif %}
+                            {% if e.tag == 'corp' %}
+                                <span class="icon-triangle"></span>
+                            {% endif %}
+                            {% if e.tag == 'btl' %}
+                                <span class="icon-star"></span>
+                            {% endif %}
+                            {% if e.tag == 'mice' %}
+                                <span class="icon-square"></span>
+                            {% endif %}
+
+                            {{ e.title }}
+                        </div>
+                        <div class="clients__event-year">{{ e.date | date: '%Y' }}</div>
+                    {% endif %}
+                {% endfor %}
             </div>
         {% endfor %}
     </div>
