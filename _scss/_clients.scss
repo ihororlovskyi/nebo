@@ -17,7 +17,7 @@
     &__slick {
 
         .slick-slide {
-            width: 100px;
+            width: 110px;
             margin: 0 10px;
             outline: none;
         }
@@ -75,6 +75,10 @@
     &__item-title {
         font-size: 14px;
         color: #9b9b9b;
+
+            [class^="icon-"] {
+                vertical-align: middle;
+            }
     }
     
     &-filter__link {
@@ -95,7 +99,7 @@
 
     &__event {
         background: #1446a3;
-        padding: 10px;
+        // padding: 10px;
         text-align: left;
         width: 100%;
         float: left;
