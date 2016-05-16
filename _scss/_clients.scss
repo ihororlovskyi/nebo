@@ -104,8 +104,27 @@
         width: 100%;
         float: left;
 
-        [class^="icon-"] {
-            display: inline-block;
+        &-link {
+            border-radius: 3px;
+            float: left;
+            width: 33.33333%;
+            box-sizing: border-box;
+            position: relative;
+            padding: 5px 0;
+            padding-left: 50px;
+
+            &:hover {
+                background: rgba(#000,.2);
+            }
+
+            [class^="icon-"] {
+                // display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                transform: translate3d(0,-50%,0);
+                font-size: 28px;
+            }
         }
 
         &-client {

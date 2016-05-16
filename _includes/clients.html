@@ -35,8 +35,8 @@
                 {% assign events = site.categories.events | where: "lang", page.lang %}
                 {% for e in events limit: 100 %}
                     {% if e.client contains i.id %}
+                        <a href="{{ site.baseurl }}{{ e.url }}" class="clients__event-link">
 
-                        <div class="clients__event-title">
                             {% if e.tag == 'mass' %}
                                 <span class="icon-flash"></span>
                             {% endif %}
@@ -53,9 +53,9 @@
                                 <span class="icon-square"></span>
                             {% endif %}
 
-                            {{ e.title }}
-                        </div>
-                        <div class="clients__event-year">{{ e.date | date: '%Y' }}</div>
+                            <div class="clients__event-title">{{ e.title }}</div>
+                            <div class="clients__event-year">{{ e.date | date: '%Y' }}</div>
+                        </a>
                     {% endif %}
                 {% endfor %}
             </div>
