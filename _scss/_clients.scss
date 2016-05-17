@@ -17,8 +17,8 @@
     &__slick {
 
         .slick-slide {
-            width: 110px;
-            margin: 0 10px;
+            width: 120px;
+            margin: 0 5px 10px;
             outline: none;
         }
 
@@ -72,24 +72,29 @@
         transform: translate3d(-50%,-50%,0);
     }
 
-    &__item-title {
-        font-size: 14px;
-        color: #9b9b9b;
-
-            [class^="icon-"] {
-                vertical-align: middle;
-            }
-    }
-    
     &-filter__link {
         display: block;
         outline: none;
         border-radius: 3px;
         cursor: pointer;
+        padding: 5px;
 
         &:hover,
         &--selected {
             background: #f5f5f5;
+        }
+    }
+
+    &__item-title {
+        font-size: 14px;
+        color: #9b9b9b;
+        margin-bottom: 5px;
+        min-height: 36px;
+
+        [class^="icon-"] {
+            vertical-align: middle;
+            font-size: 20px;
+            line-height: 0;
         }
     }
 
