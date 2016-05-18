@@ -42,17 +42,17 @@
         },
     },
     {
-        "id": "amway",
-        "title": {
-            "ru": "Amway",
-            "en": "Amway",
-        },
-    },
-    {
         "id": "philipmorris",
         "title": {
             "ru": "Philip Morris",
             "en": "Philip Morris",
+        },
+    },
+    {
+        "id": "amway",
+        "title": {
+            "ru": "Amway",
+            "en": "Amway",
         },
     },
     {

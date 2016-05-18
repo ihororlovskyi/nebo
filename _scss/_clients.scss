@@ -68,7 +68,7 @@
         top: 50%;
         left: 50%;
         height: auto;
-        width: 80%;
+        width: 100%;
         transform: translate3d(-50%,-50%,0);
     }
 
@@ -78,10 +78,26 @@
         border-radius: 3px;
         cursor: pointer;
         padding: 5px;
+        position: relative;
 
         &:hover,
         &--selected {
             background: #f5f5f5;
+        }
+
+        &.clients-filter__link--selected {
+
+            &:after {
+                position: absolute;
+                content: '';
+                bottom: -10px;
+                left: 50%;
+                transform: translate3d(-50%,0,0);
+                border: 10px solid #1446a3;
+                border-top: 0;
+                border-left-color: transparent;
+                border-right-color: transparent;
+            }
         }
     }
 
@@ -102,21 +118,38 @@
     //     transition: height .4s ease;
     // }
 
+    &__events-list {
+    }
+
     &__event {
-        background: #1446a3;
-        // padding: 10px;
         text-align: left;
         width: 100%;
         float: left;
+        padding: 10px;
+        @include clearfix;
+        box-sizing: border-box;
+        background: #1446a3;
+        font-size: 0;
 
         &-link {
             border-radius: 3px;
-            float: left;
-            width: 33.33333%;
+            // float: left;
             box-sizing: border-box;
             position: relative;
             padding: 5px 0;
             padding-left: 50px;
+            width: 100%;
+            display: inline-block;
+            font-size: 14px;
+            vertical-align: middle;
+
+            @include media(M) {
+                width: 50%;
+            }
+
+            @include media(XL) {
+                width: 33.33333%;
+            }
 
             &:hover {
                 background: rgba(#000,.2);
@@ -139,17 +172,28 @@
         }
 
         &-title {
-            font-size: 20px;
+            font-size: 14px;
             color: #fff;
+
+            @include media(S) {
+                font-size: 16px;
+            }
+
+            @include media(L) {
+                font-size: 18px;
+            }
+
+            @include media(XL) {
+                font-size: 20px;
+            }
         }
 
         &-year {
-            font-size: 14px;
-            color: #fff;
-            margin-bottom: 10px;
+            font-size: 12px;
+            color: #618bd9;
 
-            &:last-child {
-                margin-bottom: 0;
+            @include media(L) {
+                font-size: 14px;
             }
         }
     }

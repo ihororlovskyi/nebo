@@ -474,7 +474,7 @@ function initMap() {
             itemSelector: '.clients__event',
             percentPosition: true,
             transitionDuration: 0,
-            filter: '.none'
+            filter: '.none',
         });
 
         $clientFilter.on('click', 'a', function () {
