@@ -52,6 +52,48 @@
         }
     }
 
+    &__figure {
+        position: absolute;
+        font-size: 30px;
+
+        @include media(S) {
+            font-size: 35px;
+        }
+
+        @include media(M) {
+            font-size: 40px;
+        }
+
+        @include media(L) {
+            display: none;
+        }
+
+        &--flash {
+            top: 5%;
+            left: 86%;
+        }
+
+        &--square {
+            top: 70%;
+            left: 50%;
+        }
+
+        &--triangle {
+            top: 80%;
+            left: 10%;
+        }
+
+        &--star {
+            top: 36%;
+            left: 75%;
+        }
+
+        &--oval {
+            top: 10%;
+            left: 6%;
+        }
+    }
+
     &__mobile-pattern {
         position: fixed;
         top: 73px;
