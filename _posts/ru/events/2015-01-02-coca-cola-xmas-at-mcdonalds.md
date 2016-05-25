@@ -16,7 +16,7 @@ prize-ukrawards: ''
 prize-propeller: ''
 
 title: 'Coca Cola xMas @ McDonalds'
-description: 'Хмас макдональдс  - Промо тур по ресторанам McDonalds'
+description: 'xMas McDonalds  - Промо тур по ресторанам McDonalds'
 
 og-image: ''
 
