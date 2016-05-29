@@ -1,36 +1,48 @@
-<article class="events-item" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="50">
+<article class="events-item" data-stellar-background-ratio="1.5" data-stellar-vertical-offset="75">
 
-    <div class="events-item__header">
+    <a onclick="history.back()" class="events-item__close"><span class="icon-close"></span></a>
 
-        <a onclick="history.back()" class="events-item__close">
-            <span class="icon-close"></span>
-        </a>
-
-        <div class="events-item__tag">
+    {% if page.tag == 'mass' %}
+        <div class="events-item__tag events-item__tag--mass">
             <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
-                {% if page.tag == 'mass' %}
-                    <span class="icon-flash"></span>
-                    <span class="events-item__tag-name">{{ site.data.tags.tag-mass[page.lang] }}</span>
-                {% endif %}
-                {% if page.tag == 'brand' %}
-                    <span class="icon-oval"></span>
-                    <span class="events-item__tag-name">{{ site.data.tags.tag-brand[page.lang] }}</span>
-                {% endif %}
-                {% if page.tag == 'corp' %}
-                    <span class="icon-triangle"></span>
-                    <span class="events-item__tag-name">{{ site.data.tags.tag-corp[page.lang] }}</span>
-                {% endif %}
-                {% if page.tag == 'btl' %}
-                    <span class="icon-star"></span>
-                    <span class="events-item__tag-name">{{ site.data.tags.tag-btl[page.lang] }}</span>
-                {% endif %}
-                {% if page.tag == 'mice' %}
-                    <span class="icon-square"></span>
-                    <span class="events-item__tag-name">{{ site.data.tags.tag-mice[page.lang] }}</span>
-                {% endif %}
+                <span class="icon-flash"></span>
+                <span class="events-item__tag-name">{{ site.data.tags.tag-mass[page.lang] }}</span>
             </a>
         </div>
-    </div>
+    {% endif %}
+
+    {% if page.tag == 'brand' %}
+        <div class="events-item__tag events-item__tag--brand">
+            <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
+                <span class="icon-oval"></span>
+                <span class="events-item__tag-name">{{ site.data.tags.tag-brand[page.lang] }}</span>
+            </a>
+        </div>
+    {% endif %}
+    {% if page.tag == 'corp' %}
+        <div class="events-item__tag events-item__tag--corp">
+            <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
+                <span class="icon-triangle"></span>
+                <span class="events-item__tag-name">{{ site.data.tags.tag-corp[page.lang] }}</span>
+            </a>
+        </div>
+    {% endif %}
+    {% if page.tag == 'btl' %}
+        <div class="events-item__tag events-item__tag--btl">
+            <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
+                <span class="icon-star"></span>
+                <span class="events-item__tag-name">{{ site.data.tags.tag-btl[page.lang] }}</span>
+            </a>
+        </div>
+    {% endif %}
+    {% if page.tag == 'mice' %}
+        <div class="events-item__tag events-item__tag--mice">
+            <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
+                <span class="icon-square"></span>
+                <span class="events-item__tag-name">{{ site.data.tags.tag-mice[page.lang] }}</span>
+            </a>
+        </div>
+    {% endif %}
 
     <div class="events-item__title">{{ page.title }}</div>
 
