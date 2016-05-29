@@ -1,4 +1,4 @@
-<article class="events-item">
+<article class="events-item" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="50">
 
     <div class="events-item__header">
 
@@ -7,28 +7,28 @@
         </a>
 
         <div class="events-item__tag">
-            <nav>
+            <a href="{{ site.baseurl }}/#events" class="events-item__tag-link">
                 {% if page.tag == 'mass' %}
-                    {% include svg/tag-mass.svg %}
-                    <span>{{ site.data.tags.tag-mass[page.lang] }}</span>
+                    <span class="icon-flash"></span>
+                    <span class="events-item__tag-name">{{ site.data.tags.tag-mass[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'brand' %}
-                    {% include svg/tag-brand.svg %}
-                    <span>{{ site.data.tags.tag-brand[page.lang] }}</span>
+                    <span class="icon-oval"></span>
+                    <span class="events-item__tag-name">{{ site.data.tags.tag-brand[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'corp' %}
-                    {% include svg/tag-corp.svg %}
-                    <span>{{ site.data.tags.tag-corp[page.lang] }}</span>
+                    <span class="icon-triangle"></span>
+                    <span class="events-item__tag-name">{{ site.data.tags.tag-corp[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'btl' %}
-                    {% include svg/tag-btl.svg %}
-                    <span>{{ site.data.tags.tag-btl[page.lang] }}</span>
+                    <span class="icon-star"></span>
+                    <span class="events-item__tag-name">{{ site.data.tags.tag-btl[page.lang] }}</span>
                 {% endif %}
                 {% if page.tag == 'mice' %}
-                    {% include svg/tag-mice.svg %}
-                    <span>{{ site.data.tags.tag-mice[page.lang] }}</span>
+                    <span class="icon-square"></span>
+                    <span class="events-item__tag-name">{{ site.data.tags.tag-mice[page.lang] }}</span>
                 {% endif %}
-            </nav>
+            </a>
         </div>
     </div>
 
