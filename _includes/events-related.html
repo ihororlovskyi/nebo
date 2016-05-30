@@ -1,57 +1,5 @@
 <div class="events-related">
     <div class="events-related__caption">Похожие проекты</div>
 
-    <div class="events-list js-events-related">
-        <div class="events-list__sizer"></div>
-
-        {% assign events = site.categories.events | where: "lang", page.lang %}
-        {% for i in events limit: 8 %}
-        <a href="{{ site.baseurl }}{{ i.url }}" class="events-list__item">
-            {% for cover in site.static_files %}
-                {% if cover.path contains i.name and cover.path contains 'cover.jpg' %}
-                    <img class="lazy events-list__img" data-original="{{ site.baseurl }}{{ cover.path }}">
-                {% endif %}
-            {% endfor %}
-
-            {% if i.tag == 'brand' %}
-                {% include svg/tag-brand.svg %}
-            {% endif %}
-            {% if i.tag == 'btl' %}
-                {% include svg/tag-btl.svg %}
-            {% endif %}
-            {% if i.tag == 'corp' %}
-                {% include svg/tag-corp.svg %}
-            {% endif %}
-            {% if i.tag == 'mass' %}
-                {% include svg/tag-mass.svg %}
-            {% endif %}
-            {% if i.tag == 'mice' %}
-                {% include svg/tag-mice.svg %}
-            {% endif %}
-
-            <div class="events-list__text">
-                <div class="events-list__title">{{ i.title }}</div>
-
-                <div class="events-list__tag">
-                    {% if i.tag == 'brand' %}
-                        {{ site.data.tags.tag-brand[page.lang] }}
-                    {% endif %}
-                    {% if i.tag == 'btl' %}
-                        {{ site.data.tags.tag-btl[page.lang] }}
-                    {% endif %}
-                    {% if i.tag == 'corp' %}
-                        {{ site.data.tags.tag-corp[page.lang] }}
-                    {% endif %}
-                    {% if i.tag == 'mass' %}
-                        {{ site.data.tags.tag-mass[page.lang] }}
-                    {% endif %}
-                    {% if i.tag == 'mice' %}
-                        {{ site.data.tags.tag-mice[page.lang] }}
-                    {% endif %}
-                </div>
-            </div>
-
-        </a>
-        {% endfor %}
-    </div>
+    {% include events-list.html class='js-events-related' limit='8' %}
 </div>
