@@ -16,7 +16,7 @@ prize-ukrawards: ''
 prize-propeller: ''
 
 title: 'Parliament The Misteriyage‬'
-description: 'Parliament The Misteriyage‬ Description'
+description: 'Вечеринка прошла в формате sleep no more, в которой гости приняли непосредственное участие и привнесли последние штрихи в создание коллекции'
 
 og-image: ''
 
