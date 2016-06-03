@@ -2,7 +2,7 @@
 
     <div class="hero__slick js-hero-slick">
         {% assign events = site.categories.events | where: "lang", page.lang %}
-        {% for i in events %}
+        {% for i in events limit: 4 %}
             {% if i.description %}
                 <div>
                     <div class="hero__item">

@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: prime
 
-best-tag: true
+best-tag: 
 ---
 
 Уже пятый год подряд Ялта принимала самое зрелищное спортивное шоу страны - этап Чемпионата Украины и Этап Кубка Европы (Восточная зона) по авторалли.
