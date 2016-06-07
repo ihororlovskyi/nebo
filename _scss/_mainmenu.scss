@@ -233,6 +233,10 @@
         margin-top: -70px;
         padding-top: 70px;
     
+        &--vacancy {
+            z-index: 90;
+        }
+
         &--hero {
             z-index: 90;
         }

@@ -1,0 +1,13 @@
+.vacancy {
+    padding: 100px 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+
+    &__img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 80px;
+    }
+}
