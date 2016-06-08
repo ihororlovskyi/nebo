@@ -1,5 +1,4 @@
 baseurl: ''
 permalink: /:categories/:title/
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
-googleApiKey: 'AIzaSyAxCaMM8L-qQk8H3MhtbkQtAh65-IpTkNI
-'
+googleApiKey: 'AIzaSyAxCaMM8L-qQk8H3MhtbkQtAh65-IpTkNI'
