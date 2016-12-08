@@ -1,21 +1,21 @@
-# Nebo
+# neboua.github.io
 
-Web development of Nebo Event Management site
+_Web development of Nebo Event Management Agency site_
 
-- [nebo.ua](http://nebo.ua)
-- [nebo.com.ua](http://nebo.com.ua)
-- [neboua.github.io](http://neboua.github.io)
+### Used
+
+[Jekyll](https://jekyllrb.com/) - static site generator based on [Ruby](https://www.ruby-lang.org/)
+
+[Gulp](http://gulpjs.com/) - build system based on [NodeJS](https://nodejs.org/)
+
+[Coriolan UI](https://coriolan-ui.github.io/) - [Sass](http://sass-lang.com/) mixins pack
+
+[GitHub Pages](https://pages.github.com/) - free hosting
 
 ### Run
 
 `npm i`
 
-`npm start` or `gulp`
+`gulp`
 
-### Authors
-
-Design by [Anton Pivniuk](https://www.behance.net/antonpivniuk) (Lead UI/UX Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Front-end by [Ihor Orlovskyi](http://ihororlovskyi.com) (Lead Front-end Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
-
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+#### Have fun! :)

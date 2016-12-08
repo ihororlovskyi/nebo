@@ -1,7 +1,4 @@
-/**
-* mobile-menu-btn
-* 
-*/
+// mobile-menu-btn
 ;$(document).ready(function() {
     var $menu = $('.mainmenu__wrapper'),
         $menupattern = $('.mainmenu__mobile-pattern'),

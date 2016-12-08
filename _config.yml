@@ -1,4 +1,11 @@
 baseurl: ''
+include: ['_pages']
+exclude: ['README.md', 'package.json', 'node_modules/', 'gulpfile.js']
+includes_dir: ./_includes
+data_dir: ./_data
 permalink: /:categories/:title/
-exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
+
 googleApiKey: 'AIzaSyAxCaMM8L-qQk8H3MhtbkQtAh65-IpTkNI'
+
+google-analytics: 'production'
+yandex-metrika: 'production'

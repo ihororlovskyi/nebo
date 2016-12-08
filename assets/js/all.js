@@ -508,10 +508,7 @@ var isMobile = {
     });
 });
 
-/**
-* mobile-menu-btn
-* 
-*/
+// mobile-menu-btn
 ;$(document).ready(function() {
     var $menu = $('.mainmenu__wrapper'),
         $menupattern = $('.mainmenu__mobile-pattern'),
@@ -545,18 +542,35 @@ var isMobile = {
     // });
 });
 
-/**
-* jQuery-One-Page-Nav
-* https://github.com/davist11/jQuery-One-Page-Nav
-*/
 ;$(document).ready(function () {
+
+
+    // menu
     $('.js-one-page-nav').onePageNav({
         currentClass: 'mainmenu__nav-li--selected',
         changeHash: true,
         scrollSpeed: 800,
         scrollThreshold: 0.02,
-        easing: 'easeInOutExpo'
+        filter: '',
+        easing: 'easeInOutExpo',
+        // begin: function() {
+        //     console.log('I get fired when the animation is starting');
+        // },
+        // end: function() {
+        //     console.log('I get fired when the animation is ending');
+        // },
+        // scrollChange: function($currentListItem) {
+        //     console.log('I get fired when you enter a section and I pass the list item of the section');
+        // }
     });
+
+
+    // history
+    $(document).on('click', '.mainmenu__nav-li', function(){
+        // console.log(window.location.hash);
+        var hash = window.location.hash;
+        history.replaceState(undefined, undefined, hash)
+    })
 });
 
 /**

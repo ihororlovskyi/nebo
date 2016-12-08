@@ -24,42 +24,13 @@ layout: compress
 
     <script src="{{ site.baseurl }}/assets/js/all.js"></script>
 
-    <script type="text/javascript">
-        (function (d, w, c) {
-            (w[c] = w[c] || []).push(function() {
-                try {
-                    w.yaCounter38626880 = new Ya.Metrika({
-                        id:38626880,
-                        clickmap:true,
-                        trackLinks:true,
-                        accurateTrackBounce:true,
-                        webvisor:true,
-                        trackHash:true
-                    });
-                } catch(e) { }
-            });
+    {% if site.google-analytics == 'production' %}
+        {% include Analytics/google-analytics.html %}
+    {% endif %}
 
-            var n = d.getElementsByTagName("script")[0],
-                s = d.createElement("script"),
-                f = function () { n.parentNode.insertBefore(s, n); };
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://mc.yandex.ru/metrika/watch.js";
+    {% if site.yandex-metrika == 'production' %}
+        {% include Analytics/yandex-metrika.html %}
+    {% endif %}
 
-            if (w.opera == "[object Opera]") {
-                d.addEventListener("DOMContentLoaded", f, false);
-            } else { f(); }
-        })(document, window, "yandex_metrika_callbacks");
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/38626880" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-76848151-1', 'auto');
-        ga('send', 'pageview');
-    </script>
 </body>
 </html>
