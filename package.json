@@ -1,35 +1,14 @@
 {
-  "name": "nebo",
-  "version": "0.0.1",
-  "description": "Web developing of Nebo Events Menedgment site",
-  "homepage": "http://nebo.ua",
-  "author": "Rooster Studio",
-  "contributors": [
-    "Ihor Orlovskyi <ihororlovskyi@gmail.com>",
-    "A Pivniuk <xxx@xxx.xxx>"
-  ],
   "license": "MIT",
-  "main": "gulpfile.js",
-  "keywords": [
-    "coriolan-ui",
-    "jekyll",
-    "gulp",
-    "sass",
-    "browsersync"
-  ],
-  "scripts": {
-    "start": "gulp"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rooooster/nebo"
+    "url": "https://github.com/neboua/neboua.github.io"
   },
-  "bugs": {
-    "url": "https://github.com/rooooster/nebo/issues"
+  "dependencies": {
+    "coriolan-ui": "^0.1.15",
   },
   "devDependencies": {
     "browser-sync": "^1.3.7",
-    "coriolan-ui": "^0.1.14",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",

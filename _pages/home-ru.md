@@ -7,5 +7,5 @@ name: home
 title: 'Nebo Event Management'
 description: 'Nebo Event Management, событийный маркетинг, проведение ивентов'
 
-og-image: 'http://rooooster.com/content/nebo/home.jpg'
+og-image: 'http://nebo.ua/assets/img/og-images/home.jpg'
 ---

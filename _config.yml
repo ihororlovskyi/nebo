@@ -6,6 +6,3 @@ data_dir: ./_data
 permalink: /:categories/:title/
 
 googleApiKey: 'AIzaSyAxCaMM8L-qQk8H3MhtbkQtAh65-IpTkNI'
-
-google-analytics: 'production'
-yandex-metrika: 'production'

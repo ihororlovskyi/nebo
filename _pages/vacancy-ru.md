@@ -7,7 +7,7 @@ name: vacancy
 title: 'Vacancy Nebo Event Management'
 description: 'Vacancy, Nebo Event Management, событийный маркетинг, проведение ивентов'
 
-og-image: ''
+og-image: 'http://nebo.ua/assets/img/og-images/home.jpg'
 ---
 
 <img class="vacancy__img" src="{{ site.baseurl }}/assets/img/vacancy/vacancy-01.jpg" alt="vacancy">
