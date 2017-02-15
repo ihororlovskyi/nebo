@@ -7,7 +7,6 @@
     background-image: url(../img/backgrounds/bg-agency-figures.png);
     background-position: 50% 0;
     background-repeat: repeat-y;
-    // background-size: contain;
 
     @include media(S) {
         height: 360px;
@@ -15,28 +14,20 @@
     }
 
     &__figure {
-        position: fixed;
+        position: absolute;
 
         &--top-square {
             bottom: 45%;
             left: 10%;
             font-size: 28px;
             color: #b28afc;
-
-            @include media(S) {
-                bottom: 10%;
-            }
         }
 
         &--top-flash {
-            bottom: 8%;
+            bottom: 18%;
             right: 20%;
             font-size: 40px;
             color: #e28d83;
-
-            @include media(S) {
-                bottom: 5%;
-            }
         }
     }
 
@@ -90,5 +81,9 @@
 
     &__link {
         color: #fff;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
