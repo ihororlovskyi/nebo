@@ -1,6 +1,6 @@
 baseurl: ''
 include: ['_pages']
-exclude: ['README.md', 'package.json', 'node_modules/', 'gulpfile.js', 'CNAME', 'assets/img/events/2006', 'assets/img/events/2007', 'assets/img/events/2008', 'assets/img/events/2009', 'assets/img/events/2010', 'assets/img/events/2011', 'assets/img/events/2012', 'assets/img/events/2013', 'assets/img/events/2014']
+exclude: ['README.md', 'package.json', 'node_modules/', 'gulpfile.js', 'CNAME', 'Gemfile', 'Gemfile.lock', 'assets/img/events/2006', 'assets/img/events/2007', 'assets/img/events/2008', 'assets/img/events/2009', 'assets/img/events/2010', 'assets/img/events/2011', 'assets/img/events/2012', 'assets/img/events/2013', 'assets/img/events/2014']
 includes_dir: ./_includes
 data_dir: ./_data
 permalink: /:categories/:title/

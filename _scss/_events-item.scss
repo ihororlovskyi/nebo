@@ -93,7 +93,7 @@
 
     &__title {
         font-size: 36px;
-        margin: 60px auto 1em;
+        margin: 1.5em auto;
         padding: 0 10px;
 
         @include media(M) {
@@ -230,14 +230,13 @@
 
     &__description {
         font-size: 16px;
-        line-height: 1.1;
         max-width: 800px;
-        margin: 0 auto 1em;
+        margin: 1.5em auto;
         text-align: left;
         padding: 0 15px;
 
         @include media(M) {
-            font-size: 34px;
+            font-size: 24px;
         }
     }
 
@@ -256,7 +255,7 @@
     &__about {
         font-size: 20px;
         max-width: 800px;
-        margin: 0 auto 60px;
+        margin: 1.5em auto;
         padding: 0 15px;
 
         @include media(M) {
@@ -276,7 +275,7 @@
         }
 
         p {
-            margin: 0 0 1em;
+            margin: 1.5em auto;
         }
     }
 }
