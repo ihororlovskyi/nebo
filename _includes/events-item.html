@@ -44,7 +44,13 @@
         </div>
     {% endif %}
 
-    <div class="events-item__title">{{ page.title }}</div>
+    <h1 class="events-item__title">{{ page.title }}</h1>
+
+    {% for cover in site.static_files %}
+        {% if cover.path contains page.name and cover.path contains 'cover.jpg' %}
+            <img class="lazy events-item__cover" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
+        {% endif %}
+    {% endfor %}
 
     <div class="events-item__slick js-events-item-slick">
         {% for image in site.static_files %}
@@ -105,12 +111,6 @@
     {% if page.description %}
         <div class="events-item__description">{{ page.description }}</div>
     {% endif %}
-
-    {% for cover in site.static_files %}
-        {% if cover.path contains page.name and cover.path contains 'cover.jpg' %}
-            <img class="lazy events-item__cover" src="{{ site.baseurl }}{{cover.path}}" alt="{{ page.title }} Cover">
-        {% endif %}
-    {% endfor %}
 
     <div class="events-item__about">{{ site.data.t.aboutEvent[page.lang] }}</div>
 

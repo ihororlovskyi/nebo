@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: philipmorris
 
-best-tag: true
+best-tag: 
 ---
 
 Название мероприятия «Ждите неожиданностей» полностью оправдало себя. Впервые Dj place, оснащенный светодиодными полосками экранами, был размещен в  бассейне!!!

@@ -93,8 +93,8 @@
 
     &__title {
         font-size: 36px;
-        margin: 60px auto 0;
-        padding: 0 15px;
+        margin: 60px auto 1em;
+        padding: 0 10px;
 
         @include media(M) {
             font-size: 54px;
@@ -272,6 +272,10 @@
 
         @include media(M) {
             font-size: 18px;
+        }
+
+        p {
+            margin: 0 0 1em;
         }
     }
 }

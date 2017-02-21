@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: philipmorris
 
-best-tag: true
+best-tag: 
 ---
 
 В рамках культового Харьковского фестиваля Paper Fest агентство разработало концепцию присутствия ТМ Marlboro Fresh. Невероятный ди-джей плейс в виде айсберга стал главной «фишкой» фестиваля.

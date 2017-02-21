@@ -130,9 +130,10 @@
         }
     }
 
+    $boderXS: 32px;
+    $boderM: 42px;
+
     &__img {
-        $boderXS: 32px;
-        $boderM: 42px;
         width: 90%;
         display: block;
         height: auto;
@@ -314,6 +315,7 @@
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 30px;
+        line-height: 1.1;
 
         @include media(S) {
             font-size: 30px;
@@ -325,7 +327,6 @@
 
         @include media(L) {
             font-size: 60px;
-            line-height: 1;
         }
     }
 

@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: prime
 
-best-tag: true
+best-tag: 
 ---
 
 <b>Prime Yalta Rally</b> - самое масштабное спортивно-культурное событие в Украине, которое вот уже шестой год подряд принимает Крымский город Ялта.

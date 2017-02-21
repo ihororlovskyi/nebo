@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: lgclient
 
-best-tag: true
+best-tag: 
 ---
 
 Не успели мы завершить проект LG Dream Cinema, как получили заказ на следующий с использованием купольных кинотеатров.

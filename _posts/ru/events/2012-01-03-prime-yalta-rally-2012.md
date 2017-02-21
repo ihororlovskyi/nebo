@@ -23,7 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: prime
 
-best-tag: true
+best-tag: 
 ---
 
 Prime Yalta Rally, ставшее визитной карточкой агентства "НЕБО", в этом году получилось ярким, сложным, эмоциональным, в чем-то неожиданным, красивым и ...отточенным практически до совершенства.
