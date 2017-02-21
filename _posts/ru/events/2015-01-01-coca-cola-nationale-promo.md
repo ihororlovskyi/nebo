@@ -23,6 +23,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: cocacola
 
+at-hero: 
 best-tag: 
 size-large: 
 ---

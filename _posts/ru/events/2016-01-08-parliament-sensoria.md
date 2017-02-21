@@ -16,7 +16,7 @@ prize-ukrawards: ''
 prize-propeller: ''
 
 title: 'Parliament Sensoria'
-description: ''
+description: 'За 5 дней до мероприятия светские активисты Киева и Одессы получали аппетитные сочные бургеры, на поверку оказавшиеся… киевскими тортиками.'
 
 og-image: ''
 
@@ -24,6 +24,7 @@ og-image: ''
 # cocacola, dtek, metro, lgclient, interpipe, lifecell, amway, philipmorris, olymp, maristela, udp, top, zefir, unicef, wog, sebbank, niko, nemiroff, maxim, velykakyshenia, marieclaire, chervonenkoracing, burn, altis, mts, prime, seppala, lifeclient, pekingduck,
 client: philipmorris
 
+at-hero: true
 best-tag: true
 size-large: true
 ---
