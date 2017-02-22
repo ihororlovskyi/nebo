@@ -1,2 +1,5 @@
 node_modules/
 _site/
+
+assets/img/events/new/*
+!assets/img/events/new/.keep

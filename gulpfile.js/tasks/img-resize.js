@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     imageResize = require('gulp-image-resize');
 
 gulp.task('img-resize', function () {
-    gulp.src('assets/img/events/2016/*')
+    gulp.src('assets/img/events/new/**/*.*')
         .pipe(imageResize({ 
             width : 1024,
             height : 1024,
