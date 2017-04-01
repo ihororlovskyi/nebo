@@ -5,29 +5,27 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ page.title }} | Nebo</title>
-    <meta name="description" content="{{ page.description }}">
-    <meta property="og:image" content="{{ page.og-image }}">
+  <title>{{ page.title }} | Nebo</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ page.og-image }}">
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.jpg">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.jpg">
 </head>
 <body onload="initMap()">
 
-    {{ content }}
+  {{ content }}
 
-    <script src="{{ site.baseurl }}/assets/js/bundle.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/bundle.min.js"></script>
 
-    {% if jekyll.environment == "production" %}
-        {% include Analytics/google-analytics.html %}
-        {% include Analytics/yandex-metrika.html %}
-    {% endif %}
+  {% include Analytics/google-analytics.html %}
+  {% include Analytics/yandex-metrika.html %}
 
 </body>
 </html>
